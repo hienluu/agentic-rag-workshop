@@ -8,3 +8,4 @@ Instructions and resource for the Agentic RAG workshop
 * [LightRAG: Simple and Fast Retrieval-Augmented Generation](https://arxiv.org/abs/2410.05779)
   * [github repo](https://lightrag.github.io/), [video](https://www.youtube.com/watch?v=oageL-1I0GE), [local LightRAG video](https://www.youtube.com/watch?v=g21royNJ4fw)
 * [Generative Benchmarking from ChromaDB](https://research.trychroma.com/generative-benchmarking)
+ * [Github repo](https://github.com/chroma-core/generative-benchmarking)
