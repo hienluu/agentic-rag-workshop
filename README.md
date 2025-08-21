@@ -10,3 +10,4 @@ Instructions and resource for the Agentic RAG workshop
 * [Generative Benchmarking from ChromaDB](https://research.trychroma.com/generative-benchmarking)
   * [Github repo](https://github.com/chroma-core/generative-benchmarking)
 * [Systematically Improving RAG Applications](https://github.com/567-labs/systematically-improving-rag)
+* [Full Stack Retrieval](https://community.fullstackretrieval.com/)
