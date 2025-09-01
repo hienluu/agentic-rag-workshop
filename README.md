@@ -1,6 +1,8 @@
 # Agentic RAG Workshop
 Instructions and resource for the Agentic RAG workshop
 
+### Notebooks
+* [0-qconsf-chunking](https://colab.research.google.com/drive/16S9YG3CgTwu8XzkNAhwn9b4mIjmR3Cl-#scrollTo=Z5ozDZKMRveJ)
 
 ### Resources:
 * [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks - 2020](https://arxiv.org/abs/2005.11401)
