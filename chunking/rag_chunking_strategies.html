@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Chunking Strategies</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2d3748;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #718096;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+
+        .strategy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .strategy-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid;
+            transition: all 0.3s ease;
+        }
+
+        .strategy-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .character { border-left-color: #ff6b6b; }
+        .recursive { border-left-color: #4ecdc4; }
+        .document { border-left-color: #45b7d1; }
+
+        .strategy-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #2d3748;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .character .icon { background: #ff6b6b; }
+        .recursive .icon { background: #4ecdc4; }
+        .document .icon { background: #45b7d1; }
+
+        .description {
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .visualization {
+            background: #f7fafc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            border: 2px dashed #e2e8f0;
+        }
+
+        .chunk {
+            display: inline-block;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 8px 12px;
+            margin: 3px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .chunk-row {
+            margin: 8px 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .pros, .cons {
+            background: #f7fafc;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .pros {
+            border-left: 4px solid #48bb78;
+        }
+
+        .cons {
+            border-left: 4px solid #f56565;
+        }
+
+        .pros h4 {
+            color: #48bb78;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .cons h4 {
+            color: #f56565;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .pros ul, .cons ul {
+            list-style: none;
+            font-size: 0.85rem;
+            color: #4a5568;
+        }
+
+        .pros li::before {
+            content: "✓ ";
+            color: #48bb78;
+            font-weight: bold;
+        }
+
+        .cons li::before {
+            content: "× ";
+            color: #f56565;
+            font-weight: bold;
+        }
+
+        .comparison-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 30px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .comparison-title {
+            font-size: 1.5rem;
+            color: #2d3748;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .comparison-table th,
+        .comparison-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .comparison-table th {
+            background: #f7fafc;
+            color: #2d3748;
+            font-weight: bold;
+        }
+
+        .rating {
+            display: flex;
+            gap: 2px;
+        }
+
+        .star {
+            color: #ffc107;
+            font-size: 1.2rem;
+        }
+
+        .star.empty {
+            color: #e2e8f0;
+        }
+
+        .interactive-demo {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 30px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .demo-controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .demo-btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .demo-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .demo-btn.active {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+        }
+
+        .demo-output {
+            background: #f7fafc;
+            border-radius: 10px;
+            padding: 20px;
+            min-height: 200px;
+            border: 2px solid #e2e8f0;
+        }
+
+        @media (max-width: 768px) {
+            .strategy-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .pros-cons {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>RAG Chunking Strategies</h1>
+        <p class="subtitle">Understanding different approaches to document segmentation in Retrieval-Augmented Generation</p>
+        
+        <div class="strategy-grid">
+            <!-- Character-based Chunking -->
+            <div class="strategy-card character">
+                <div class="strategy-title">
+                    <div class="icon">C</div>
+                    Character-based Chunking
+                </div>
+                <div class="description">
+                    Splits text based on fixed character count limits, creating chunks of uniform size. This is the simplest approach, focusing purely on length constraints.
+                </div>
+                <div class="visualization">
+                    <div class="chunk-row">
+                        <div class="chunk">The quick brown fox jumps over the lazy dog. This</div>
+                    </div>
+                    <div class="chunk-row">
+                        <div class="chunk">is an example of character-based chunking where</div>
+                    </div>
+                    <div class="chunk-row">
+                        <div class="chunk">each chunk has exactly 50 characters including sp</div>
+                    </div>
+                    <div class="chunk-row">
+                        <div class="chunk">aces and can break mid-word or mid-sentence.</div>
+                    </div>
+                </div>
+                <div class="pros-cons">
+                    <div class="pros">
+                        <h4>ADVANTAGES</h4>
+                        <ul>
+                            <li>Predictable chunk sizes</li>
+                            <li>Simple implementation</li>
+                            <li>Consistent memory usage</li>
+                            <li>Language agnostic</li>
+                        </ul>
+                    </div>
+                    <div class="cons">
+                        <h4>DISADVANTAGES</h4>
+                        <ul>
+                            <li>Breaks semantic meaning</li>
+                            <li>Can split words/sentences</li>
+                            <li>Poor retrieval quality</li>
+                            <li>Context loss at boundaries</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recursive Chunking -->
+            <div class="strategy-card recursive">
+                <div class="strategy-title">
+                    <div class="icon">R</div>
+                    Recursive Chunking
+                </div>
+                <div class="description">
+                    Uses a hierarchical approach, trying different separators (paragraphs → sentences → words → characters) until chunks fit within size limits while preserving semantic boundaries.
+                </div>
+                <div class="visualization">
+                    <div class="chunk-row">
+                        <div class="chunk">The quick brown fox jumps over the lazy dog.</div>
+                    </div>
+                    <div class="chunk-row">
+                        <div class="chunk">This is an example of recursive chunking.</div>
+                    </div>
+                    <div class="chunk-row">
+                        <div class="chunk">It respects sentence boundaries first, then paragraphs.</div>
+                    </div>
+                    <div class="chunk-row">
+                        <div class="chunk">Only when necessary does it break at word level.</div>
+                    </div>
+                </div>
+                <div class="pros-cons">
+                    <div class="pros">
+                        <h4>ADVANTAGES</h4>
+                        <ul>
+                            <li>Preserves semantic meaning</li>
+                            <li>Respects natural boundaries</li>
+                            <li>Good balance of size/context</li>
+                            <li>Handles various text structures</li>
+                        </ul>
+                    </div>
+                    <div class="cons">
+                        <h4>DISADVANTAGES</h4>
+                        <ul>
+                            <li>More complex implementation</li>
+                            <li>Variable chunk sizes</li>
+                            <li>Requires parameter tuning</li>
+                            <li>Language-dependent separators</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Document-aware Chunking -->
+            <div class="strategy-card document">
+                <div class="strategy-title">
+                    <div class="icon">D</div>
+                    Document-aware Chunking
+                </div>
+                <div class="description">
+                    Understands document structure (headers, sections, lists, tables) and creates chunks that respect the logical organization and hierarchy of the content.
+                </div>
+                <div class="visualization">
+                    <div class="chunk-row">
+                        <div class="chunk">## Introduction Section</div>
+                    </div>
+                    <div class="chunk-row">
+                        <div class="chunk">The quick brown fox represents agility in nature...</div>
+                    </div>
+                    <div class="chunk-row">
+                        <div class="chunk">## Methodology Section</div>
+                    </div>
+                    <div class="chunk-row">
+                        <div class="chunk">Our approach involves three steps: 1) Analysis 2) Implementation...</div>
+                    </div>
+                </div>
+                <div class="pros-cons">
+                    <div class="pros">
+                        <h4>ADVANTAGES</h4>
+                        <ul>
+                            <li>Maintains document structure</li>
+                            <li>Preserves logical relationships</li>
+                            <li>Best retrieval accuracy</li>
+                            <li>Context-aware boundaries</li>
+                        </ul>
+                    </div>
+                    <div class="cons">
+                        <h4>DISADVANTAGES</h4>
+                        <ul>
+                            <li>Most complex implementation</li>
+                            <li>Requires document parsing</li>
+                            <li>Format-specific logic needed</li>
+                            <li>Highly variable chunk sizes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="comparison-section">
+            <div class="comparison-title">Strategy Comparison Matrix</div>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Criteria</th>
+                        <th>Character-based</th>
+                        <th>Recursive</th>
+                        <th>Document-aware</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Implementation Complexity</strong></td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Semantic Preservation</strong></td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star empty">★</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Retrieval Quality</strong></td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star empty">★</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Chunk Size Consistency</strong></td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Processing Speed</strong></td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                                <span class="star empty">★</span>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="interactive-demo">
+            <h3>Interactive Chunking Demo</h3>
+            <div class="demo-controls">
+                <button class="demo-btn active" onclick="showDemo('character')">Character Chunking</button>
+                <button class="demo-btn" onclick="showDemo('recursive')">Recursive Chunking</button>
+                <button class="demo-btn" onclick="showDemo('document')">Document-aware Chunking</button>
+            </div>
+            <div class="demo-output" id="demoOutput">
+                <h4>Character-based Chunking Example</h4>
+                <p><strong>Input:</strong> "Artificial Intelligence is revolutionizing how we process and understand information. Machine learning algorithms can identify patterns in vast datasets. This technology has applications in healthcare, finance, and autonomous vehicles."</p>
+                <br>
+                <p><strong>Output (50-character chunks):</strong></p>
+                <div class="chunk">Artificial Intelligence is revolutionizing how we</div>
+                <div class="chunk">process and understand information. Machine lear</div>
+                <div class="chunk">ning algorithms can identify patterns in vast dat</div>
+                <div class="chunk">asets. This technology has applications in healt</div>
+                <div class="chunk">hcare, finance, and autonomous vehicles.</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const demos = {
+            character: {
+                title: "Character-based Chunking Example",
+                input: "Artificial Intelligence is revolutionizing how we process and understand information. Machine learning algorithms can identify patterns in vast datasets. This technology has applications in healthcare, finance, and autonomous vehicles.",
+                output: `
+                    <div class="chunk">Artificial Intelligence is revolutionizing how we</div>
+                    <div class="chunk">process and understand information. Machine lear</div>
+                    <div class="chunk">ning algorithms can identify patterns in vast dat</div>
+                    <div class="chunk">asets. This technology has applications in healt</div>
+                    <div class="chunk">hcare, finance, and autonomous vehicles.</div>
+                `
+            },
+            recursive: {
+                title: "Recursive Chunking Example",
+                input: "Artificial Intelligence is revolutionizing how we process and understand information. Machine learning algorithms can identify patterns in vast datasets. This technology has applications in healthcare, finance, and autonomous vehicles.",
+                output: `
+                    <div class="chunk">Artificial Intelligence is revolutionizing how we process and understand information.</div>
+                    <div class="chunk">Machine learning algorithms can identify patterns in vast datasets.</div>
+                    <div class="chunk">This technology has applications in healthcare, finance, and autonomous vehicles.</div>
+                `
+            },
+            document: {
+                title: "Document-aware Chunking Example",
+                input: "# AI Applications\n## Healthcare\nAI assists in medical diagnosis and treatment planning.\n## Finance\nAlgorithmic trading and fraud detection use AI extensively.\n## Transportation\nAutonomous vehicles rely on computer vision and decision-making AI.",
+                output: `
+                    <div class="chunk"># AI Applications</div>
+                    <div class="chunk">## Healthcare<br>AI assists in medical diagnosis and treatment planning.</div>
+                    <div class="chunk">## Finance<br>Algorithmic trading and fraud detection use AI extensively.</div>
+                    <div class="chunk">## Transportation<br>Autonomous vehicles rely on computer vision and decision-making AI.</div>
+                `
+            }
+        };
+
+        function showDemo(strategy) {
+            // Update active button
+            document.querySelectorAll('.demo-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Update demo content
+            const demo = demos[strategy];
+            const output = document.getElementById('demoOutput');
+            
+            output.innerHTML = `
+                <h4>${demo.title}</h4>
+                <p><strong>Input:</strong> "${demo.input}"</p>
+                <br>
+                <p><strong>Output chunks:</strong></p>
+                ${demo.output}
+            `;
+        }
+    </script>
+</body>
+</html>
