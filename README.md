@@ -3,7 +3,7 @@ Instructions and resource for the Agentic RAG workshop
 
 ### Prerequites
 * Generate a Hugging Face [Access Token](https://huggingface.co/docs/hub/en/security-tokens#how-to-manage-user-access-token) and use it to login from Colab
-  * Store it in [Google Colab secrets](https://colab.research.google.com/github/google-gemini/cookbook/blob/main/quickstarts/Authentication.ipynb#scrollTo=mhFKmRmxi5B-)
+  * Store it in [Google Colab secrets](https://colab.research.google.com/github/google-gemini/cookbook/blob/main/quickstarts/Authentication.ipynb#scrollTo=mhFKmRmxi5B-) with name HF_TOKEN
 
 ### Part 1 - Naive RAG
 * [0-qconsf-chunking](https://colab.research.google.com/drive/16S9YG3CgTwu8XzkNAhwn9b4mIjmR3Cl-#scrollTo=Z5ozDZKMRveJ)
