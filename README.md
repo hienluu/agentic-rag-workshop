@@ -10,9 +10,11 @@ Instructions and resource for the Agentic RAG workshop
   * Go to [Gemini AI Studio](https://aistudio.google.com/apikey) to create an API key
 
 ### Part 1 - Naive RAG
+* [Chunk Visualizer - with length function](https://huggingface.co/spaces/m-ric/chunk_visualizer)
 * [0-qconsf-chunking](https://colab.research.google.com/drive/16S9YG3CgTwu8XzkNAhwn9b4mIjmR3Cl-#scrollTo=Z5ozDZKMRveJ)
 * [qconsf-embedding](https://colab.research.google.com/drive/1WY_3S6-vQyCRTQkud4y0wHlhqr7oEiId#scrollTo=lVTCg-A7Pasc)
-* [Chunk Visualizer - with length function](https://huggingface.co/spaces/m-ric/chunk_visualizer)
+* [qconsf-basic-rag-with-gradio](https://colab.research.google.com/drive/1F0JZhjYaA8ynq7EirxiMVZWEzxeTX9cY#scrollTo=LVfwhDNuq-_E)
+
 
 ### Resources:
 * [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks - 2020](https://arxiv.org/abs/2005.11401)
