@@ -25,3 +25,4 @@ Instructions and resource for the Agentic RAG workshop
   * [Github repo](https://github.com/chroma-core/generative-benchmarking)
 * [Systematically Improving RAG Applications](https://github.com/567-labs/systematically-improving-rag)
 * [Full Stack Retrieval](https://community.fullstackretrieval.com/)
+* [LangChain Document Loaders](https://jayant017.medium.com/rag-using-langchain-part-1-document-loaders-b4774c04fd85)
