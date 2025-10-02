@@ -143,7 +143,8 @@ class EmbeddingModel:
 # Example usage and testing
 if __name__ == "__main__":
     # Initialize the model
-    embedding_model = EmbeddingModel.from_name("all-MiniLM-L6-v2")
+
+    embedding_model = EmbeddingModel.from_name(os.getenv("EMBEDDING_MODEL_NAME"))
     
     # Print model information
     embedding_model.print_model_info()

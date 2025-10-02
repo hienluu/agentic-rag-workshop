@@ -8,7 +8,7 @@ from dataclasses import asdict
 from langchain_text_splitters import MarkdownHeaderTextSplitter
 from langchain_core.documents import Document
 
-from models import CrawlPageResult
+from models import CrawlPageResult, MarkdownFile
 
 
 COOKIE_MESSAGE = "Your choice regarding cookies on this site"
@@ -28,7 +28,7 @@ def split_markdown(markdown: str) -> list[Document]:
     chunks = splitter.split_text(markdown)
     return chunks
     
-def split_markdown_file(md_file: str):
+def split_markdown_file(md_file: str) -> MarkdownFile:
     print(f"Indexing markdown file: {md_file}")
     # Placeholder for actual indexing logic
     # This could involve reading the file, chunking content, and storing in a vector store
@@ -42,12 +42,37 @@ def split_markdown_file(md_file: str):
     if not crawlPageResult:
         print(f"Failed to load CrawlPageResult from {md_file}")
         return
+
+        
+    chunks = split_markdown(crawlPageResult.page_content)
+
+    # remove the first chunk if it contains the cookie message
+    if len(chunks) > 0:
+        if COOKIE_MESSAGE in chunks[0].page_content:
+            chunks = chunks[1:]
+    
+    return MarkdownFile(page_info=crawlPageResult, chunks=chunks)
+
+def process_markdown_file(md_file: str):
+    print(f"Indexing markdown file: {md_file}")
+    # Placeholder for actual indexing logic
+    # This could involve reading the file, chunking content, and storing in a vector store
+    # Load the object from the pickle file
+    
+    markdown_file = split_markdown_file(md_file)
+
+    crawlPageResult = markdown_file.page_info
+    
+    
+    if not crawlPageResult:
+        print(f"Failed to load CrawlPageResult from {md_file}")
+        return
     
     print(f"Loaded CrawlPageResult:")
     print(f"url: {crawlPageResult.page_url}")
     print(f"title: {crawlPageResult.page_title}")
         
-    chunks = split_markdown(crawlPageResult.page_content)
+    chunks = markdown_file.chunks
 
     # remove the first chunk if it contains the cookie message
     if len(chunks) > 0:
@@ -78,7 +103,7 @@ def main(md_file: str, input_dir: str):
     if md_file:
         if os.path.isfile(md_file):
             print(f"Indexing single file: {md_file}")
-            split_markdown_file(md_file)
+            process_markdown_file(md_file)
         else:
             print(f"The file '{md_file}' does not exist.")
             raise FileExistsError(f"The file '{md_file}' does not exist.")             
@@ -89,7 +114,7 @@ def main(md_file: str, input_dir: str):
             print(f"Found markdown files: {list(md_files)}")
             for md_file in md_files:
                 print(f"Indexing file: {md_file}")
-                split_markdown_file(str(md_file))            
+                process_markdown_file(str(md_file))            
         else:
             print(f"The directory '{input_dir}' does not exist.")
             raise FileExistsError(f"The directory '{input_dir}' does not exist.")
