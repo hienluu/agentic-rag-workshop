@@ -1,3 +1,4 @@
+import argparse
 import chromadb
 from chromadb.config import Settings
 from typing import List, Dict, Any, Optional, Union
@@ -5,6 +6,8 @@ import os
 from pathlib import Path
 import uuid
 import numpy as np
+from dotenv import load_dotenv
+from embedding_model import EmbeddingModel
 
 
 class ChromaVectorDB:
@@ -18,7 +21,7 @@ class ChromaVectorDB:
     - Get collection metadata and statistics
     """
     
-    def __init__(self, collection_name: str, persist_directory: str):
+    def __init__(self, collection_name: str, persist_directory: str, desc : Optional[str] = None):
         """
         Initialize the ChromaDB vector database with persistent storage.
         
@@ -42,15 +45,18 @@ class ChromaVectorDB:
         )
         
         # Get or create collection
+        if not desc:
+            desc = f"Vector database collection: {collection_name}"
+
         self.collection = self.client.get_or_create_collection(
             name=collection_name,
-            metadata={"description": f"Vector database collection: {collection_name}"}
+            metadata={"description": desc}
         )
         
         print(f"ChromaDB initialized with collection '{collection_name}' at '{persist_directory}'")
     
     @classmethod
-    def create(cls, collection_name: str, persist_directory: str) -> 'ChromaVectorDB':
+    def create(cls, collection_name: str, persist_directory: str, desc: Optional[str] = None) -> 'ChromaVectorDB':
         """
         Factory method to create a ChromaVectorDB instance.
         
@@ -112,7 +118,7 @@ class ChromaVectorDB:
             ids=ids
         )
         
-        print(f"Added {len(documents)} document(s) to collection '{self.collection_name}'")
+        #print(f"Added {len(documents)} document(s) to collection '{self.collection_name}'")
         return ids
     
     def query(
@@ -329,61 +335,199 @@ class ChromaVectorDB:
         print(f"Deleted {len(ids)} document(s) from collection '{self.collection_name}'")
 
 
+def run_interactive_console(collection_name: str, persist_directory: str, n_results: int = 5):
+    """
+    Run an interactive console for vector database operations.
+    
+    Args:
+        collection_name (str): Name of the collection
+        persist_directory (str): Path to the persist directory
+        n_results (int): Default number of results to return for queries
+    """
+    print(f"========== Vector DB Console: {collection_name} ==========")
+    load_dotenv()
+    vector_db = ChromaVectorDB.create(collection_name, persist_directory)
+    embedding_model_name = os.getenv("EMBEDDING_MODEL_NAME")
+    embedding_model = None
+    
+    print("\nWelcome to the Vector Database Interactive Console!")
+    print("=" * 60)
+    print("Available commands:")
+    print("  /i              - Display collection information")
+    print("  /d              - Delete the collection")
+    print("  /q <query>      - Query the vector database")
+    print("  /h or /help     - Show this help message")
+    print("  quit or exit    - Exit the console")
+    print("=" * 60)
+    print()
+    
+    while True:
+        try:
+            user_input = input("VectorDB> ").strip()
+            
+            # Handle empty input
+            if not user_input:
+                continue
+            
+            # Check for quit/exit commands
+            if user_input.lower() in ['quit', 'exit']:
+                print("Exiting Vector Database Console. Goodbye!")
+                break
+            
+            # Check if command starts with /
+            if not user_input.startswith('/'):
+                print("Error: Commands must start with '/'. Type '/h' for help.")
+                continue
+            
+            # Parse the command
+            parts = user_input.split(maxsplit=1)
+            command = parts[0].lower()
+            
+            # Handle info command
+            if command == '/i':
+                vector_db.print_collection_info()
+            
+            # Handle delete command
+            elif command == '/d':
+                confirmation = input("Are you sure you want to delete the collection? (yes/no): ").strip().lower()
+                if confirmation in ['yes', 'y']:
+                    print(f"Deleting collection: {collection_name} at {persist_directory}")
+                    vector_db.delete_collection()
+                    print("Collection deleted. Exiting console...")
+                    break
+                else:
+                    print("Delete operation cancelled.")
+            
+            # Handle query command
+            elif command == '/n':
+                if len(parts) < 2:
+                    print("Error: Please provide a count for set the number of results")
+                    continue
+
+                count = parts[1]
+                n_results = int(count)
+                print(f"set result count to {n_results}\n")
+            # Handle query command
+            elif command == '/q':
+                if len(parts) < 2:
+                    print("Error: Please provide a query string. Usage: /q <query>")
+                    continue
+                
+                query_text = parts[1]
+                print(f"Querying for: '{query_text}' (returning top {n_results} results)")
+                
+                # Initialize embedding model if not already done
+                if embedding_model is None:
+                    print(f"Loading embedding model: {embedding_model_name}")
+                    embedding_model = EmbeddingModel.from_name(embedding_model_name)
+                
+                # Generate query embeddings
+                query_embeddings = embedding_model.generate_embeddings(query_text)
+                
+                # Perform query
+                results = vector_db.query(query_embeddings, n_results=n_results)
+                
+                # Display results
+                print("\n" + "=" * 60)
+                print("Query Results:")
+                print("=" * 60)
+                
+                if results['documents'][0]:
+                    for i, (doc, metadata, distance) in enumerate(zip(
+                        results['documents'][0], 
+                        results['metadatas'][0], 
+                        results['distances'][0]
+                    )):
+                        print(f"\n{i+1}. Document:")
+                        print(f"   {doc}")
+                        print(f"   Metadata: {metadata}")
+                        print(f"   Distance: {distance:.4f}")
+                    print("\n" + "=" * 60 + "\n")
+                else:
+                    print("No results found.\n")
+            
+            # Handle help command
+            elif command in ['/h', '/help']:
+                print("\nAvailable commands:")
+                print("  /i              - Display collection information")
+                print("  /d              - Delete the collection")
+                print("  /n              - Set result count (default is 5)")
+                print("  /q <query>      - Query the vector database")
+                print("  /h or /help     - Show this help message")
+                print("  quit or exit    - Exit the console")
+                print()
+            
+            # Unknown command
+            else:
+                print(f"Error: Unknown command '{command}'. Type '/h' for help.")
+        
+        except KeyboardInterrupt:
+            print("\n\nInterrupted. Type 'quit' to exit or continue with commands.")
+        except Exception as e:
+            print(f"Error: {e}")
+
+
+def main(collection_name: str, persist_directory: str, info: bool, delete: bool, query: Optional[str] = None, n_results: int = 5):
+    print(f"========== main: {collection_name}, {persist_directory} ==========")
+    load_dotenv()
+    vector_db = ChromaVectorDB.create(collection_name, persist_directory)
+    embedding_model_name = os.getenv("EMBEDDING_MODEL_NAME")
+
+    if info:
+        vector_db.print_collection_info()
+    elif delete:
+        print(f"Deleting collection: {collection_name} at {persist_directory}")
+        vector_db.delete_collection()
+    elif query:
+        print(f"query: {query} and looking for {n_results} results")
+        print(f"embedding_model_name: {embedding_model_name}")
+        embedding_model = EmbeddingModel.from_name(embedding_model_name)
+        query_embeddings = embedding_model.generate_embeddings(query)
+
+                
+        results = vector_db.query(query_embeddings, n_results=n_results)
+        print("Query Results:")
+        for i, (doc, metadata, distance) in enumerate(zip(
+            results['documents'][0], 
+            results['metadatas'][0], 
+            results['distances'][0]
+        )):
+            print(f"{i+1}. Document: {doc}")
+            print(f"   Metadata: {metadata}")
+            print(f"   Distance: {distance:.4f}\n")
+    else:
+        print("No query or info provided.")
+
 # Example usage and testing
 if __name__ == "__main__":
-    # Initialize the vector database
-    db = ChromaVectorDB.create(
-        "test_collection",  "./chroma_db"
+    parser = argparse.ArgumentParser(
+        description="Vector database operations. Use --interactive for console mode."
     )
+    parser.add_argument("--collection_name", "-c", help="Vector database collection name to use", required=True)
+    parser.add_argument("--persist_directory", "-p", help="Vector database persist directory to use", required=True)
+    parser.add_argument("--interactive", "-I", help="Start interactive console mode", action="store_true")
+    parser.add_argument("--info", "-i", help="Display collection information", action="store_true")
+    parser.add_argument("--delete", "-d", help="Delete collection information", action="store_true")
+    parser.add_argument("--query", "-q", help="Query to search for", required=False)
+    parser.add_argument("--n_results", "-n", help="Number of results to return", required=False, default=5, type=int)
+    args = parser.parse_args()
+
+    if not args.collection_name and not args.persist_directory:
+        print("Please provide --collection_name and --persist_directory arguments.")
+        raise ValueError("Please provide --collection_name and --persist_directory arguments.")
     
-    # Print initial collection info
-    db.print_collection_info()
+    if not os.path.isdir(args.persist_directory):
+        print(f"Directory {args.persist_directory} does not exist.")
+        raise ValueError(f"Directory {args.persist_directory} does not exist.")
     
-    # Example documents and embeddings (you would typically get embeddings from your EmbeddingModel)
-    sample_documents = [
-        "Machine learning is a subset of artificial intelligence.",
-        "Deep learning uses neural networks with multiple layers.",
-        "Natural language processing helps computers understand human language."
-    ]
+    # Check if interactive mode is requested
+    if args.interactive:
+        run_interactive_console(args.collection_name, args.persist_directory, args.n_results)
+    elif args.info or args.query or args.delete:
+        # Use the traditional single-command mode
+        main(args.collection_name, args.persist_directory, args.info, args.delete, args.query, args.n_results)
+    else:
+        print("Please provide --interactive flag for console mode, or --info, --query, or --delete for single operations.")
+        print("Use --help for more information.")
+        raise ValueError("No operation specified.")
     
-    # Mock embeddings (in practice, you'd use your EmbeddingModel to generate these)
-    sample_embeddings = [
-        [0.1, 0.2, 0.3, 0.4, 0.5],  # 5-dimensional for example
-        [0.2, 0.3, 0.4, 0.5, 0.6],
-        [0.3, 0.4, 0.5, 0.6, 0.7]
-    ]
-    
-    sample_metadata = [
-        {"topic": "AI", "source": "textbook", "chapter": 1},
-        {"topic": "Deep Learning", "source": "research paper", "year": 2023},
-        {"topic": "NLP", "source": "tutorial", "difficulty": "beginner"}
-    ]
-    
-    # Add documents
-    doc_ids = db.add_documents(
-        documents=sample_documents,
-        embeddings=sample_embeddings,
-        metadatas=sample_metadata
-    )
-    
-    print(f"Added documents with IDs: {doc_ids}")
-    
-    # Print updated collection info
-    db.print_collection_info()
-    
-    # Example query (using mock embedding)
-    query_embedding = [0.15, 0.25, 0.35, 0.45, 0.55]
-    results = db.query(
-        query_embeddings=query_embedding,
-        n_results=2
-    )
-    
-    print("Query Results:")
-    for i, (doc, metadata, distance) in enumerate(zip(
-        results['documents'][0], 
-        results['metadatas'][0], 
-        results['distances'][0]
-    )):
-        print(f"{i+1}. Document: {doc}")
-        print(f"   Metadata: {metadata}")
-        print(f"   Distance: {distance:.4f}\n")
