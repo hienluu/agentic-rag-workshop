@@ -271,6 +271,12 @@ def get_llm_provider(provider: str) -> LLMProviderInfo:
             api_key=os.getenv("GROQ_API_KEY"),
             model_name=os.getenv("GROQ_MODEL_NAME")
         )
+    elif provider == "fireworks":
+        return LLMProviderInfo(
+            base_url=os.getenv("FIREWORKS_API_URL"),
+            api_key=os.getenv("FIREWORKS_API_KEY"),
+            model_name=os.getenv("FIREWORKS_MODEL_NAME")
+        )
     else:
         raise ValueError(f"Unsupported provider: {provider}")
 
@@ -281,7 +287,7 @@ if __name__ == "__main__":
     
     # Initialize the LLM (example with OpenAI)
     # In practice, load these from environment variables
-    llm_provider_info   = get_llm_provider("groq")
+    llm_provider_info   = get_llm_provider("fireworks")
     llm = RagLLM.create(
         base_url=llm_provider_info.base_url,
         api_key=llm_provider_info.api_key,
@@ -294,8 +300,8 @@ if __name__ == "__main__":
     # Example 1: Simple generation
     print("Example 1: Simple Generation")
     print("-" * 50)
-    # response = llm.generate("What is machine learning?")
-    # print(response)
+    response = llm.generate("How to evaluate RAG applications?")
+    print(response)
     
     # Example 2: RAG with context
     print("\nExample 2: RAG with Context")

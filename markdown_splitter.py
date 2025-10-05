@@ -11,6 +11,7 @@ from langchain_core.documents import Document
 from models import CrawlPageResult, MarkdownFile
 
 
+
 COOKIE_MESSAGE = "Your choice regarding cookies on this site"
 
 def split_markdown(markdown: str) -> list[Document]:
@@ -29,7 +30,7 @@ def split_markdown(markdown: str) -> list[Document]:
     return chunks
     
 def split_markdown_file(md_file: str) -> MarkdownFile:
-    print(f"Indexing markdown file: {md_file}")
+    print(f"split_markdown_file: {md_file}")
     # Placeholder for actual indexing logic
     # This could involve reading the file, chunking content, and storing in a vector store
     # Load the object from the pickle file
@@ -41,8 +42,7 @@ def split_markdown_file(md_file: str) -> MarkdownFile:
     
     if not crawlPageResult:
         print(f"Failed to load CrawlPageResult from {md_file}")
-        return
-
+        raise ValueError("Failed to load CrawlPageResult from {md_file}")
         
     chunks = split_markdown(crawlPageResult.page_content)
 
@@ -51,6 +51,25 @@ def split_markdown_file(md_file: str) -> MarkdownFile:
         if COOKIE_MESSAGE in chunks[0].page_content:
             chunks = chunks[1:]
     
+    # enrich the chunks with the heading and the header text
+    for i, chunk in enumerate(chunks): 
+        header_text = ""
+        if len(chunk.metadata.keys()) > 0:
+            # add the header back to the begging of the chunk because it was stripped by the splitter
+            last_key = list(chunk.metadata.keys())[-1]            
+            header_text = chunk.metadata[last_key]
+            chunk.page_content = f"{header_text}\n\n{chunk.page_content}"                    
+        
+        # extract the heading
+        headers = []
+        keys = list(chunk.metadata.keys())
+        for key in keys[:-1]:            
+            headers.append(chunk.metadata[key])
+        heading = " : ".join(headers)
+
+        # adding the heading to the metadata
+        chunk.metadata["heading"] = heading                
+
     return MarkdownFile(page_info=crawlPageResult, chunks=chunks)
 
 def process_markdown_file(md_file: str):
@@ -63,7 +82,6 @@ def process_markdown_file(md_file: str):
 
     crawlPageResult = markdown_file.page_info
     
-    
     if not crawlPageResult:
         print(f"Failed to load CrawlPageResult from {md_file}")
         return
@@ -74,30 +92,14 @@ def process_markdown_file(md_file: str):
         
     chunks = markdown_file.chunks
 
-    # remove the first chunk if it contains the cookie message
-    if len(chunks) > 0:
-        if COOKIE_MESSAGE in chunks[0].page_content:
-            chunks = chunks[1:]
             
     print(f"Total chunks created: {len(chunks)}")
     for i, chunk in enumerate(chunks): 
         print(f"\n>>>> Chunk {i+1}:\n")
-        if len(chunk.metadata.keys()) > 0:
-            # add the header back to the begginng of the chunk
-            last_key = list(chunk.metadata.keys())[-1]            
-            header_text = chunk.metadata[last_key]            
-            chunk.page_content = f"{header_text}\n\n{chunk.page_content}"
-
-           
         print(chunk.page_content)
         print(f">>>> metadata\n")
-            
-        headers = []
-        keys = list(chunk.metadata.keys())
-        for key in keys[:-1]:            
-                headers.append(chunk.metadata[key])
-        print(f"headers: {" >> ".join(headers)}\n")
-    
+        print(f"headers: {chunk.metadata['heading']}\n")
+        
 
 def main(md_file: str, input_dir: str):
     if md_file:
@@ -132,5 +134,5 @@ if __name__ == "__main__":
     
     if not args.file and not args.dir:
         print("Please provide either --file or --dir argument to index the markdown file(s)")        
-    else:    
+    else:
         main(args.file, args.dir)

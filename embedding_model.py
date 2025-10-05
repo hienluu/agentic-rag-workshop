@@ -3,6 +3,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from typing import List, Union
 import torch
+import os
 
 
 class EmbeddingModel:
