@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/multi-cloud-and-hybrid-cloud-architectures_q1_easy",
+        "question": "Who is the speaker for the session titled \"Hybrid Cloud-Native Networking in Enterprise - Some Assembly Required\"?",
+        "answer": "Louis Ryan",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/multi-cloud-and-hybrid-cloud-architectures",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/multi-cloud-and-hybrid-cloud-architectures_q2_easy",
+        "question": "Which organization does the track host Dio Rettori represent in his role as Multi-Cloud Strategy and Product?",
+        "answer": "JPMorgan Chase & Co",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/multi-cloud-and-hybrid-cloud-architectures",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/multi-cloud-and-hybrid-cloud-architectures_q1_medium",
+        "question": "Why does implementing an event\u2011driven architecture across multi\u2011cloud boundaries pose reliability challenges, and what architectural strategies are implied by Teena Idnani\u2019s session to mitigate those challenges?",
+        "answer": "In a multi\u2011cloud environment, events must travel between services that may reside in different providers, each with its own networking, security, and operational semantics. This heterogeneity can introduce latency spikes, partial failures, and inconsistent ordering, all of which threaten reliability. Teena Idnani\u2019s session title highlights the need to \u201cimplement these patterns across cloud boundaries without compromising reliability,\u201d implying that architects should adopt strategies such as cloud\u2011agnostic messaging abstractions, idempotent event processing, robust retry and circuit\u2011breaker mechanisms, and unified observability across providers. Automation, orchestration, and analytics\u2014mentioned elsewhere in the track description\u2014are also suggested to ensure consistent delivery, monitoring, and scaling of event pipelines across clouds.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/multi-cloud-and-hybrid-cloud-architectures",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/multi-cloud-and-hybrid-cloud-architectures_q2_medium",
+        "question": "What are the key trade\u2011offs between focusing on the lessons from 20+ years of building mission\u2011critical, resilient platforms (as presented by Matthew Liste) and addressing the common mistakes SaaS builders make (as highlighted by Jon Topper), especially regarding cost, operational complexity, and speed of delivery?",
+        "answer": "Matthew Liste\u2019s talk emphasizes stability, security, and scalability learned from financial\u2011services infrastructures, which typically prioritize rigorous compliance, fault\u2011tolerance, and long\u2011term operational predictability. Achieving this level of resilience often requires higher upfront investment in robust tooling, extensive testing, and redundant architectures, which can increase cost and slow initial delivery. In contrast, Jon Topper\u2019s focus on SaaS builder mistakes points to pitfalls such as over\u2011engineering, poor observability, and inadequate automation that can hinder rapid iteration and increase operational overhead. The trade\u2011off lies in balancing the need for enterprise\u2011grade reliability (as in mission\u2011critical platforms) with the agility and cost\u2011efficiency demanded by SaaS products. Architects must decide where to apply heavyweight resilience patterns versus lighter, more iterative practices, tailoring the approach to the service\u2019s risk profile and business goals.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/multi-cloud-and-hybrid-cloud-architectures",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

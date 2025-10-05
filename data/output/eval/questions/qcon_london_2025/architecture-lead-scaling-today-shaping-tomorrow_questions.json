@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/architecture-lead-scaling-today-shaping-tomorrow_q1_easy",
+        "question": "According to the abstract, how many visitors did the BBC\u2019s websites and apps receive on UK Election night?",
+        "answer": "40 million people arriving on UK Election night alone.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/architecture-lead-scaling-today-shaping-tomorrow",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/architecture-lead-scaling-today-shaping-tomorrow_q2_easy",
+        "question": "What is the scheduled date and start time for the session \"Architecture in the Lead: Scaling Today, Shaping Tomorrow\"?",
+        "answer": "Monday Apr 7 / 10:35AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/architecture-lead-scaling-today-shaping-tomorrow",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/architecture-lead-scaling-today-shaping-tomorrow_q1_medium",
+        "question": "Why do the speakers advocate for integrating security through proactive threat modeling early in the development process, especially when handling massive traffic spikes such as the UK election night, rather than treating security as an after\u2011thought?",
+        "answer": "Integrating security early allows architects to anticipate and mitigate sophisticated threats\u2014from nation\u2011state actors to opportunistic hackers\u2014before the system is built at scale. By modeling threats up\u2011front, security controls can be baked into the architecture (e.g., network segmentation, authentication flows, observability) rather than bolted on later, which would be far more costly and error\u2011prone during a high\u2011traffic event. Early security also contributes to overall resilience; if a breach occurs during a peak like election night, the system can continue to serve users safely, preserving trust and continuity. This approach aligns with the talk\u2019s emphasis on reliability, security, and growth at scale.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/architecture-lead-scaling-today-shaping-tomorrow",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/architecture-lead-scaling-today-shaping-tomorrow_q2_medium",
+        "question": "How do cloud\u2011based elasticity mechanisms\u2014such as caching, serverless functions, and CDNs\u2014fulfil the non\u2011functional requirements of elasticity and resilience for the BBC\u2019s architecture during spikes like the 40\u202fmillion\u2011visitor election night, and what trade\u2011offs might these choices introduce?",
+        "answer": "Cloud elasticity lets the system automatically provision additional compute, storage, and network capacity when demand surges, satisfying the NFR of elasticity. Caching reduces latency and off\u2011loads origin servers, while serverless functions scale instantly to handle bursty workloads without pre\u2011provisioned servers. CDNs distribute content globally, providing redundancy and fault isolation, which enhances resilience by allowing traffic to be rerouted if any edge node fails. The trade\u2011offs include increased operational complexity (e.g., managing cache invalidation, cold\u2011start latency for serverless), potential vendor lock\u2011in, and variable cost structures that can spike during extreme traffic. Architects must balance these factors against the benefits of rapid scaling and high availability.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/architecture-lead-scaling-today-shaping-tomorrow",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

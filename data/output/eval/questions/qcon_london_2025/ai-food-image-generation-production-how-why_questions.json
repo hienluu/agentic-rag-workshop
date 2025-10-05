@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ai-food-image-generation-production-how-why_q1_easy",
+        "question": "What cloud platform was used to build the Minimum Viable Product (MVP) for the food image generation solution?",
+        "answer": "Google Cloud Platform (GCP)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ai-food-image-generation-production-how-why",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ai-food-image-generation-production-how-why_q2_easy",
+        "question": "According to the presentation, what conversion\u2011rate uplift was achieved in A/B testing after deploying the generated food images?",
+        "answer": "A 6\u20118% increase in conversion rates",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ai-food-image-generation-production-how-why",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ai-food-image-generation-production-how-why_q1_medium",
+        "question": "Why did the team migrate the image\u2011generation models from a Google Cloud Platform MVP to self\u2011hosted NVIDIA GPU infrastructure for production, and what are the primary trade\u2011offs associated with that decision?",
+        "answer": "The migration was driven by cost\u2011efficiency and performance considerations. Running the models on GCP during the MVP phase allowed rapid experimentation, but scaling to millions of images per day made the cloud\u2011based compute expensive. By moving to self\u2011hosted NVIDIA GPUs the team could better control hardware utilization, lower per\u2011image generation cost, and fine\u2011tune stable\u2011diffusion models for higher throughput. The trade\u2011offs include added operational complexity (hardware provisioning, monitoring, and maintenance), the need for robust infrastructure optimisation (as highlighted in the learnings), and the loss of some cloud\u2011native conveniences such as auto\u2011scaling. The decision reflects a classic cost\u2011vs\u2011operational\u2011burden trade\u2011off where the expected volume and business impact (6\u20118\u202f% conversion lift) justified the extra engineering effort.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ai-food-image-generation-production-how-why",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ai-food-image-generation-production-how-why_q2_medium",
+        "question": "How did the implementation of computer\u2011vision quality\u2011control checks (object detection, bounding\u2011box validation, colour adjustments) support the business objective of increasing conversion rates, and why is it important to establish such validation mechanisms before fine\u2011tuning the generation models?",
+        "answer": "The quality\u2011control pipeline ensured that every generated food image met visual standards for positioning, colour balance, and appropriateness. Consistently high\u2011quality images reinforce user trust and make the menu items more appealing, directly contributing to the observed 6\u20118\u202f% conversion\u2011rate uplift in A/B tests. By validating images early, the team could filter out artefacts or mis\u2011aligned content that would otherwise degrade user experience. Establishing these checks before fine\u2011tuning is crucial because it provides a reliable measurement baseline; without it, fine\u2011tuning could optimise for metrics that do not reflect real\u2011world visual quality, leading to wasted effort and potential regressions. Moreover, early validation informs the fine\u2011tuning process by highlighting systematic errors (e.g., mis\u2011detections) that the model needs to address.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ai-food-image-generation-production-how-why",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

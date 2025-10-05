@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/performance-and-sustainability-practice-how-make-software-greener_q1_easy",
+        "question": "Who presented the session titled \"Beyond Uptime: What the 'Metric' Is Going On with Green Software?\"",
+        "answer": "Sarah (Chun-Wei) Hsu",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/performance-and-sustainability-practice-how-make-software-greener",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/performance-and-sustainability-practice-how-make-software-greener_q2_easy",
+        "question": "At what time was the \"Local First \u2013 How To Build Software Which Still Works After the Acquihire\" session scheduled?",
+        "answer": "Monday Apr 7 / 01:35PM BST",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/performance-and-sustainability-practice-how-make-software-greener",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/performance-and-sustainability-practice-how-make-software-greener_q1_medium",
+        "question": "How do the ideas presented in Sarah (Chun\u2011Wei) Hsu\u2019s talk about treating carbon emissions as a \u2018golden signal\u2019 relate to Holly Cummins\u2019s discussion of the Efficiency Paradox, and what trade\u2011offs might arise when a team chooses to prioritize carbon\u2011emission metrics over traditional availability and latency metrics?",
+        "answer": "Both talks highlight a shift in what engineers consider core system health indicators. Hsu proposes adding carbon\u2011emission measurements alongside availability and latency, turning sustainability into a first\u2011class metric. Cummins warns that chasing efficiency (e.g., faster response times, higher utilization) can unintentionally increase overall waste and reduce well\u2011being, creating a paradox where \u201cmore efficient\u201d systems may actually harm the planet and users. Prioritising carbon\u2011emission metrics therefore forces teams to balance raw performance against environmental impact \u2013 they may need to accept slightly higher latency or lower utilization to reduce energy use, and they must redesign monitoring and alerting to include emissions data. The trade\u2011off is between meeting traditional SLAs and achieving greener operations; the combined perspective encourages a holistic view where performance improvements are evaluated for their carbon cost before being adopted.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/performance-and-sustainability-practice-how-make-software-greener",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/performance-and-sustainability-practice-how-make-software-greener_q2_medium",
+        "question": "Why does the \u2018Local First\u2019 design philosophy, as described by Alex Good, support the broader sustainability goals of the conference track, and what architectural compromises might developers need to consider when building software that remains functional after an acquihire?",
+        "answer": "\u2018Local First\u2019 emphasizes that software should retain value and functionality even when network connectivity or centralized services are lost \u2013 a principle that reduces dependence on large, constantly running data\u2011centers, thereby lowering energy consumption and associated carbon emissions, which aligns with the track\u2019s sustainability focus. By keeping data and processing close to the user (e.g., on\u2011device storage, peer\u2011to\u2011peer sync), the approach can diminish the need for always\u2011on cloud infrastructure, contributing to greener operations. However, developers may have to compromise on features that rely on real\u2011time global state, accept higher complexity in conflict\u2011resolution logic (e.g., CRDTs), and potentially incur additional storage overhead on client devices. These architectural decisions trade some convenience and simplicity for resilience and reduced environmental impact.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/performance-and-sustainability-practice-how-make-software-greener",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

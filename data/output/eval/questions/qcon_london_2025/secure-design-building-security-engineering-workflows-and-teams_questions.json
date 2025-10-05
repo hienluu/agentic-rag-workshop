@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/secure-design-building-security-engineering-workflows-and-teams_q1_easy",
+        "question": "What is the scheduled date and start time for the session titled \"Secure by Design: Building Security into Engineering Workflows and Teams\"?",
+        "answer": "Tuesday Apr 8 / 10:35AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/secure-design-building-security-engineering-workflows-and-teams",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 1.0,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/secure-design-building-security-engineering-workflows-and-teams_q2_easy",
+        "question": "Which automated security processes are highlighted in the presentation summary as ways to enhance security and efficiency?",
+        "answer": "Static and dynamic code analysis, container scanning",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/secure-design-building-security-engineering-workflows-and-teams",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 1.0,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/secure-design-building-security-engineering-workflows-and-teams_q1_medium",
+        "question": "Why does Stefania Chaplin argue that integrating security early and continuously (shifting\u2011left) turns security into an *enabler* rather than a blocker, and what are the key trade\u2011offs organizations must consider when they choose to embed security champions in teams versus relying primarily on automated tooling?",
+        "answer": "Integrating security from the start catches vulnerabilities before they become expensive to fix, reduces rework, and keeps development velocity high, which lets teams ship features faster\u2014hence security becomes an enabler of innovation. Embedding security champions adds a human, cultural layer: they promote shared ownership, translate security findings into actionable guidance, and help break down silos. The trade\u2011offs are that champions require ongoing training, time, and may introduce coordination overhead, while pure automation can miss contextual nuances and generate false positives that erode trust. A balanced approach leverages automation for scale and speed, and champions for judgment, communication, and cultural reinforcement.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/secure-design-building-security-engineering-workflows-and-teams",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/secure-design-building-security-engineering-workflows-and-teams_q2_medium",
+        "question": "How does the combination of automated scanning tools (static/dynamic analysis, container scanning) with real\u2011time vulnerability detection inside developers\u2019 IDEs help make security \u201csecond nature,\u201d and what design considerations must be addressed to prevent developer or alert fatigue?",
+        "answer": "Automated scans embedded in CI/CD pipelines and IDE plug\u2011ins give developers immediate, contextual feedback on insecure code, allowing them to remediate issues before they are committed. This continuous, low\u2011friction feedback loop normalises secure coding practices, turning security into a routine part of daily work. To avoid fatigue, the system must be tuned to minimise false positives, prioritize high\u2011severity findings, and present findings in a developer\u2011friendly way (e.g., actionable suggestions, non\u2011blocking UI). Performance impact must be low so the IDE remains responsive, and there should be mechanisms for developers to suppress or defer alerts when appropriate, preserving trust in the tooling.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/secure-design-building-security-engineering-workflows-and-teams",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

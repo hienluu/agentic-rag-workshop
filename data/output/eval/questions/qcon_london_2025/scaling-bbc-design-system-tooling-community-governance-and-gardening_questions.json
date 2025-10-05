@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-bbc-design-system-tooling-community-governance-and-gardening_q1_easy",
+        "question": "Which tools are used by the BBC Web Design System for component management and visual regression testing?",
+        "answer": "Storybook for component management and Chromatic for visual regression testing.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-bbc-design-system-tooling-community-governance-and-gardening",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-bbc-design-system-tooling-community-governance-and-gardening_q2_easy",
+        "question": "How many agile engineering teams actively contribute to the BBC Web Design System?",
+        "answer": "Over 25 agile engineering teams.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-bbc-design-system-tooling-community-governance-and-gardening",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-bbc-design-system-tooling-community-governance-and-gardening_q1_medium",
+        "question": "Why does the BBC Design System choose not to version the system, and how does this decision shape the governance and testing practices required to maintain consistency across many teams and brands?",
+        "answer": "The BBC Design System deliberately avoids versioning to keep the system lightweight and avoid the overhead of maintaining multiple released versions for its 25+ agile teams and 10 brands. By not versioning, any change is immediately visible to all consumers, which forces the team to rely on strict governance and rigorous visual regression testing (e.g., using Chromatic) to catch regressions before they affect production. This approach makes the system more fluid and reduces the coordination effort around version bumps, but it also raises the stakes for testing, documentation, and community review because a single broken component could impact many downstream products.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-bbc-design-system-tooling-community-governance-and-gardening",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-bbc-design-system-tooling-community-governance-and-gardening_q2_medium",
+        "question": "How do Storybook and Chromatic together enable both community contributions and scalability in the BBC Design System, and what are the potential trade\u2011offs of relying on this tooling stack?",
+        "answer": "Storybook provides an isolated sandbox where developers can explore, develop, and document components, making it easy for any of the 25 engineering teams to contribute and understand the system without needing deep prior knowledge. Chromatic builds on Storybook by automatically running visual regression tests on every change, ensuring that new contributions do not unintentionally alter the UI, which is essential for the BBC\u2019s un\u2011versioned, highly shared component library. This combination supports rapid onboarding, transparent collaboration, and the governance needed for a system that serves many brands. The trade\u2011offs include added CI pipeline time, dependence on the tooling\u2019s accuracy (false positives/negatives), the need to maintain the Storybook configuration itself, and the risk that teams may become overly reliant on automated visual checks instead of manual accessibility or performance reviews.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-bbc-design-system-tooling-community-governance-and-gardening",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

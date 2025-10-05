@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/connecting-systems-apis-protocols-observability_q1_easy",
+        "question": "Who presented the session \"Timeouts, Retries and Idempotency In Distributed Systems\" and what are the titles/roles listed for this speaker?",
+        "answer": "Sam Newman \u2013 Microservice, Cloud, CI/CD Expert, Author of \"Building Microservices\" and \"Monolith to Microservices\", 20+ Years Experience as a Developer",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/connecting-systems-apis-protocols-observability",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/connecting-systems-apis-protocols-observability_q2_easy",
+        "question": "How many CPU hours are reported to be consumed quarterly by Netflix's media workflow executions?",
+        "answer": "over 500 million CPU hours",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/connecting-systems-apis-protocols-observability",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/connecting-systems-apis-protocols-observability_q1_medium",
+        "question": "Why are timeouts, retries, and idempotency emphasized as a trio for handling failures in distributed systems, and how do they together mitigate the risks of partial or intermittent failures described in the track?",
+        "answer": "In a distributed system, calls cross process and network boundaries and can fail in many subtle ways (e.g., grey failures, latency spikes). A timeout prevents a request from hanging indefinitely and frees resources when a downstream service is slow or unresponsive. Retries give the system a chance to recover from transient glitches, but without a timeout they could amplify load on an already stressed service. Idempotency ensures that repeated attempts do not cause duplicate side\u2011effects, making retries safe. Together, they turn unpredictable, partial failures into controllable, recoverable events, aligning with the track\u2019s focus on keeping systems resilient without adding new points of failure.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/connecting-systems-apis-protocols-observability",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/connecting-systems-apis-protocols-observability_q2_medium",
+        "question": "How do mocking, contract testing, and observability combine to achieve API independence in large microservice environments, and what are the primary trade\u2011offs of relying on this combination?",
+        "answer": "Mocking lets developers work against lightweight, locally\u2011run stand\u2011ins for downstream services, eliminating the wait for real APIs and reducing sandbox fragility. Contract testing adds a safety net by automatically verifying that the mock and the actual service adhere to a shared contract, catching drift before it reaches production. Observability provides runtime visibility into how the mocks and real services behave, helping teams detect when a mock no longer reflects reality or when performance issues arise. The combination therefore reduces blocking, speeds up deployments, and maintains confidence in API compatibility. The trade\u2011offs include the overhead of maintaining accurate mock definitions and contracts, the risk that mocks oversimplify complex behaviors, and the need for robust observability tooling to surface mismatches\u2014investments that must be balanced against the productivity gains.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/connecting-systems-apis-protocols-observability",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.9,
+        "human_validated": false
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/speed-scale-optimizing-largest-cx-platform-out-there_q1_easy",
+        "question": "What reduction in bundle size was reported after employing code splitting and replacing React with Preact?",
+        "answer": "a 37% smaller bundle for modern browsers",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/speed-scale-optimizing-largest-cx-platform-out-there",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/speed-scale-optimizing-largest-cx-platform-out-there_q2_easy",
+        "question": "Which monitoring methods were used to assess user experience improvements according to the presentation?",
+        "answer": "synthetic tests and Real User Monitoring (RUM)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/speed-scale-optimizing-largest-cx-platform-out-there",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/speed-scale-optimizing-largest-cx-platform-out-there_q1_medium",
+        "question": "Why did the Medallia team choose to replace React with Preact and combine that with aggressive code\u2011splitting, and what are the key trade\u2011offs of this decision for an enterprise\u2011scale CX platform?",
+        "answer": "The team replaced React with Preact because Preact\u2019s smaller runtime allowed them to shrink the bundle dramatically \u2013 the talk notes a 37\u202f% reduction for modern browsers. Coupled with code\u2011splitting, this reduced the amount of JavaScript that needed to be downloaded and parsed on initial page load, directly improving perceived performance for users on slow connections. The trade\u2011offs include losing some of React\u2019s advanced features and ecosystem tooling, which may require compatibility shims or additional abstraction layers. It also adds complexity to the build pipeline and demands careful testing to ensure behaviour parity across the large codebase. For a platform with millions of sessions, the performance gains outweigh the added maintenance overhead, but the decision must be balanced against the cost of refactoring and potential developer friction.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/speed-scale-optimizing-largest-cx-platform-out-there",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/speed-scale-optimizing-largest-cx-platform-out-there_q2_medium",
+        "question": "How does leveraging static analysis and related tooling support large\u2011scale codebase migrations, and what implications does this have for long\u2011term maintenance and scalability?",
+        "answer": "Static analysis tools can automatically detect patterns, anti\u2011patterns, and usage of legacy APIs across a massive codebase, enabling the team to target specific migration paths (e.g., polyfill insertion, module replacement) without manually inspecting every file. By automating the identification of migration candidates, the team reduces human error, accelerates the refactor process, and ensures consistency across the codebase. This systematic approach also creates a reusable abstraction layer that can be extended for future migrations, improving scalability. However, it requires an upfront investment in tooling and rule creation, and the analysis may produce false positives or miss edge cases, meaning that ongoing maintenance of the analysis rules is needed to keep the migration process reliable as the code evolves.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/speed-scale-optimizing-largest-cx-platform-out-there",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/modern-data-architectures_q1_easy",
+        "question": "Who presented the session \"Reliable Data Flows and Scalable Platforms: Tackling Key Data Challenges\"?",
+        "answer": "Matthias Niehoff",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/modern-data-architectures",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/modern-data-architectures_q2_easy",
+        "question": "At what time (BST) was the session \"The Data Backbone of LLM Systems\" scheduled?",
+        "answer": "Wednesday Apr 9 / 02:45PM BST",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/modern-data-architectures",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/modern-data-architectures_q1_medium",
+        "question": "How does the decentralization of data ownership in a Data Mesh architecture introduce trade\u2011offs among scalability, governance, and cost, and what design practices are implied by the session descriptions to balance these competing concerns?",
+        "answer": "The text explains that adopting a Data Mesh \"decentralize[s] data ownership\" but then creates a \"cascade of hurdles: scaling infrastructure, integrating real\u2011time data streams, ensuring data governance, and automating agile data pipelines\u2014all while keeping costs in check.\" Decentralization means many teams own and serve their own data products, which can improve agility but also multiplies the number of pipelines and infrastructure footprints, making scaling more complex. Governance becomes harder because policies must be enforced across many autonomous domains, and the cost can balloon as each domain provisions its own resources. To mitigate these trade\u2011offs, the conference emphasizes \"pragmatism and foresight,\" \"robust, future\u2011ready data architecture,\" and \"automating agile data pipelines.\" In practice this translates to designing standardized platform services (e.g., shared ingestion, catalog, and security layers), adopting unified observability and quality checks, and using cost\u2011aware provisioning (such as serverless or shared compute) so that each domain can benefit from the mesh\u2019s flexibility without sacrificing overall scalability, governance, or budget.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/modern-data-architectures",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/modern-data-architectures_q2_medium",
+        "question": "Why does the session titled \u201cBeyond the Warehouse: Why BigQuery Alone Won\u2019t Solve Your Data Problems\u201d argue that a data warehouse by itself is insufficient, and what broader architectural elements does the text suggest must accompany a warehouse to achieve a robust data solution?",
+        "answer": "The description states that many organizations \"mistake the adoption of a data warehouse, like BigQuery, as the golden ticket\" but without \"a robust data strategy and architecture, you\u2019re simply shifting chaos into the cloud.\" A warehouse provides storage and query capabilities, but it does not address how data is reliably moved from operational systems to analytics (the \"stable and reliable way\" challenge highlighted in Matthias Niehoff\u2019s session), nor does it solve real\u2011time integration, governance, or the need for scalable pipelines that support AI/ML workloads. The broader architecture implied includes reliable data flows, scalable platforms, data mesh principles for decentralized ownership, AI\u2011driven data retrieval for precision, and the four\u2011dimensional backbone (code, data, models, prompts) needed for LLM systems. In short, a warehouse must be part of a larger ecosystem that includes ingestion pipelines, governance frameworks, real\u2011time streaming, and ML\u2011ready data services to avoid merely moving chaos to the cloud.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/modern-data-architectures",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

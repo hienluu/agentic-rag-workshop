@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/concept-code-navigating-agentic-ai-services_q1_easy",
+        "question": "Who is the speaker for the session \"From Concept to Code: Navigating Agentic AI Services\" and what is their role at Akka?",
+        "answer": "Alan Klikic, Senior Solutions Architect @Akka",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/concept-code-navigating-agentic-ai-services",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/concept-code-navigating-agentic-ai-services_q2_easy",
+        "question": "When was the session \"From Concept to Code: Navigating Agentic AI Services\" scheduled to take place, and what was its duration?",
+        "answer": "Tuesday Apr 8 at 11:45\u202fAM BST, lasting 50 minutes",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/concept-code-navigating-agentic-ai-services",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/concept-code-navigating-agentic-ai-services_q1_medium",
+        "question": "Why does Alan Klikic argue that an event\u2011sourced architecture is uniquely suited to handle the complexities of agentic AI services, and what design trade\u2011offs might this choice introduce?",
+        "answer": "The session description highlights that Alan will demonstrate how event\u2011sourced architecture is \"uniquely positioned to address the complexities of agentic AI.\" Event sourcing captures every state change as an immutable event, which aligns well with the autonomous, decision\u2011making nature of agentic AI that may need to replay or audit its actions, ensure consistency across distributed components, and recover from failures without losing context. However, adopting event sourcing also brings trade\u2011offs such as increased storage requirements for the event log, added complexity in evolving schemas, and the need for robust event versioning and replay mechanisms. These considerations must be balanced against the benefits of traceability, resilience, and flexibility for AI\u2011driven workflows.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/concept-code-navigating-agentic-ai-services",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/concept-code-navigating-agentic-ai-services_q2_medium",
+        "question": "How does the focus on \"agentic AI\" in this session influence the recommended architectural patterns, and why might a senior solutions architect like Alan Klikic prioritize Akka\u2011based, event\u2011driven designs for such AI services?",
+        "answer": "The abstract emphasizes that embracing agentic AI brings rewards, and the session builds on a prior blueprint to dive into technical intricacies. Agentic AI systems act autonomously and often need to coordinate many distributed components in real time. An event\u2011driven, Akka\u2011based approach provides low\u2011latency, high\u2011throughput messaging and location\u2011transparent actors, which are essential for coordinating autonomous agents and handling the bursty, unpredictable workloads typical of AI services. By leveraging Akka\u2019s resilient, cloud\u2011to\u2011edge capabilities, architects can design systems that scale horizontally while maintaining consistency via event sourcing. Alan\u2019s background in event\u2011driven and distributed patterns makes this combination a natural choice to meet the performance, scalability, and reliability demands of agentic AI.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/concept-code-navigating-agentic-ai-services",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

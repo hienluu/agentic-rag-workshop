@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/building-culture-works_q1_easy",
+        "question": "Who presented the session titled \"Platform Engineering as a Practice of Sociotechnical Excellence\" and what is their current role?",
+        "answer": "Lesley Cordero \u2013 Staff Software Engineer, Tech Lead @nytimes, Focused on Observability, Shared Platforms, and Building Excellent Teams, Previously Engineer for EdTech",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/building-culture-works",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/building-culture-works_q2_easy",
+        "question": "What is the scheduled start time for the \"Panel: Building a Culture that Works\" session?",
+        "answer": "Tuesday Apr 8 / 05:05PM BST",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/building-culture-works",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/building-culture-works_q1_medium",
+        "question": "How does the emphasis on inclusive leadership, as presented by Matthew Card, complement the broader cultural goals discussed across the track (e.g., sociotechnical excellence, hiring for cultural alignment), and what trade\u2011offs might a senior engineering leader need to consider when prioritising inclusive practices over purely technical performance metrics?",
+        "answer": "Inclusive leadership is described as a way to build high\u2011trust, resilient, and engaged teams. By fostering an environment where all voices are heard, it directly supports the track\u2019s overarching theme that culture is the foundation for sustainable engineering outcomes \u2013 from Lesley Cordero\u2019s sociotechnical excellence (where technical leadership must serve organizational sustainability) to Alicia\u202fCollymore\u2019s call for cultural alignment in hiring. The trade\u2011offs a senior leader might weigh include allocating time and resources to mentorship, psychological safety, and diversity initiatives, which could temporarily reduce focus on short\u2011term delivery speed or pure code\u2011centric metrics. However, the long\u2011term payoff is a more stable, adaptable team that can sustain high performance, reduce turnover, and better execute complex, cross\u2011functional initiatives, aligning with the track\u2019s goal of a culture that works.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/building-culture-works",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/building-culture-works_q2_medium",
+        "question": "Why do the speakers advocate for integrating cultural alignment into technical hiring (as highlighted by Alicia\u202fCollymore), and what are the potential challenges and benefits of balancing coding skill assessment with cultural fit evaluation in a diverse, remote\u2011first engineering organization?",
+        "answer": "Alicia\u202fCollymore argues that technical interviews that focus only on coding miss a critical predictor of team success: cultural alignment. By evaluating how candidates\u2019 values, communication style, and collaboration preferences match the existing team, organizations can build more cohesive, high\u2011performing groups, especially important in diverse and remote work environments where trust and shared norms are essential. Benefits include higher employee retention, smoother onboarding, and stronger collective problem\u2011solving. Challenges involve defining measurable cultural criteria, avoiding bias, and ensuring that the assessment does not become a proxy for homogeneity. Balancing these factors requires structured interview frameworks that weigh both technical proficiency and cultural indicators, aligning with the track\u2019s broader message that culture is a strategic asset rather than an intangible afterthought.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/building-culture-works",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

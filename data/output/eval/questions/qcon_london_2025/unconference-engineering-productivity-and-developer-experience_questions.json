@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-engineering-productivity-and-developer-experience_q1_easy",
+        "question": "What is the scheduled start time and duration of the \"Unconference: Engineering Productivity and Developer Experience\" session?",
+        "answer": "Monday Apr 7 / 05:05PM BST (50 minutes)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-engineering-productivity-and-developer-experience",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-engineering-productivity-and-developer-experience_q2_easy",
+        "question": "Who is the speaker for the session titled \"Achieve Optimal Efficiency for your Developer Experience Teams\"?",
+        "answer": "Fabien Deshayes",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-engineering-productivity-and-developer-experience",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-engineering-productivity-and-developer-experience_q1_medium",
+        "question": "Given the disappointment with measurable results from traditional coding assistants after two years and the recent emergence of coding assistance agents, why might organizations view these agents as a reset of expectations, and what design considerations should they prioritize when integrating such agents into developer workflows?",
+        "answer": "Traditional coding assistants (e.g., autocomplete) delivered limited productivity gains, leading to disappointment after sustained investment. Coding assistance agents, by contrast, promise more proactive, context\u2011aware help\u2014acting more like collaborative partners than simple suggestion tools\u2014so they reset expectations by offering a qualitatively different assistance model. When integrating agents, organizations should prioritize seamless IDE integration, preserving developer autonomy, managing latency, ensuring security and privacy of the code being analyzed, providing clear fallback mechanisms, and establishing metrics to gauge real productivity impact. These design decisions balance the potential boost in developer efficiency against risks such as over\u2011reliance on AI, trust erosion, and operational overhead.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-engineering-productivity-and-developer-experience",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-engineering-productivity-and-developer-experience_q2_medium",
+        "question": "The session on pair programming highlights its role in enabling continuous delivery at an hourly deployment cadence. How does pair programming specifically contribute to the feasibility of such high\u2011frequency releases, and what are the key trade\u2011offs a team must evaluate when adopting pair programming as a core practice for continuous delivery?",
+        "answer": "Pair programming improves code quality and reduces defects through real\u2011time review, which is critical when there is little time for post\u2011commit testing before an hourly release. It also spreads knowledge across team members, lowering the bus factor and accelerating onboarding, thereby ensuring that rapid changes can be safely pushed to production. However, the trade\u2011offs include higher person\u2011hour costs (two engineers working on the same task), potential slower individual throughput, and the cultural shift required to sustain constant collaboration. Teams must weigh the upfront resource investment against the benefits of reduced risk, faster feedback loops, and higher release confidence that make hourly continuous delivery viable.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-engineering-productivity-and-developer-experience",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.9,
+        "human_validated": false
+    }
+]

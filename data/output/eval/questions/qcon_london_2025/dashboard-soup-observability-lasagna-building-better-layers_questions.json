@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/dashboard-soup-observability-lasagna-building-better-layers_q1_easy",
+        "question": "What is the title of the presentation delivered by Martha Lambert?",
+        "answer": "From Dashboard Soup to Observability Lasagna: Building Better Layers",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/dashboard-soup-observability-lasagna-building-better-layers",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/dashboard-soup-observability-lasagna-building-better-layers_q2_easy",
+        "question": "When (date and time) and where was the session \"From Dashboard Soup to Observability Lasagna: Building Better Layers\" scheduled to take place?",
+        "answer": "Wednesday Apr 9 / 02:45PM BST at Whittle (3rd Fl.)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/dashboard-soup-observability-lasagna-building-better-layers",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/dashboard-soup-observability-lasagna-building-better-layers_q1_medium",
+        "question": "Why does Martha Lambert advocate replacing a chaotic collection of single\u2011use dashboards (the \u201cdashboard soup\u201d) with a layered \u201cobservability lasagna,\u201d and what are the primary design trade\u2011offs involved in adopting this layered approach?",
+        "answer": "Lambert argues that a layered observability model turns a sprawling set of ad\u2011hoc dashboards into a structured hierarchy (overview \u2192 system dashboards \u2192 logs \u2192 traces) that provides clear navigation paths during incidents. This structure makes dashboards long\u2011lived, more widely adopted, and easier to maintain, reducing duplication and the time engineers spend hunting for the right view. The trade\u2011offs include the upfront effort to define clear system boundaries, design intuitive links between layers, and enforce consistency across teams. It may also introduce some rigidity, as adding new dashboards must fit into the existing hierarchy, and requires ongoing governance to keep layers synchronized.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/dashboard-soup-observability-lasagna-building-better-layers",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/dashboard-soup-observability-lasagna-building-better-layers_q2_medium",
+        "question": "How do hands\u2011on drills and the promoted culture change reinforce the technical goal of building a reliable, user\u2011first observability stack, and what risks arise if this cultural component is ignored?",
+        "answer": "The talk stresses that observability is not just a set of tools but a cultural practice. By running hands\u2011on drills, teams internalise the navigation flow between layers, develop ownership of the dashboards, and become comfortable using the tooling under real\u2011world pressure. This experiential learning ensures that the layered stack is actually used, that dashboards remain relevant, and that engineers can rely on the system during on\u2011call. Ignoring the cultural aspect would likely lead to low adoption, forgotten or outdated dashboards, fragmented tooling, and slower incident resolution because engineers would not have the confidence or familiarity needed to navigate the observability layers effectively.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/dashboard-soup-observability-lasagna-building-better-layers",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

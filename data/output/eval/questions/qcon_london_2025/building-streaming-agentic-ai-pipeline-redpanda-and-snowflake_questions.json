@@ -1,0 +1,26 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/building-streaming-agentic-ai-pipeline-redpanda-and-snowflake_q1_easy",
+        "question": "Who is the speaker of the session titled \"Building a Streaming Agentic AI Pipeline with Redpanda and Snowflake\"?",
+        "answer": "Paul Wilkinson",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/building-streaming-agentic-ai-pipeline-redpanda-and-snowflake",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/building-streaming-agentic-ai-pipeline-redpanda-and-snowflake_q2_easy",
+        "question": "Which technology does Redpanda Connect use to enable high\u2011throughput data ingestion into Snowflake?",
+        "answer": "Snowpipe Streaming",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/building-streaming-agentic-ai-pipeline-redpanda-and-snowflake",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    }
+]

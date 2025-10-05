@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/connecting-dots-culture-teams-limited-space-registration-required_q1_easy",
+        "question": "When was the \"Connecting the Dots: Culture & Teams\" session scheduled to take place?",
+        "answer": "Tuesday Apr 8 / 02:45PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/connecting-dots-culture-teams-limited-space-registration-required",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/connecting-dots-culture-teams-limited-space-registration-required_q2_easy",
+        "question": "Who presented the talk titled \"Platform Engineering as a Practice of Sociotechnical Excellence\" and what is their current role?",
+        "answer": "Lesley Cordero, Staff Software Engineer, Tech Lead @nytimes",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/connecting-dots-culture-teams-limited-space-registration-required",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/connecting-dots-culture-teams-limited-space-registration-required_q1_medium",
+        "question": "How does the concept of inclusive leadership described by Matthew Card reinforce the sociotechnical goals of platform engineering presented by Lesley Cordero, and what trade\u2011offs might arise when trying to balance people\u2011focused initiatives with technical platform stability?",
+        "answer": "Inclusive leadership aims to build high\u2011trust, resilient, and engaged teams, which directly supports the sociotechnical view that platform engineering is not just about tooling but about the people who design, operate, and use those tools. By fostering psychological safety and shared ownership, inclusive leadership can improve collaboration on observability, shared platforms, and DevOps practices, leading to more sustainable systems. The trade\u2011off comes when resources devoted to cultural initiatives (e.g., extensive team\u2011building or mentorship programs) compete with time needed for technical debt reduction or infrastructure reliability work. Successful teams must allocate effort to both cultural health and platform stability, recognizing that neglecting one side can erode the other.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/connecting-dots-culture-teams-limited-space-registration-required",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/connecting-dots-culture-teams-limited-space-registration-required_q2_medium",
+        "question": "What are the key trade\u2011offs between emphasizing technical interview performance versus cultural alignment in hiring, as highlighted by the \"Beyond the Code\" session, and how might a senior engineering manager balance these to build impactful teams across diverse work environments?",
+        "answer": "Prioritizing technical interview performance ensures that new hires have the required coding skills to contribute immediately, reducing onboarding friction. However, focusing solely on technical ability can overlook how well a candidate fits the existing team culture, potentially leading to friction, reduced collaboration, and higher turnover, especially in diverse or remote settings. Emphasizing cultural alignment promotes shared values, better communication, and stronger team cohesion, but may risk hiring individuals who lack critical technical depth. A senior engineering manager can balance these by designing a hiring process that includes both rigorous technical assessments and structured cultural fit interviews (e.g., scenario\u2011based discussions, values\u2011based questions), and by weighting the outcomes to reflect the team's current needs\u2014leaning more on culture when the team is stable and more on technical depth when rapid delivery is critical.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/connecting-dots-culture-teams-limited-space-registration-required",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

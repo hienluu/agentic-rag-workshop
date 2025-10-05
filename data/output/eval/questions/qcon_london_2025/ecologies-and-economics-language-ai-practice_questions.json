@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ecologies-and-economics-language-ai-practice_q1_easy",
+        "question": "What is the name of the framework introduced for sustainable governance in low\u2011resource languages?",
+        "answer": "AETU framework",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ecologies-and-economics-language-ai-practice",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ecologies-and-economics-language-ai-practice_q2_easy",
+        "question": "When was Jade Abbott's presentation scheduled (date and start time)?",
+        "answer": "Monday Apr 7 / 11:45AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ecologies-and-economics-language-ai-practice",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ecologies-and-economics-language-ai-practice_q1_medium",
+        "question": "Why does Jade Abbott advocate for building smaller, distilled language models instead of pursuing larger models in low\u2011resource African language contexts, and what trade\u2011offs does this strategy address across ecological, economic, and performance dimensions?",
+        "answer": "Abbott emphasizes smaller, distilled models because they align with the severe data and compute constraints typical of many African languages. By reducing model size, the approach lowers energy consumption and carbon emissions, directly tackling ecological sustainability. Economically, smaller models are cheaper to train, deploy, and maintain, making them viable for NGOs and startups that cannot rely on large international funding. Performance\u2011wise, distillation techniques aim to retain most of the predictive power of larger models, ensuring that the reduced footprint does not come at the cost of unacceptable accuracy loss. Thus, the trade\u2011off balances acceptable performance with dramatically reduced environmental impact and cost, enabling broader accessibility and long\u2011term viability.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ecologies-and-economics-language-ai-practice",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ecologies-and-economics-language-ai-practice_q2_medium",
+        "question": "How does the AETU framework reframe data handling from an extraction\u2011focused model to a creation\u2011focused model for low\u2011resource languages, and why is shared ownership integral to achieving sustainable governance under this framework?",
+        "answer": "The AETU framework treats data as a raw material akin to minerals, advocating that instead of mining existing, often biased datasets (extraction), stakeholders should invest in generating data that is purpose\u2011built for the target language community (creation). This shift ensures that the data reflects local linguistic nuances and cultural contexts, supporting linguistic justice. Shared ownership is critical because it distributes control and benefits among community members, preventing external commoditisation by big\u2011tech actors and fostering accountability. When communities co\u2011own the data, they can guide its use, maintenance, and evolution, which sustains the ecosystem economically and culturally over the long term.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ecologies-and-economics-language-ai-practice",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    }
+]

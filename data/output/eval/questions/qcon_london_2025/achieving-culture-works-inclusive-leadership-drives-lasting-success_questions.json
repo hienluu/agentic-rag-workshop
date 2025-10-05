@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/achieving-culture-works-inclusive-leadership-drives-lasting-success_q1_easy",
+        "question": "What is the title of Matthew Card's presentation at the conference?",
+        "answer": "Achieving a Culture That Works: Inclusive Leadership that Drives Lasting Success",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/achieving-culture-works-inclusive-leadership-drives-lasting-success",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/achieving-culture-works-inclusive-leadership-drives-lasting-success_q2_easy",
+        "question": "When was Matthew Card's session scheduled, including the date and start time?",
+        "answer": "Tuesday Apr 8 / 03:55PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/achieving-culture-works-inclusive-leadership-drives-lasting-success",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/achieving-culture-works-inclusive-leadership-drives-lasting-success_q1_medium",
+        "question": "Why does Matthew advocate for *changing* the performance bar rather than simply raising it, and what are the expected effects of this approach on team dynamics and the development of early\u2011career talent?",
+        "answer": "Matthew argues that raising the bar merely pushes existing expectations higher, which can marginalise people whose contributions differ from traditional metrics. By *changing* the bar, leaders redesign what success looks like to value a broader set of contributions\u2014such as collaboration, diverse perspectives, and incremental learning. This redesign widens the playing field, making it easier for early\u2011career engineers to see a clear path to impact, improves psychological safety, and encourages a culture where varied strengths are recognised. The result is a more inclusive, high\u2011trust environment that sustains motivation and reduces turnover, while still maintaining high performance through diversified excellence.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/achieving-culture-works-inclusive-leadership-drives-lasting-success",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/achieving-culture-works-inclusive-leadership-drives-lasting-success_q2_medium",
+        "question": "How does establishing trust and psychological safety at the leadership level foster resilience and motivation within a team, and what trade\u2011offs might a leader encounter when actively addressing micro\u2011aggressions to maintain that safety?",
+        "answer": "Trust, which starts with the leader, creates a foundation where team members feel safe to speak up without fear of judgment or retribution. This psychological safety enables individuals to experiment, admit mistakes, and adapt\u2014behaviours that build collective resilience and keep motivation high because people feel their personal drivers are understood and supported. However, actively confronting micro\u2011aggressions can require difficult conversations, may temporarily disrupt harmony, and can consume time that could be spent on delivery. Leaders must balance the short\u2011term discomfort and potential conflict against the long\u2011term benefit of a healthier, more innovative culture.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/achieving-culture-works-inclusive-leadership-drives-lasting-success",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

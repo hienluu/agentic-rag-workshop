@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/securing-ai-assistants-strategies-and-practices-protecting-data_q1_easy",
+        "question": "On what date and time was Andra Lezza's presentation \"Securing AI Assistants: Strategies and Practices for Protecting Data\" scheduled?",
+        "answer": "Tuesday Apr 8 / 03:55PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/securing-ai-assistants-strategies-and-practices-protecting-data",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/securing-ai-assistants-strategies-and-practices-protecting-data_q2_easy",
+        "question": "Which company does Andra Lezza serve as a Principal Application Security Specialist?",
+        "answer": "Sage",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/securing-ai-assistants-strategies-and-practices-protecting-data",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/securing-ai-assistants-strategies-and-practices-protecting-data_q1_medium",
+        "question": "Why does Andra emphasize the principle of least privilege for AI co\u2011pilot implementations, and what trade\u2011offs might an organization face when applying strict permission limits to these assistants?",
+        "answer": "Andra highlights least privilege because AI co\u2011pilots often have broad access to enterprise data and can execute actions on behalf of users. Excessive permissions increase the attack surface for threats such as prompt injection, data leakage, and unauthorized operations. By restricting permissions to only what is necessary, the risk of these threats is reduced. However, applying strict limits can also constrain the functionality and usefulness of the co\u2011pilot, potentially requiring more frequent user interventions or additional integration work to grant temporary elevated rights, which can affect user experience and operational efficiency.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/securing-ai-assistants-strategies-and-practices-protecting-data",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/securing-ai-assistants-strategies-and-practices-protecting-data_q2_medium",
+        "question": "How do encryption and adversarial training work together to secure AI assistants throughout their lifecycle, and why would relying on only one of these controls be insufficient?",
+        "answer": "Encryption protects the confidentiality and integrity of data at rest and in transit, ensuring that sensitive inputs, model parameters, and outputs cannot be intercepted or tampered with. Adversarial training, on the other hand, hardens the model itself against attacks such as prompt injection and data poisoning by exposing it to crafted malicious examples during training. Together, they address both external data\u2011handling risks and internal model\u2011robustness risks. Relying solely on encryption leaves the model vulnerable to manipulation of its inputs or behavior, while relying only on adversarial training does not protect the data pipeline from interception or unauthorized access. A layered approach is therefore necessary for comprehensive protection.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/securing-ai-assistants-strategies-and-practices-protecting-data",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

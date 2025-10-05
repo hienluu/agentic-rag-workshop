@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/achieving-precision-ai-retrieving-right-data-using-ai-agents_q1_easy",
+        "question": "What is the title of the presentation given by Adi Polak?",
+        "answer": "Achieving Precision in AI: Retrieving the Right Data Using AI Agents",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/achieving-precision-ai-retrieving-right-data-using-ai-agents",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/achieving-precision-ai-retrieving-right-data-using-ai-agents_q2_easy",
+        "question": "When was Adi Polak's session scheduled (date and time)?",
+        "answer": "Wednesday Apr 9 / 11:45AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/achieving-precision-ai-retrieving-right-data-using-ai-agents",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/achieving-precision-ai-retrieving-right-data-using-ai-agents_q1_medium",
+        "question": "Why does segmenting data storage and retrieval for training versus inference, as proposed in the agentic\u202fRAG architecture, improve precision while also reducing latency and operational costs compared to using a single, large data lake?",
+        "answer": "Separating the data pipelines lets the system treat the two workloads differently. Training can draw from a broad, historical data lake to improve model generalisation, whereas inference only needs the most relevant, up\u2011to\u2011date facts. By limiting the inference search space to a curated, purpose\u2011built store, the retrieval step becomes faster (lower latency) and consumes fewer compute resources (lower cost). The smaller, targeted index also reduces noise, which directly raises the precision of the generated answer. In contrast, a monolithic data lake forces every query to scan a massive, heterogeneous corpus, increasing both the chance of irrelevant hits (lower precision) and the amount of work required to rank them (higher latency and cost).",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/achieving-precision-ai-retrieving-right-data-using-ai-agents",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/achieving-precision-ai-retrieving-right-data-using-ai-agents_q2_medium",
+        "question": "How do short\u2011term memory, long\u2011term memory, caching, and continuous feedback loops work together in an agentic\u202fRAG system to mitigate hallucinations and enhance decision\u2011making during retrieval\u2011augmented generation?",
+        "answer": "Short\u2011term memory holds the immediate conversational context and recent retrieval results, allowing the agent to stay consistent within a session. Long\u2011term memory stores persistent knowledge about the domain, enabling the agent to retrieve stable facts across sessions. Caching accelerates access to frequently requested or recently used pieces of data, reducing the time the agent spends searching and thus limiting exposure to stale or irrelevant information. Continuous feedback loops let the agent compare its generated output against retrieved evidence and user signals, flagging mismatches and prompting re\u2011retrieval or re\u2011ranking. This closed\u2011loop process catches and corrects hallucinated content before it reaches the user, while the combined memory layers ensure that decisions are both context\u2011aware and grounded in reliable knowledge.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/achieving-precision-ai-retrieving-right-data-using-ai-agents",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

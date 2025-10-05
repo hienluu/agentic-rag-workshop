@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/real-time-health-tech-scale-cloud-and-network-lessons_q1_easy",
+        "question": "What is the title of the talk presented in the transcript?",
+        "answer": "Real-Time Health Tech at Scale: Cloud and Network Lessons",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/real-time-health-tech-scale-cloud-and-network-lessons",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/real-time-health-tech-scale-cloud-and-network-lessons_q2_easy",
+        "question": "What three topics are listed under the \"We\u2019ll explore\" section of the abstract?",
+        "answer": "Real-world networking constraints in clinical and remote settings \u2014 and how to design around them; A high-level cloud architecture that balances scalability, security, and compliance for med tech applications; Strategies for delivering consistent software environments across varied regions and infrastructures",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/real-time-health-tech-scale-cloud-and-network-lessons",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/real-time-health-tech-scale-cloud-and-network-lessons_q1_medium",
+        "question": "Why must a health\u2011tech platform explicitly address real\u2011world networking constraints in clinical and remote settings, and how do those constraints shape design decisions around scalability and reliability?",
+        "answer": "The abstract stresses that digital\u2011health platforms operate in \u201ccomplex networking environments\u201d that include both clinical sites (often with strict firewalls, limited bandwidth, or legacy equipment) and remote locations (which may rely on cellular or satellite links). These constraints force architects to design for intermittent connectivity, variable latency, and strict uptime requirements. Consequently, scalability solutions must incorporate edge processing, redundancy, and adaptive bandwidth handling, while reliability must be ensured through fault\u2011tolerant routing, local caching, and graceful degradation. Ignoring these constraints would risk data loss, delayed care, and non\u2011compliance with clinical workflows.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/real-time-health-tech-scale-cloud-and-network-lessons",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/real-time-health-tech-scale-cloud-and-network-lessons_q2_medium",
+        "question": "How does the need to balance scalability, security, and compliance in a high\u2011level cloud architecture influence the strategies for delivering consistent software environments across diverse regions and infrastructures?",
+        "answer": "The talk\u2019s abstract highlights a \u201chigh\u2011level cloud architecture that balances scalability, security, and compliance.\u201d Achieving this balance means selecting cloud services that can auto\u2011scale while meeting regulatory requirements (e.g., data residency, encryption) and enforcing strict security controls. To maintain consistency across varied regions, architects must employ infrastructure\u2011as\u2011code, automated compliance checks, and region\u2011aware configurations that adapt to local regulations without diverging from the core software stack. This approach ensures that each deployment remains functionally identical, yet respects regional security and compliance mandates, reducing operational drift and simplifying updates.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/real-time-health-tech-scale-cloud-and-network-lessons",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

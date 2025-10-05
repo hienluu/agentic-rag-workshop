@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/building-embedding-models-large-scale-real-world-applications_q1_easy",
+        "question": "Who presented the session titled \"Building Embedding Models for Large-Scale Real-World Applications\"?",
+        "answer": "Sahil Dua",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/building-embedding-models-large-scale-real-world-applications",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/building-embedding-models-large-scale-real-world-applications_q2_easy",
+        "question": "Which optimization technique is mentioned for serving embeddings efficiently in large\u2011scale applications?",
+        "answer": "Post\u2011training quantization",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/building-embedding-models-large-scale-real-world-applications",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/building-embedding-models-large-scale-real-world-applications_q1_medium",
+        "question": "Why does the talk recommend using post\u2011training quantization when serving large\u2011scale embedding models, and what are the primary trade\u2011offs involved in applying this optimization?",
+        "answer": "Post\u2011training quantization is suggested because it reduces the memory footprint and computational cost of the model, which directly lowers query latency and allows higher throughput when serving embeddings at scale. By converting weights from high\u2011precision (e.g., 32\u2011bit floating point) to lower\u2011precision formats (e.g., 8\u2011bit integer), the model can be run on cheaper hardware and fit more instances into a single device, addressing the challenge of \u201cquery latency and document retrieval efficiency.\u201d The trade\u2011off is a potential loss in embedding fidelity: lower\u2011precision representations may be slightly less accurate, which can degrade retrieval quality or recommendation relevance. Practitioners must therefore balance the performance gains against any measurable drop in downstream task metrics, possibly validating the impact on a validation set before full deployment.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/building-embedding-models-large-scale-real-world-applications",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/building-embedding-models-large-scale-real-world-applications_q2_medium",
+        "question": "How does contrastive learning enable the creation of domain\u2011specific high\u2011quality embeddings, and why might a team choose this technique over fully fine\u2011tuning a large language model for the same purpose?",
+        "answer": "Contrastive learning trains the embedding model to pull together representations of semantically similar inputs while pushing apart dissimilar ones, which directly shapes the vector space to reflect domain\u2011specific notions of similarity. This approach can be applied to a pre\u2011trained LLM\u2011derived embedding backbone, requiring only a relatively small amount of labeled or pseudo\u2011labeled data, and it avoids the need to update all model parameters. Compared to full fine\u2011tuning, contrastive learning is computationally cheaper, reduces the risk of catastrophic forgetting, and often yields a model that retains the general language understanding of the base LLM while gaining the specialized discrimination needed for the target domain. Consequently, teams can achieve high\u2011quality, domain\u2011adapted embeddings with lower training cost and faster iteration cycles.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/building-embedding-models-large-scale-real-world-applications",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

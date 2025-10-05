@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-building-culture-works_q1_easy",
+        "question": "Who is listed as the VP of Engineering at Climate Tech in the panel discussion?",
+        "answer": "Nikki",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-building-culture-works",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-building-culture-works_q2_easy",
+        "question": "When (date and start time) was the panel \"Building a Culture that Works\" scheduled to take place?",
+        "answer": "Tuesday Apr 8 / 05:05PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-building-culture-works",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-building-culture-works_q1_medium",
+        "question": "Why do the panelists stress the importance of feedback loops for junior engineers when shaping organizational culture, and how do these loops interact with the continuous nature of cultural change as new team members join?",
+        "answer": "The panel highlights feedback loops as a mechanism for junior engineers to surface concerns, learn, and align with the team\u2019s values, which accelerates their integration and contributes to a healthier culture. Because cultural change is described as a continuous process\u2014each new hire shifts dynamics\u2014feedback loops provide a way to quickly surface and address cultural mismatches before they become entrenched. This creates a self\u2011correcting system where the organization can adapt its norms in real time, ensuring that the evolving workforce consistently reinforces the desired culture rather than eroding it.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-building-culture-works",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-building-culture-works_q2_medium",
+        "question": "How does redefining velocity and safety\u2014specifically by allowing \"breaking things\" as a learning tool\u2014affect engineering culture in remote work settings, and what are the trade\u2011offs of this approach regarding team cohesion and reliability?",
+        "answer": "Redefining velocity to include intentional experimentation (\"breaking things\") encourages a mindset where failure is viewed as a source of insight, fostering psychological safety and high\u2011velocity learning. In remote environments, the panel notes that intentionality and personal interactions are needed to maintain cohesion; thus, allowing safe failure must be balanced with clear communication and shared expectations to avoid fragmentation. The trade\u2011off is that while this approach can boost innovation and rapid improvement, it can also introduce instability if not coupled with strong feedback mechanisms and reliable observability practices, potentially undermining trust and reliability across distributed teams.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-building-culture-works",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

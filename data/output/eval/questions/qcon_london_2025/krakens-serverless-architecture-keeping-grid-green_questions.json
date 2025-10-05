@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/krakens-serverless-architecture-keeping-grid-green_q1_easy",
+        "question": "Who presented the session titled \"Kraken's Serverless Architecture for Keeping the Grid Green\"?",
+        "answer": "Kevin Bowman",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/krakens-serverless-architecture-keeping-grid-green",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/krakens-serverless-architecture-keeping-grid-green_q2_easy",
+        "question": "Which AWS service does the presentation mention as allowing Kraken to focus on core business logic while delegating infrastructure management?",
+        "answer": "AWS Lambda",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/krakens-serverless-architecture-keeping-grid-green",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/krakens-serverless-architecture-keeping-grid-green_q1_medium",
+        "question": "Why did Kevin Bowman advocate for using serverless managed services (e.g., AWS Lambda) in Kraken\u2019s grid\u2011flexibility platform instead of building a self\u2011managed compute layer, and what design benefits does this choice provide for a green\u2011energy use case?",
+        "answer": "Bowman emphasizes that serverless managed services let Kraken focus on its core business logic\u2014optimising battery usage, telemetry processing, and EV aggregation\u2014while off\u2011loading the operational burden of provisioning, patching, and scaling infrastructure to AWS. This aligns with the non\u2011functional requirements highlighted in the talk (reliability, security, scalability) because the cloud provider guarantees high availability and automatic scaling to handle the massive, bursty data streams from renewable sources. By avoiding reinventing low\u2011level infrastructure, the team can iterate faster, reduce operational cost, and ensure the platform can grow with the increasing volume of renewable generation without compromising grid stability.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/krakens-serverless-architecture-keeping-grid-green",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/krakens-serverless-architecture-keeping-grid-green_q2_medium",
+        "question": "How does treating electric vehicles (EVs) as aggregated batteries improve grid stability in Kraken\u2019s architecture, and what trade\u2011offs or additional complexities does this approach introduce?",
+        "answer": "Aggregating EVs turns a distributed fleet of mobile batteries into a virtual storage resource that can absorb excess renewable generation and supply power during demand peaks, effectively smoothing the variability of wind and solar output. This provides a flexible, scalable buffer without the need for large, stationary battery farms. However, it introduces complexities such as the need for real\u2011time telemetry and control systems to monitor charge state, location, and user consent, as well as challenges around coordination, latency, and privacy. Managing a highly dynamic, heterogeneous set of devices also adds operational overhead and requires robust security and reliability guarantees to prevent grid disturbances.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/krakens-serverless-architecture-keeping-grid-green",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

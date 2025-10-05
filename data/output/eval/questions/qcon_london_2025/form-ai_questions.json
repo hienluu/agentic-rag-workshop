@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/form-ai_q1_easy",
+        "question": "What date and time was Savannah Kunovsky's presentation \"The Form of AI\" scheduled?",
+        "answer": "Tuesday Apr 8 / 09:00AM BST",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/form-ai",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/form-ai_q2_easy",
+        "question": "In which venue and floor was the talk \"The Form of AI\" delivered?",
+        "answer": "Fleming + Whittle (3rd Fl.)",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/form-ai",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/form-ai_q1_medium",
+        "question": "Why does Savannah advocate a human\u2011centered design approach for speculative AI hardware (e.g., talk\u2011able pants, vibe\u2011responsive camera, scent\u2011capture sphere), and how does this focus shape the trade\u2011offs between what is technically possible and what users actually want?",
+        "answer": "Savannah argues that AI should serve human needs and desires rather than merely showcase technical possibilities. By placing people at the center of the design process, she ensures that novel forms\u2014such as wearable pants or an Olfactory ScentCapture sphere\u2014are evaluated not just for feasibility but for relevance, desirability, and ethical impact. This mindset forces designers to balance cutting\u2011edge capabilities (e.g., embedded sensors, real\u2011time processing) against factors like comfort, privacy, cultural acceptance, and genuine value to users. In practice, it means prioritising features that align with authentic human experiences (as highlighted by Gen\u202fZ insights) even if it means scaling back on more flamboyant or technically risky functionalities.",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/form-ai",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/form-ai_q2_medium",
+        "question": "How does Savannah\u2019s view of the upcoming software disruption\u2014moving from the traditional app model to AI\u2011driven marketplaces\u2014inform the design and architectural decisions for future AI products, and what implications does this have for senior engineers planning system integration?",
+        "answer": "Savannah likens the current AI inflection point to the iPhone/App Store shift, suggesting that the real value will come from new ways of discovering, accessing, and composing AI services rather than isolated applications. This perspective pushes designers to create modular, interoperable AI components that can be discovered and combined in marketplace\u2011style ecosystems. For architects, it means prioritising open APIs, composable services, and flexible data contracts, while also considering governance, security, and ethical guidelines that arise when many creators can plug into the same AI marketplace. The design focus therefore moves from building monolithic \u201csmart\u201d products to enabling a platform where AI capabilities can be surfaced, evaluated, and integrated on demand.",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/form-ai",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

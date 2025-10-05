@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/platform-engineering-practice-sociotechnical-excellence_q1_easy",
+        "question": "What is the title of the presentation delivered by Lesley Cordero?",
+        "answer": "Platform Engineering as a Practice of Sociotechnical Excellence",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/platform-engineering-practice-sociotechnical-excellence",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/platform-engineering-practice-sociotechnical-excellence_q2_easy",
+        "question": "When (date and time) was Lesley Cordero's session scheduled?",
+        "answer": "Tuesday Apr 8 at 10:35AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/platform-engineering-practice-sociotechnical-excellence",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/platform-engineering-practice-sociotechnical-excellence_q1_medium",
+        "question": "Why does Lesley Cordero stress the need for *joint optimization* of social and technical systems, and how does platform engineering enable organizations to achieve this joint optimization?",
+        "answer": "Cordero argues that socio\u2011technical systems are inseparable \u2013 improving only the technology or only the people side creates new bottlenecks and mis\u2011alignments. Joint optimization is required so that changes in one domain (e.g., new tooling) are matched by supportive cultural and process changes, and vice\u2011versa. Platform engineering sits at the intersection of infrastructure, developer experience, and product delivery, providing a concrete mechanism to align the two domains: it delivers automation, reliability, and feedback\u2011driven iteration (technical side) while deliberately shaping developer workflows, reducing cognitive load, and fostering communal learning (social side). By codifying reliability, security, and velocity into shared platforms, teams embed DevOps principles that promote ownership, psychological safety, and cross\u2011team alignment, thereby synchronizing technical improvements with cultural evolution.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/platform-engineering-practice-sociotechnical-excellence",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/platform-engineering-practice-sociotechnical-excellence_q2_medium",
+        "question": "What are the primary trade\u2011offs between *standardization* and *flexibility* in platform engineering, and what strategies does the speaker propose to balance these competing concerns while avoiding silos and excessive complexity?",
+        "answer": "Standardization brings consistency, reduces cognitive load, and makes reliability easier to enforce, but it can stifle team autonomy and limit the ability to address unique use\u2011cases. Flexibility empowers teams to innovate and tailor solutions, yet it risks fragmenting the organization, creating silos, and increasing maintenance burden. Cordero recommends mitigating these risks through several practices: (1) using modularity and abstraction to expose a stable, standardized core while allowing interchangeable extensions; (2) leveraging shared community knowledge and communal learning to disseminate best practices and keep standards alive; (3) adopting external, well\u2011maintained solutions when they provide more efficiency than building bespoke components; and (4) continuously iterating based on feedback to find the sweet spot between simplicity and necessary complexity. This balanced approach maintains a common platform foundation while giving teams the latitude to adapt where needed.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/platform-engineering-practice-sociotechnical-excellence",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/transforming-primary-care-case-study-evolving-start-scale_q1_easy",
+        "question": "What is the name of the speaker and his current role at the time of the presentation?",
+        "answer": "Leander Vanderbijl, Senior Engineer @Livi",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/transforming-primary-care-case-study-evolving-start-scale",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/transforming-primary-care-case-study-evolving-start-scale_q2_easy",
+        "question": "When (date and time) was the session \"Transforming Primary Care: A Case Study in Evolving From Start-Up To Scale-Up\" scheduled?",
+        "answer": "Monday Apr 7 / 01:35PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/transforming-primary-care-case-study-evolving-start-scale",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/transforming-primary-care-case-study-evolving-start-scale_q1_medium",
+        "question": "Why did the team adopt domain\u2011driven design (DDD) to regain control over their architecture, and what specific advantages did DDD provide in handling the complex interdependencies that had formed?",
+        "answer": "The company\u2019s system had evolved into a \u201cConway\u2019s law spider web\u201d of tightly coupled services, making it hard for developers to understand boundaries and for the architecture to evolve predictably. By applying DDD they could define clear bounded contexts and domain models, which gave a shared language for both business and technical teams. This structuring reduced hidden inter\u2011service dependencies, provided concrete guidance for developers on where new functionality should live, and made it easier to refactor or replace parts of the system without destabilising the whole. In short, DDD restored architectural clarity, improved developer productivity, and enabled more disciplined evolution of the service landscape.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/transforming-primary-care-case-study-evolving-start-scale",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/transforming-primary-care-case-study-evolving-start-scale_q2_medium",
+        "question": "How did shifting from a product\u2011focused architecture to a client\u2011 and functionality\u2011centered design help the organization cope with diverse regional healthcare regulations, reimbursement models, and data\u2011sharing restrictions?",
+        "answer": "Moving the design focus from a monolithic product view to client\u2011 and functionality\u2011oriented modules forced the team to think in terms of reusable, adaptable services rather than one\u2011size\u2011fits\u2011all features. This modular approach allowed them to create integration layers that could be configured per region, encapsulating regulatory logic, reimbursement calculations, and data\u2011privacy rules within specific services. Consequently, when a new market required a different reimbursement model or stricter data\u2011sharing constraints, only the relevant module needed adjustment, reducing overall system churn and preserving business agility. The design thus turned regulatory variability from a blocker into a manageable configuration concern.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/transforming-primary-care-case-study-evolving-start-scale",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

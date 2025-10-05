@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-memory-safe-native-languages-and-wasm_q1_easy",
+        "question": "When was the \"Unconference: Memory Safe Native Languages and WASM\" session scheduled?",
+        "answer": "Tuesday Apr 8 / 03:55PM BST ( 50 minutes )",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-memory-safe-native-languages-and-wasm",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-memory-safe-native-languages-and-wasm_q2_easy",
+        "question": "Who presented the session titled \"WASM Components are a FaaS' Best Friend\"?",
+        "answer": "Laurent Doguin",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-memory-safe-native-languages-and-wasm",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-memory-safe-native-languages-and-wasm_q1_medium",
+        "question": "Why might developers prefer WebAssembly components over native Rust libraries for extending software, even though Rust provides strong memory safety guarantees? Discuss the trade\u2011offs related to ABI stability, portability, security sandboxing, and performance.",
+        "answer": "The transcript notes that while Rust offers memory safety, it lacks a standard ABI, which forces developers to have the full source code available for compilation into each target environment. WebAssembly, on the other hand, provides a stable binary interface (the component model) that can be consumed without source access, making extensions portable across platforms and languages. This ABI stability enables safer, more modular extensions that can be sandboxed, improving security. The trade\u2011off is that WebAssembly may introduce a modest performance overhead compared to native Rust code because of the extra abstraction layer, but the benefits of portability, easier deployment, and isolation often outweigh the cost in many enterprise scenarios.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-memory-safe-native-languages-and-wasm",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-memory-safe-native-languages-and-wasm_q2_medium",
+        "question": "How do memory safety and language interoperability shape the decision to adopt Swift versus WebAssembly for building server\u2011side services in an enterprise setting? Explain the design considerations and benefits each approach brings.",
+        "answer": "Both Swift and WebAssembly are highlighted for their memory\u2011safe designs, which reduce bugs and security vulnerabilities. Swift brings native performance and strong interoperability with existing Apple\u2011centric ecosystems, making it attractive when the organization already uses Swift for client\u2011side code or wants tight integration with other languages. WebAssembly adds a layer of universal portability\u2014code can run in browsers, edge environments, and cloud VMs\u2014while providing sandboxed execution that isolates services from the host. Enterprises must weigh Swift\u2019s high performance and ecosystem fit against WebAssembly\u2019s cross\u2011platform reach and security isolation. The choice depends on factors such as existing codebases, required performance, deployment diversity, and the need for a language\u2011agnostic, portable runtime.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-memory-safe-native-languages-and-wasm",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.89,
+        "human_validated": false
+    }
+]

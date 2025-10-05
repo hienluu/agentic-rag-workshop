@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-modern-data-architectures_q1_easy",
+        "question": "When was the \"Modern Data Architectures\" panel held (date and start time)?",
+        "answer": "Wednesday Apr 9 / 01:35PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-modern-data-architectures",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-modern-data-architectures_q2_easy",
+        "question": "Who presented the session titled \"Beyond the Warehouse: Why BigQuery Alone Won\u2019t Solve Your Data Problems\"?",
+        "answer": "Sarah Usher",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-modern-data-architectures",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-modern-data-architectures_q1_medium",
+        "question": "Why do modern AI applications drive a need for low\u2011latency data streaming solutions, and how should data platforms evolve to meet this requirement according to the panel discussion?",
+        "answer": "The panel highlighted that AI workloads often need fresh data at inference time, so any delay in data delivery can degrade model performance or increase latency for end\u2011users. Low\u2011latency streaming therefore becomes critical to keep the data pipeline fast enough for real\u2011time or near\u2011real\u2011time AI decisions. To satisfy this need, data platforms must evolve beyond batch\u2011oriented designs and incorporate features such as smart indexing and caching, which reduce lookup times, as well as more responsive streaming infrastructures that can handle high\u2011throughput, low\u2011delay flows. These evolutions help bridge the gap between the management demand for AI outcomes and the operational need for timely data delivery.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-modern-data-architectures",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-modern-data-architectures_q2_medium",
+        "question": "How does adopting a data\u2011centric architecture change the relationship between data engineers, software engineers, and application teams, and what trade\u2011offs does this introduce for data platform teams trying to satisfy both AI\u2011driven business goals and operational stability?",
+        "answer": "A data\u2011centric architecture treats data as a first\u2011class component that augments application logic rather than an afterthought. This shift means data engineers must work more closely with software engineers and application teams to embed data considerations early in the design process, blurring traditional role boundaries. The trade\u2011off for data platform teams is the need to balance rapid, AI\u2011focused data delivery (which may favor experimental, high\u2011velocity pipelines) against the reliability and stability required by core application services. Consequently, platform teams must design flexible, scalable infrastructures that can support both innovative AI use\u2011cases and the steady, predictable performance expected by operational teams.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-modern-data-architectures",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/so-youve-decided-do-technical-migration_q1_easy",
+        "question": "Who presented the session titled \u201cSo You\u2019ve Decided To Do a Technical Migration\u201d?",
+        "answer": "Sophie Koonin",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/so-youve-decided-do-technical-migration",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/so-youve-decided-do-technical-migration_q2_easy",
+        "question": "What four important strategies were highlighted for managing a technical migration?",
+        "answer": "Incremental Approach, Tooling, Documentation, Stakeholder Communication",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/so-youve-decided-do-technical-migration",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/so-youve-decided-do-technical-migration_q1_medium",
+        "question": "Why does Sophie advocate for an incremental migration approach combined with extensive tooling when tackling a large codebase, and what are the primary trade\u2011offs of this strategy compared to a single, big\u2011bang migration?",
+        "answer": "Sophie stresses an incremental approach because it breaks a massive, complex migration into smaller, manageable steps, which reduces risk and makes it easier to detect and isolate problems early. Incremental work also allows the team to maintain a functional product throughout the migration, provides natural checkpoints for rollback, and lets stakeholders see progressive value, which helps keep organizational priorities aligned. Extensive tooling is recommended to automate repetitive tasks, eliminate manual errors, and speed up each incremental step, making the overall process more predictable. The trade\u2011offs include a longer overall timeline, the need for more coordination between teams for each step, and an upfront investment in building or configuring the migration scripts. In contrast, a big\u2011bang migration might finish faster on paper but carries a higher risk of widespread breakage, harder rollback, and greater disruption to the business.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/so-youve-decided-do-technical-migration",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/so-youve-decided-do-technical-migration_q2_medium",
+        "question": "How does effective stakeholder communication influence the balance between organizational priorities and migration effort, and why is this considered a critical success factor in Sophie's migration toolkit?",
+        "answer": "Effective stakeholder communication ensures that the value, cost, and timeline of the migration are clearly articulated, which helps secure the necessary support and resources from leadership and other teams. By keeping stakeholders informed, the migration team can align the project with broader organizational goals, prioritize work that delivers the most immediate benefit, and mitigate interruptions caused by competing priorities. This transparency also builds trust, making it easier to negotiate for dedicated time, budget, or personnel, and prepares the organization for potential setbacks, such as the need for a rollback. Consequently, stakeholder buy\u2011in reduces the likelihood of the migration being deprioritized or halted mid\u2011stream, which Sophie identifies as a key factor for low\u2011risk, low\u2011friction migrations.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/so-youve-decided-do-technical-migration",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-performance-and-sustainability-practice_q1_easy",
+        "question": "When was the \"Unconference: Performance and Sustainability in Practice\" session scheduled?",
+        "answer": "Monday Apr 7 / 03:55PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-performance-and-sustainability-practice",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-performance-and-sustainability-practice_q2_easy",
+        "question": "Who is the speaker for the session titled \"Beyond Uptime: What the 'Metric' Is Going On with Green Software?\"",
+        "answer": "Sarah (Chun-Wei) Hsu",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-performance-and-sustainability-practice",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-performance-and-sustainability-practice_q1_medium",
+        "question": "How does treating carbon emission as a \"golden signal\" alongside traditional metrics like availability and latency change the responsibilities of Site Reliability Engineers, and what trade\u2011offs might they need to balance when optimizing for both performance and sustainability?",
+        "answer": "By elevating carbon emission to the status of a golden signal, SREs must monitor and act on environmental impact in the same way they do for uptime and latency. This expands their scope from purely reliability\u2011focused interventions to include decisions that reduce energy use, such as scaling down idle resources or choosing more efficient hardware. The trade\u2011off arises because actions that lower emissions (e.g., throttling compute, consolidating workloads) can potentially increase latency or reduce availability. SREs therefore need to weigh the marginal sustainability gains against any degradation in user\u2011facing performance, establishing policies that define acceptable thresholds for both sets of metrics.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-performance-and-sustainability-practice",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-performance-and-sustainability-practice_q2_medium",
+        "question": "Why does the talk titled \"The Efficiency Paradox and How to Save Yourself and the World\" suggest that pursuing efficiency can actually diminish both happiness and overall efficiency, and what design principles should engineers adopt to avoid this paradox in sustainable software development?",
+        "answer": "The paradox points out that relentless optimization for efficiency can lead to over\u2011engineered, brittle systems that demand constant fine\u2011tuning, creating stress for engineers and reducing the system\u2019s resilience. When a system is pushed to its efficiency limits, any small change can cause disproportionate performance drops, forcing developers into a cycle of rapid, reactive fixes that erode morale and productivity. To avoid this, engineers should adopt design principles that prioritize simplicity, modularity, and graceful degradation\u2014building software that is \"good enough\" for its purpose rather than maximally efficient. Emphasizing user\u2011centric performance, allowing for headroom, and incorporating sustainable practices (e.g., energy\u2011aware scheduling) can maintain a balance between efficiency and well\u2011being.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-performance-and-sustainability-practice",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

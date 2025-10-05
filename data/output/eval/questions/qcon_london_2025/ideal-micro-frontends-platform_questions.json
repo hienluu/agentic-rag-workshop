@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ideal-micro-frontends-platform_q1_easy",
+        "question": "On what date and time was Luca Mezzalira's session \"The Ideal Micro-Frontends Platform\" scheduled?",
+        "answer": "Wednesday Apr 9 / 03:55PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ideal-micro-frontends-platform",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ideal-micro-frontends-platform_q2_easy",
+        "question": "Which schema does the presentation recommend adopting for micro\u2011frontend configuration and management?",
+        "answer": "A JSON schema",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ideal-micro-frontends-platform",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ideal-micro-frontends-platform_q1_medium",
+        "question": "Why does Luca emphasize treating micro\u2011frontends as a business\u2011driven decision rather than merely a technical choice, and how does this perspective influence the recommended implementation strategies?",
+        "answer": "Luca warns that viewing micro\u2011frontends only as a technical solution can lead teams to focus on superficial concerns like framework diversity, which adds unnecessary complexity. By framing micro\u2011frontends as a business\u2011driven approach, the focus shifts to aligning the architecture with organizational goals such as independent team ownership, faster incremental releases, and reduced coordination overhead. This mindset justifies strategies like adopting a JSON schema for configuration (to standardise communication across teams), decentralising responsibility to platform teams for client\u2011side composition, and prioritising incremental and independent deployment. In short, the business\u2011centric view ensures that technical decisions serve the larger aim of organisational agility rather than becoming an end in themselves.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ideal-micro-frontends-platform",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ideal-micro-frontends-platform_q2_medium",
+        "question": "What are the trade\u2011offs of encouraging framework diversity in a micro\u2011frontend platform, and why does the speaker recommend limiting it despite the potential for team autonomy?",
+        "answer": "While allowing each team to pick its own framework can increase perceived autonomy, the speaker points out that excessive framework diversity quickly escalates integration complexity, bundle size, and maintenance burden. The trade\u2011off is between short\u2011term freedom for individual teams and long\u2011term operational overhead for the platform (e.g., inconsistent build pipelines, harder client\u2011side composition, and performance penalties). By limiting framework diversity, the platform gains consistency, easier shared tooling, and smoother runtime composition, which aligns with the goal of decentralising work without sacrificing overall system health. Thus, the recommendation balances team independence with the need for a manageable, performant platform.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ideal-micro-frontends-platform",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

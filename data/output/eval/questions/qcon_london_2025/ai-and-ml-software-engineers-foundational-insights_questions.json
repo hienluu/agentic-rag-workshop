@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/ai-and-ml-software-engineers-foundational-insights_q1_easy",
+        "question": "Who is the speaker for the session titled \"Deploy MultiModal RAG Systems with vLLM\"?",
+        "answer": "Stephen Batifol",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/ai-and-ml-software-engineers-foundational-insights",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/ai-and-ml-software-engineers-foundational-insights_q2_easy",
+        "question": "What is the scheduled start time for the session \"Building Embedding Models for Large-Scale Real-World Applications\"?",
+        "answer": "Tuesday Apr 8 / 03:55PM BST",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/ai-and-ml-software-engineers-foundational-insights",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/ai-and-ml-software-engineers-foundational-insights_q1_medium",
+        "question": "Why might a team building a Retrieval\u2011Augmented Generation (RAG) system choose vLLM as the inference engine for a multimodal pipeline (as described by Stephen Batifol), and what are the key trade\u2011offs of this choice compared to a traditional text\u2011only RAG implementation?",
+        "answer": "vLLM is highlighted as a way to deploy multimodal RAG systems, which means it can serve large language models that accept not only text but also images, audio, or other document formats. Choosing vLLM lets a team reuse a single, high\u2011performance serving stack for all modalities, reducing the engineering effort of stitching together separate models and improving latency through its optimized token\u2011wise scheduling. However, this decision introduces trade\u2011offs: the infrastructure must provision more GPU memory and compute to handle the larger model footprints required for multimodal processing; the system becomes more complex to monitor and debug because errors can arise from any modality pipeline; and the cost per inference rises compared with a lightweight, text\u2011only RAG that can run on smaller models or even CPU\u2011only setups. In short, vLLM offers scalability and a unified serving experience for multimodal data at the expense of higher resource consumption, operational complexity, and cost.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/ai-and-ml-software-engineers-foundational-insights",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/ai-and-ml-software-engineers-foundational-insights_q2_medium",
+        "question": "Both the \"Foundation Models for Ranking\" session and the \"How to Unlock Insights within Petabytes of Autonomous Driving Data\" session address large\u2011scale data challenges. How do the design considerations for using foundation models in ranking differ from those for extracting insights from massive video datasets, and what best\u2011practice principles can be inferred for handling scale and latency in each scenario?",
+        "answer": "Ranking with foundation models (Moumita Bhattacharya\u2019s talk) is primarily a real\u2011time, user\u2011facing problem: the system must return a relevance score or recommendation within milliseconds, so the design emphasizes low\u2011latency inference, compact embeddings, and efficient similarity search indexes. In contrast, unlocking insights from petabytes of autonomous\u2011driving video (Kyra Mozley\u2019s talk) is a batch\u2011oriented discovery problem where latency per query is less critical than throughput and storage efficiency; the design focuses on distributed video ingestion, large\u2011scale feature extraction, and indexing of billions of frames. From these two contexts we can infer best\u2011practice principles: (1) for ranking, keep models lightweight, cache frequent embeddings, and use high\u2011performance nearest\u2011neighbor stores; (2) for massive video analytics, employ parallelized preprocessing pipelines, hierarchical storage tiers, and offline indexing to enable later ad\u2011hoc queries. Both require robust embedding models (as highlighted in Sahil Dua\u2019s session) but apply them at different points in the pipeline\u2014online scoring versus offline feature generation.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/ai-and-ml-software-engineers-foundational-insights",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

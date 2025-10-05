@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-health-tech_q1_easy",
+        "question": "What is the scheduled date and start time for the \"Unconference: Health Tech\" session?",
+        "answer": "Monday Apr 7 / 11:45AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-health-tech",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-health-tech_q2_easy",
+        "question": "Who is the speaker listed for the session titled \"Lessons Learned From Shipping AI-Powered Healthcare Products\"?",
+        "answer": "Clara Matos, Head of AI Engineering @Sword Health",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-health-tech",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-health-tech_q1_medium",
+        "question": "Why do the speakers stress the need for consistent, safe, and reliable AI\u2011powered healthcare solutions when shipping products, and how might these priorities shape architectural decisions when a startup scales to a full\u2011scale primary\u2011care platform?",
+        "answer": "Healthcare applications have a low tolerance for errors because mistakes can directly affect patient health. Emphasizing consistency, safety, and reliability forces teams to build robust validation pipelines, continuous monitoring, and fail\u2011safe mechanisms into the core architecture. When a startup grows into a scale\u2011up, these priorities push architects toward modular, testable components, strong versioning of models, automated roll\u2011backs, and observability tooling that can handle higher traffic without sacrificing the safeguards that were built for the early product. In short, the need for safety drives design choices such as strict CI/CD gates, model governance, and redundancy, which become even more critical as system complexity and usage increase.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-health-tech",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-health-tech_q2_medium",
+        "question": "What are the main trade\u2011offs a primary\u2011care platform faces when evolving from a startup to a scale\u2011up\u2014particularly regarding system complexity, performance, and rapid feature delivery\u2014and how can lessons from shipping AI\u2011powered healthcare products help mitigate these challenges?",
+        "answer": "As a platform scales, the volume of users and data balloons, forcing engineers to move from quick, ad\u2011hoc implementations to more disciplined, maintainable designs. The trade\u2011off is between speed of feature delivery (favoured in a startup) and the need for performance, stability, and maintainability (required at scale). Introducing stricter testing, modular services, and automated monitoring\u2014practices highlighted in the AI\u2011powered product lessons\u2014helps contain complexity and preserve performance. For example, adopting consistent model validation pipelines and safety checks reduces the risk of regressions, while service decomposition limits the blast radius of failures, allowing the platform to grow without sacrificing reliability.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-health-tech",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.9,
+        "human_validated": false
+    }
+]

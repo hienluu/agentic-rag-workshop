@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-security-against-modern-threats_q1_easy",
+        "question": "When was the \"Panel: Security Against Modern Threats\" session held?",
+        "answer": "Tuesday Apr 8 / 02:45PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-security-against-modern-threats",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-security-against-modern-threats_q2_easy",
+        "question": "Who presented the session titled \"Trust No One: Securing the Modern Software Supply Chain with Zero Trust\"?",
+        "answer": "Emma Yuan Fang",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-security-against-modern-threats",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-security-against-modern-threats_q1_medium",
+        "question": "How does adopting a Zero Trust model for CI/CD pipelines help organizations balance the tension between rapid developer velocity and robust security, as discussed in the panel?",
+        "answer": "The panel highlighted that a Zero Trust approach removes implicit trust at every stage of the software supply chain, requiring verification for every interaction. By embedding automated, granular security checks directly into the CI/CD workflow, teams can catch vulnerabilities early without needing separate, manual security gates that would slow development. This continuous, built\u2011in verification enables developers to move quickly while maintaining a strong security posture, thus addressing the trade\u2011off between speed and safety.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-security-against-modern-threats",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-security-against-modern-threats_q2_medium",
+        "question": "Why did the panel emphasize continuous monitoring and comprehensive testing as pillars of \u2018Resilience by Design,\u2019 and what are the primary trade\u2011offs organizations must consider when implementing these practices?",
+        "answer": "\u2018Resilience by Design\u2019 means building systems that can withstand sophisticated, evolving threats. Continuous monitoring provides real\u2011time visibility into supply\u2011chain activities, allowing rapid detection of anomalies, while comprehensive testing validates that security controls work under varied conditions. Together they create a feedback loop that keeps the system robust. However, implementing them requires investment in tooling, potential performance overhead, and a cultural shift toward security\u2011first thinking, which can strain resources and require changes in team processes.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-security-against-modern-threats",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

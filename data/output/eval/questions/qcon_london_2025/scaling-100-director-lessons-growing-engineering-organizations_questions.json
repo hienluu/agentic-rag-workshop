@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-100-director-lessons-growing-engineering-organizations_q1_easy",
+        "question": "How many engineers did Thiago Ghisi's organization have after scaling for three years?",
+        "answer": "over 100 engineers",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-100-director-lessons-growing-engineering-organizations",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-100-director-lessons-growing-engineering-organizations_q2_easy",
+        "question": "When was the session \"Scaling to 100+ as a Director\" presented (date and time)?",
+        "answer": "Monday Apr 7, 03:55PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-100-director-lessons-growing-engineering-organizations",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-100-director-lessons-growing-engineering-organizations_q1_medium",
+        "question": "Why does Thiago advocate treating continuous reorganizations as a \"feature, not a bug\" when scaling an engineering organization, and what are the key trade\u2011offs of this approach in terms of organizational stability versus agility?",
+        "answer": "Thiago frames reorganizations as a feature because, at scale, the optimal team topology and leadership structure constantly evolve. By viewing reorgs as iterative improvements rather than disruptive events, the organization can adapt quickly to emerging needs, redistribute expertise, and maintain momentum. The trade\u2011off is that frequent structural changes can create uncertainty and require strong communication to preserve psychological safety. While this approach boosts agility and enables rapid alignment with business goals, it may challenge stability, as teams must repeatedly adjust to new reporting lines and processes, potentially impacting short\u2011term productivity.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-100-director-lessons-growing-engineering-organizations",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-100-director-lessons-growing-engineering-organizations_q2_medium",
+        "question": "How does the practice of up\u2011leveling seniority and rotating expertise contribute to resilience and sustainability in a rapidly growing engineering org, and what are the potential downsides of this strategy?",
+        "answer": "Up\u2011leveling seniority and rotating expertise spreads knowledge across squads, reduces silos, and builds resilient teams that can handle crises and complex challenges because more engineers have a broader view of the system. This also supports sustainable growth by preventing bottlenecks around a few experts and ensuring that expertise is retained even as individuals move or leave. The downside is that rotating engineers can temporarily lose deep, context\u2011specific knowledge, and the learning curve for new assignments may affect short\u2011term velocity. Additionally, frequent moves can cause friction if not paired with clear career paths and adequate support.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-100-director-lessons-growing-engineering-organizations",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

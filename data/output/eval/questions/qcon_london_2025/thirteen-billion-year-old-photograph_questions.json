@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/thirteen-billion-year-old-photograph_q1_easy",
+        "question": "What are the two hardware innovations of the James Webb Space Telescope highlighted in the presentation?",
+        "answer": "a segmented mirror and cryogenic cooling systems",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/thirteen-billion-year-old-photograph",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/thirteen-billion-year-old-photograph_q2_easy",
+        "question": "When was Dr. Kenneth Harris's presentation scheduled to take place (date and time)?",
+        "answer": "Monday Apr 7 at 09:00AM BST",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/thirteen-billion-year-old-photograph",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/thirteen-billion-year-old-photograph_q1_medium",
+        "question": "Why did the James Webb Space Telescope adopt a segmented primary mirror together with cryogenic cooling instead of a traditional monolithic mirror, and what are the primary trade\u2011offs this design addresses for capturing thirteen\u2011billion\u2011year\u2011old infrared observations?",
+        "answer": "The JWST\u2019s segmented mirror allows the telescope to achieve a very large effective aperture (necessary for gathering the faint infrared photons from the oldest galaxies) while still fitting within the launch vehicle\u2019s fairing \u2013 a limitation a monolithic mirror would violate. Cryogenic cooling suppresses the telescope\u2019s own thermal emission, which would otherwise swamp the weak infrared signals. The trade\u2011offs include added mechanical and control complexity: the segments must be precisely aligned and actively phased in space, and the cooling system adds mass, power, and risk. However, these complexities are outweighed by the ability to observe deep\u2011time cosmic events in the infrared, where dust penetration and longer wavelengths reveal ancient stellar formations that a warm, monolithic system could not detect effectively.",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/thirteen-billion-year-old-photograph",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/thirteen-billion-year-old-photograph_q2_medium",
+        "question": "How does the integration of the JWST\u2019s Integrated Science Instrument Module Electronic Components (ICE) onto the backplane of the Optical Telescope Element (OTE) primary mirror, as described in Dr. Harris\u2019s work, enhance the telescope\u2019s ability to produce high\u2011fidelity infrared images?",
+        "answer": "Mounting the ICE electronics directly on the OTE primary\u2011mirror backplane shortens the signal path between the detectors and the processing hardware, reducing latency and potential signal degradation. This proximity also improves thermal stability because the electronics share the same cryogenic environment as the mirror, minimizing temperature\u2011induced noise that could corrupt infrared data. Additionally, integrating the payload in a clean\u2011room environment ensures precise mechanical alignment and contamination control, which are critical for maintaining optical performance. Together, these factors enable the JWST to capture and process terabytes of raw infrared data into calibrated, stacked images with the fidelity required to resolve structures billions of light\u2011years away.",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/thirteen-billion-year-old-photograph",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

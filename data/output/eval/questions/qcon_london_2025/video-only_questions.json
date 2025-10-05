@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/video-only_q1_easy",
+        "question": "On what date will the QCon London 2026 recordings become available to Video-Only Pass holders?",
+        "answer": "April 3, 2026",
+        "source_chunk_id": "https://qconlondon.com/video-only",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/video-only_q2_easy",
+        "question": "Approximately how many hours of technical content are included in the QCon Video-Only Pass?",
+        "answer": "Around 60+ hours",
+        "source_chunk_id": "https://qconlondon.com/video-only",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/video-only_q1_medium",
+        "question": "What are the strategic advantages and potential drawbacks for an organization in choosing the QCon Video\u2011Only Pass over an in\u2011person ticket for upskilling senior engineers, considering the learning model, flexibility, and the tax/regulatory constraints mentioned in the transcript?",
+        "answer": "The Video\u2011Only Pass gives an organization flexible, on\u2011demand access to 60+ hours of technical content for 12\u202fmonths, allowing teams to integrate learning into busy schedules, reuse recordings for internal training, and avoid the logistical overhead of travel. This model supports consistent upskilling and knowledge sharing across distributed teams. However, because in\u2011person and Video\u2011Only tickets must be purchased in separate orders due to differing tax regulations and \u201cplace of supply\u201d definitions, organizations cannot bundle the two experiences in a single transaction, which may add administrative complexity. Additionally, the Video\u2011Only Pass does not include live interaction or networking opportunities that an in\u2011person ticket provides, potentially limiting informal knowledge exchange and community building that can accelerate adoption of new practices.",
+        "source_chunk_id": "https://qconlondon.com/video-only",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/video-only_q2_medium",
+        "question": "How does QCon\u2019s emphasis on \u201cno hidden product pitches\u201d and practitioner\u2011led content shape the way senior engineering teams evaluate and adopt emerging technologies, as described in the transcript?",
+        "answer": "By guaranteeing that talks are free of vendor marketing and focused on real\u2011world experiences, QCon builds trust with senior engineers, who can rely on unbiased, peer\u2011validated insights. This practitioner\u2011led approach highlights practical patterns, trade\u2011offs, and concrete outcomes rather than promotional hype, enabling teams to make informed decisions about emerging technologies such as Rust, eBPF, or MLOps. The absence of sales pressure encourages adoption based on technical merit and business value, fostering a culture of evidence\u2011based experimentation and reducing the risk of vendor lock\u2011in.",
+        "source_chunk_id": "https://qconlondon.com/video-only",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

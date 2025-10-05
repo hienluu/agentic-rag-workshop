@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/blueprint-agentic-ai-services_q1_easy",
+        "question": "What transactions per second (TPS) level is cited in the RAG case study within the session abstract?",
+        "answer": "2M TPS",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/blueprint-agentic-ai-services",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/blueprint-agentic-ai-services_q2_easy",
+        "question": "Who is the speaker for the session \"A Blueprint for Agentic AI Services\" and what is their title at Akka?",
+        "answer": "Duncan DeVore, Sr. Director & Architect Advocate @Akka",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/blueprint-agentic-ai-services",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/blueprint-agentic-ai-services_q1_medium",
+        "question": "How does the need to handle a two\u2011order\u2011of\u2011magnitude increase in TPS shape the architectural decisions for agentic AI services, and why might a reactive framework such as Akka be a suitable choice to meet those demands?",
+        "answer": "A jump of two orders of magnitude in TPS forces the architecture to prioritize low\u2011latency request handling, horizontal scalability, and resilience to failures. Traditional monolithic or blocking designs would quickly become bottlenecks or points of failure when faced with millions of transactions per second. Reactive systems, like those built with Akka, are designed for asynchronous, non\u2011blocking message passing, location transparency, and fault isolation, which together enable the service to distribute load across many nodes, recover from individual component failures, and keep latency predictable. Because the session emphasizes making agentic services \u201cfail\u2011proof when their LLMs are not,\u201d Akka\u2019s supervision hierarchies and back\u2011pressure mechanisms directly support this goal, allowing the surrounding infrastructure to continue operating even if an LLM instance becomes slow or unavailable.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/blueprint-agentic-ai-services",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/blueprint-agentic-ai-services_q2_medium",
+        "question": "What are the main trade\u2011offs between cost and quality when running LLM\u2011driven agentic services at scale, and how do continuous redeployment and frequent model retraining influence this balance?",
+        "answer": "The transcript notes that LLM inference can be up to 100,000\u202f\u00d7 more expensive than a simple database transaction, so using the highest\u2011quality, most capable models for every request quickly becomes financially unsustainable. The trade\u2011off is therefore between paying for top\u2011tier model quality (which can improve response relevance and user experience) and limiting costs by using cheaper, lower\u2011quality models or by off\u2011loading work to traditional data stores where possible. Continuous redeployment and frequent retraining help maintain model relevance and performance as data and usage patterns evolve, but they also add compute overhead, increase operational complexity, and can further raise costs. Architects must therefore decide where the added quality from fresh, high\u2011performing models justifies the extra expense, perhaps reserving them for high\u2011value or latency\u2011sensitive paths while using cheaper alternatives for bulk processing.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/blueprint-agentic-ai-services",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

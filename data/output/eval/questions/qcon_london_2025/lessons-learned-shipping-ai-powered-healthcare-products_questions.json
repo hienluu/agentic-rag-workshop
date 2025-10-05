@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-shipping-ai-powered-healthcare-products_q1_easy",
+        "question": "What evaluation tool is mentioned in the talk as helping ensure continued performance without regressions?",
+        "answer": "EOLs",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-shipping-ai-powered-healthcare-products",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-shipping-ai-powered-healthcare-products_q2_easy",
+        "question": "What is Clara Matos\u2019s role and the company she works for?",
+        "answer": "Head of AI Engineering @Sword Health",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-shipping-ai-powered-healthcare-products",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-shipping-ai-powered-healthcare-products_q1_medium",
+        "question": "Why does Clara emphasize the development of guardrails as a core component of AI deployments in healthcare, and how do these guardrails work together with evaluation tools (such as EOLs and grading approaches) to maintain safety and prevent regressions?",
+        "answer": "Guardrails are highlighted because AI systems that generate medical advice can cause serious harm if they produce unsafe or incorrect content. By explicitly defining limits on what the model can output\u2014filtering disallowed advice, enforcing clinical guidelines, and blocking harmful language\u2014guardrails act as a first line of defense. Evaluation tools like End\u2011of\u2011Life (EOL) tests and systematic grading then continuously measure whether the model respects those limits and whether its performance drifts over time. When an evaluation uncovers a regression, the guardrail rules can be tightened or the model retrained, creating a feedback loop that keeps the system both safe and reliable in a regulated environment.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-shipping-ai-powered-healthcare-products",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-shipping-ai-powered-healthcare-products_q2_medium",
+        "question": "How do prompt engineering, retrieval\u2011augmented generation (RAG), and context optimization collectively improve domain specificity for healthcare LLMs, and what are the primary trade\u2011offs or challenges associated with relying heavily on this combination?",
+        "answer": "Prompt engineering shapes the model\u2019s behavior by providing clear instructions and examples that steer it toward clinically appropriate responses. RAG supplements the model with up\u2011to\u2011date, domain\u2011specific documents retrieved at inference time, ensuring that the generated answer is grounded in the latest medical knowledge. Context optimization then curates the retrieved information\u2014truncating, ranking, or summarizing it\u2014so the model receives a concise, relevant prompt that reduces hallucination and improves accuracy. Together, these techniques make the LLM\u2019s output more precise for healthcare tasks. The trade\u2011offs include added system complexity (multiple components must be orchestrated), increased latency due to retrieval and processing steps, dependence on the freshness and quality of the external knowledge base, and the risk that retrieval errors or poorly engineered prompts could introduce new failure modes that must be monitored.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-shipping-ai-powered-healthcare-products",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

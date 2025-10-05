@@ -1,0 +1,5 @@
+{
+    "page_url": "https://qconlondon.com/track/apr2025/sponsored-solution-track-iii",
+    "page_title": "QCon London 2025 | Sponsored Solution Track III",
+    "page_content": "Your choice regarding cookies on this site\nWe use cookies to optimise site functionality and give you the best possible experience.\nI AcceptI RejectCookie Preferences\nYou are viewing content from a past/completed conference.\n# Sponsored Solution Track III\n* * *\n### From this track\nSession\n### Developer Experience\u2019s New Frontier: Agentic Experience\nWednesday Apr 9 / 10:35AM BST\nJust as companies were beginning to come to terms with why developer experience is important to their business, a new frontier has appeared: Agentic Experience (AX). \nNolan Di Mare Sullivan\nHead of Developer Relations @Speakeasy\nDeveloper Experience\u2019s New Frontier: Agentic Experience\n#### Date\nWednesday Apr 9 / 09:00AM BST \n#### Share\nShare Share\n"
+}

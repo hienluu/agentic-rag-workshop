@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-ai-and-ml-software-engineers_q1_easy",
+        "question": "When was the \"Unconference: AI and ML for Software Engineers\" session scheduled to take place?",
+        "answer": "Tuesday Apr 8 / 11:45AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-ai-and-ml-software-engineers",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-ai-and-ml-software-engineers_q2_easy",
+        "question": "Who presented the session titled \"Foundation Models for Ranking: Challenges, Successes, and Lessons Learned\"?",
+        "answer": "Moumita Bhattacharya",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-ai-and-ml-software-engineers",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-ai-and-ml-software-engineers_q1_medium",
+        "question": "Why does the conference emphasize moving from text\u2011only Retrieval\u2011Augmented Generation (RAG) systems to multimodal RAG approaches, as highlighted in the \u201cDeploy MultiModal RAG Systems with vLLM\u201d session, and what design challenges does this shift introduce?",
+        "answer": "The abstract notes that most RAG implementations focus solely on text, even though real\u2011world use cases often involve images, audio, and documents that must be processed together to deliver meaningful insights. By expanding to multimodal RAG, engineers can unlock richer information and enable applications such as visual question answering or audio\u2011driven search. However, this shift introduces design challenges: the need to align heterogeneous embeddings across modalities, increased compute and storage requirements for processing large, non\u2011textual data, and the complexity of building retrieval indexes that can efficiently handle mixed\u2011type queries. These factors force architects to consider trade\u2011offs between model complexity, latency, and infrastructure costs when designing multimodal pipelines.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-ai-and-ml-software-engineers",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-ai-and-ml-software-engineers_q2_medium",
+        "question": "What are the primary trade\u2011offs that senior engineers must consider when building embedding models for large\u2011scale real\u2011world applications, as suggested by the \u201cBuilding Embedding Models for Large\u2011Scale Real\u2011World Applications\u201d session, and how might these influence architectural decisions?",
+        "answer": "The session title indicates that embedding models sit at the core of search, recommendation, and RAG systems, transforming raw data into useful representations. In large\u2011scale deployments, engineers must balance model accuracy against inference latency and resource consumption. Larger, more expressive models can improve downstream performance but demand more GPU/CPU cycles and increase serving costs, potentially hurting real\u2011time response requirements. Conversely, smaller models reduce latency and cost but may degrade recommendation quality. Engineers also need to consider scalability of the embedding index (e.g., vector database sharding) and the freshness of embeddings as data evolves. These trade\u2011offs dictate whether to adopt a centralized high\u2011capacity model, a tiered architecture with on\u2011device embeddings, or a hybrid approach that combines offline batch embedding generation with online fine\u2011tuning.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-ai-and-ml-software-engineers",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/friction-fix-building-collaborative-relationships-between-teams_q1_easy",
+        "question": "What are the six primary focus areas highlighted in the session to mitigate friction between product and technology teams?",
+        "answer": "Understanding the system; Designing knowledge flow; Becoming learning-driven; Architecting relationships; Focusing on goals; Cultivating a growth mindset.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/friction-fix-building-collaborative-relationships-between-teams",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/friction-fix-building-collaborative-relationships-between-teams_q2_easy",
+        "question": "When and where was the session \"The Friction Fix: Building Collaborative Relationships Between Teams\" scheduled to take place?",
+        "answer": "Wednesday Apr 9 / 11:45AM BST, Churchill (Ground Fl.).",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/friction-fix-building-collaborative-relationships-between-teams",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/friction-fix-building-collaborative-relationships-between-teams_q1_medium",
+        "question": "How does designing knowledge flow help mitigate the systemic nature of friction between product and technology teams, and what potential trade\u2011offs should a senior architect consider when introducing such flow mechanisms?",
+        "answer": "Designing knowledge flow targets the root cause of friction \u2013 the lack of a shared, contextual understanding across teams. By deliberately shaping how data, decisions, and insights move between product and technology, teams gain a common mental model, which reduces blame cycles and enables more informed, collaborative decisions. However, introducing knowledge\u2011flow mechanisms can bring trade\u2011offs: the added coordination overhead may slow rapid delivery; too much information can overwhelm developers, leading to analysis paralysis; and establishing governance around what is shared, when, and with whom requires cultural change and possibly new tooling, which can incur cost and resistance. Senior architects must balance the benefit of reduced misalignment against these operational and cultural costs.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/friction-fix-building-collaborative-relationships-between-teams",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/friction-fix-building-collaborative-relationships-between-teams_q2_medium",
+        "question": "Why does the session emphasize outcome\u2011focused goals over mere output metrics, and how does this emphasis reinforce a growth\u2011mindset within cross\u2011functional teams?",
+        "answer": "Outcome\u2011focused goals shift attention from delivering a set of features (output) to achieving measurable business or user impact (outcome). This alignment forces product and technology teams to ask *why* they are building something, which uncovers hidden assumptions and encourages continuous learning about what actually delivers value. When teams see success measured by results rather than deliverables, failures become learning opportunities rather than blame triggers, which is the essence of a growth\u2011mindset. Consequently, teams are more willing to experiment, iterate, and adapt their processes, turning systemic friction into a catalyst for improvement rather than a source of conflict.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/friction-fix-building-collaborative-relationships-between-teams",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-always-get-invited-big-strategic-conversations_q1_easy",
+        "question": "What is the title of Mark Allen's presentation?",
+        "answer": "How to Always Get Invited to Big Strategic Conversations",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-always-get-invited-big-strategic-conversations",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-always-get-invited-big-strategic-conversations_q2_easy",
+        "question": "When was Mark Allen's session scheduled (date and time)?",
+        "answer": "Monday Apr 7 / 11:45AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-always-get-invited-big-strategic-conversations",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-always-get-invited-big-strategic-conversations_q1_medium",
+        "question": "Why does Mark Allen emphasize building an internal brand as a key step toward being invited to strategic conversations, and how does this practice interact with relationship building and expertise recognition within an organization?",
+        "answer": "Mark Allen argues that an internal brand signals to peers and senior leaders the specific areas where you add the most value. By consistently demonstrating expertise\u2014whether technical or partially technical\u2014people begin to associate you with those topics. This reputation makes you the default choice when strategic discussions arise, because decision\u2011makers look for known subject\u2011matter experts. The brand also amplifies relationship\u2011building efforts: strong relationships give you early access to information funnels, and a clear brand helps those relationships translate into concrete invitations. In short, a well\u2011crafted internal brand turns informal networks into formal opportunities by making you the obvious go\u2011to person for high\u2011impact topics.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-always-get-invited-big-strategic-conversations",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-always-get-invited-big-strategic-conversations_q2_medium",
+        "question": "How does selecting a \u2018green button\u2019 opportunity illustrate the trade\u2011off between risk and career advancement, and what safeguards does Mark Allen suggest to balance this risk against maintaining day\u2011job performance?",
+        "answer": "A \u2018green button\u2019 opportunity is a high\u2011visibility project that can accelerate a career but also carries significant risk\u2014failure could damage reputation or overload the individual. The trade\u2011off is between the potential upside (fast\u2011track promotion, strategic impact) and the downside (possible setbacks, time pressure). Mark Allen advises mitigating this risk by ensuring that day\u2011job responsibilities remain covered: delegate where possible, set clear boundaries, and communicate expectations with managers. By doing so, you protect your core performance while still taking the calculated risk that the green button presents. This balanced approach lets you pursue strategic impact without jeopardizing the stability of your primary role.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-always-get-invited-big-strategic-conversations",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

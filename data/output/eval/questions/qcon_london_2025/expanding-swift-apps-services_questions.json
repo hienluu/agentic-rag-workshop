@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/expanding-swift-apps-services_q1_easy",
+        "question": "What is the title of Cory Benfield's session?",
+        "answer": "Expanding Swift from Apps to Services",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/expanding-swift-apps-services",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/expanding-swift-apps-services_q2_easy",
+        "question": "On which date and time was the \"Expanding Swift from Apps to Services\" session scheduled?",
+        "answer": "Tuesday Apr 8 / 11:45AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/expanding-swift-apps-services",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/expanding-swift-apps-services_q1_medium",
+        "question": "Why does the session emphasize Swift\u2019s memory\u2011safety as a key advantage for building services, and how does this benefit differ from the reasons Swift is popular for app development?",
+        "answer": "Memory\u2011safety in Swift prevents common bugs such as use\u2011after\u2011free, buffer overflows, and null\u2011pointer dereferences. In a service context these bugs can cause crashes, data corruption, or security breaches in long\u2011running processes that handle untrusted traffic, making reliability and security paramount. While memory\u2011safety also improves app stability, services run continuously and often under higher load, so the impact of a memory error is far more severe. Thus, Swift\u2019s guarantees translate directly into higher uptime and reduced attack surface for server\u2011side code.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/expanding-swift-apps-services",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/expanding-swift-apps-services_q2_medium",
+        "question": "How does Swift\u2019s interoperability with other languages shape the design decisions Apple engineers make when writing services, and what trade\u2011offs might this introduce compared to using a language with less inter\u2011operability?",
+        "answer": "Swift\u2019s ability to interoperate with C, C++, and other runtimes lets engineers reuse existing high\u2011performance networking libraries (e.g., SwiftNIO, Netty) and integrate with legacy codebases, reducing the need to rewrite mature components. This influences design decisions toward a hybrid architecture where core service logic lives in Swift while performance\u2011critical or legacy pieces remain in other languages. The trade\u2011off is the added complexity of bridging boundaries\u2014potential overhead, careful management of safety guarantees across language borders, and the need for thorough testing of inter\u2011language interactions\u2014whereas a less interoperable language might require a pure\u2011language stack but at the cost of re\u2011implementing existing functionality.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/expanding-swift-apps-services",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

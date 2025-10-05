@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-i_q1_easy",
+        "question": "Who is the speaker for the session titled \"Zero Trust or Bust. Bring Your Own Cloud To Real-Time Data\"?",
+        "answer": "Karin Landers",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-i",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-i_q2_easy",
+        "question": "What time (BST) was the session \"AI Developer Tools Are Focused on the Wrong Problem\" scheduled to start?",
+        "answer": "05:05PM BST",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-i",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-i_q1_medium",
+        "question": "Why is implementing a Zero Trust model especially important when organizations adopt a Bring Your Own Cloud (BYOC) approach for real\u2011time data streaming, as described in Karin Landers' session?",
+        "answer": "Adopting BYOC means data and workloads are spread across multiple, potentially external, cloud environments, which expands the attack surface and makes it harder to enforce consistent security policies. A Zero Trust model addresses these concerns by assuming no implicit trust for any component, enforcing strict data governance, fine\u2011grained access control, and compliance checks at every step of the data flow. This continuous verification is essential to protect real\u2011time streaming data in a heterogeneous BYOC landscape.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-i",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-i_q2_medium",
+        "question": "What scalability challenges do agentic AI services face according to Duncan DeVore, and how could the architectural choices highlighted in the Redpanda and Snowflake session help mitigate latency and availability issues?",
+        "answer": "Agentic AI services generate workloads that grow exponentially as more autonomous agents are deployed, leading to poor latency and availability for large language models (LLMs). Additionally, frequent model retraining causes continuous updates to the services, further stressing the infrastructure. By using a streaming platform like Redpanda (via Redpanda Connect) to handle high\u2011throughput, low\u2011latency event streams and pairing it with Snowflake for scalable, durable storage and analytics, the architecture can decouple data ingestion from processing, smooth out spikes, and provide the performance and reliability needed for large\u2011scale agentic AI workloads.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-i",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

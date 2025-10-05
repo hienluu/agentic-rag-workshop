@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/health-tech_q1_easy",
+        "question": "What is the title of Clara Matos's session and at what time was it scheduled?",
+        "answer": "Lessons Learned From Shipping AI-Powered Healthcare Products \u2013 Monday Apr 7 / 10:35AM BST",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/health-tech",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/health-tech_q2_easy",
+        "question": "Who is the Track Host for the Health Tech track and what is one of his listed positions?",
+        "answer": "Dr. Jack Kreindler \u2013 Founder and CEO @Wellfounded Health",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/health-tech",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/health-tech_q1_medium",
+        "question": "What are the primary design considerations Clara Matos likely stresses for building AI\u2011powered healthcare products that are consistent, safe, and reliable, and how do these considerations shape the architecture of the machine\u2011learning pipeline in a regulated health\u2011tech environment?",
+        "answer": "Clara Matos\u2019s talk on shipping AI\u2011powered healthcare products emphasizes that safety, consistency, and reliability are non\u2011negotiable in health\u2011tech. To meet these goals, the pipeline must incorporate rigorous data governance (clean, provenance\u2011tracked datasets), continuous validation against clinical benchmarks, robust monitoring for drift and adverse outcomes, and built\u2011in explainability to satisfy regulators and clinicians. Architecture\u2011wise this translates into a modular pipeline with separate stages for data ingestion, validation, model training, and post\u2011deployment monitoring, each guarded by automated testing and version control. Deployments are often staged behind feature\u2011flags and undergo shadow\u2011testing before full rollout, and the system must support audit trails and rollback capabilities. These practices collectively reduce the risk of unsafe predictions, ensure reproducible results across releases, and satisfy compliance requirements such as FDA\u2019s Software as a Medical Device guidance.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/health-tech",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/health-tech_q2_medium",
+        "question": "In Leander Vanderbijl\u2019s case study of evolving a primary\u2011care platform from startup to scale\u2011up, what trade\u2011offs emerge between system complexity and performance, and which architectural strategies can mitigate the challenges of rapidly ballooning requirements while preserving reliability?",
+        "answer": "Leander\u2019s experience shows that as usage grows, monolithic codebases and tightly coupled services become bottlenecks, leading to higher latency, harder testing, and increased failure surface. The trade\u2011off is between adding complexity (e.g., micro\u2011services, event\u2011driven architectures) to gain scalability and the overhead of managing that complexity (operational burden, distributed debugging). To mitigate these issues, the platform can adopt a modular, service\u2011oriented architecture with well\u2011defined APIs, employ containerisation for isolated deployment, and use orchestration tools (Kubernetes) for auto\u2011scaling. Implementing observability (metrics, tracing, logging) and circuit\u2011breaker patterns helps maintain reliability despite increased traffic. Incremental refactoring\u2014splitting high\u2011load components into independent services\u2014balances performance gains with manageable complexity, ensuring the system remains resilient as requirements balloon.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/health-tech",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

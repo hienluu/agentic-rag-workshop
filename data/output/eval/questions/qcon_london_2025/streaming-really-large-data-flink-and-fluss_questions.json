@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/streaming-really-large-data-flink-and-fluss_q1_easy",
+        "question": "Which two Apache projects are combined to enable predicate pushdown and columnar storage in the session \"Streaming Really Large Data With Flink and Fluss\"?",
+        "answer": "Apache Paimon and Apache Arrow",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/streaming-really-large-data-flink-and-fluss",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/streaming-really-large-data-flink-and-fluss_q2_easy",
+        "question": "According to the abstract, what is the maximum percentage reduction in network traffic achieved by filtering and pruning data at the source?",
+        "answer": "up to 50%",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/streaming-really-large-data-flink-and-fluss",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/streaming-really-large-data-flink-and-fluss_q1_medium",
+        "question": "Why does the talk propose combining Apache Paimon with Apache Arrow for source\u2011side filtering, and what are the primary trade\u2011offs of this columnar, predicate\u2011pushdown approach compared to traditional row\u2011oriented streaming pipelines?",
+        "answer": "The combination leverages Paimon's table format together with Arrow\u2019s columnar in\u2011memory representation to enable predicate pushdown and columnar storage at the source. This lets the system prune irrelevant rows and drop unneeded columns before data leaves the storage layer, cutting network traffic by up to 50\u202f% and improving throughput. The trade\u2011offs include added complexity in managing a columnar format (e.g., needing Arrow\u2011compatible consumers, potential conversion overhead), the requirement for storage engines that support predicate pushdown, and possible latency introduced by the extra filtering step. However, these costs are outweighed by the reduced bandwidth usage and higher overall efficiency for workloads that only need a subset of fields.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/streaming-really-large-data-flink-and-fluss",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/streaming-really-large-data-flink-and-fluss_q2_medium",
+        "question": "How does treating streams as continuously updating tables enable unified batch\u2011and\u2011stream queries, and what architectural benefits and challenges does this \u201cstream\u2011as\u2011table\u201d model introduce for large\u2011scale pipelines?",
+        "answer": "By representing streams as tables, the same query engine can run identical SQL\u2011style queries over static lake data and over live, ever\u2011changing tables. Arrow\u2019s in\u2011memory columnar format and Paimon\u2019s table semantics allow historical data and real\u2011time events to be accessed through a single, table\u2011oriented model, eliminating the need for separate batch and streaming code paths. Architecturally this simplifies the stack, reduces code duplication, and makes it easier to chain jobs across Flink, Spark, or other engines while preserving low latency. The challenges include ensuring the storage layer (e.g., FLUSS) can handle high\u2011velocity writes and provide consistent snapshots for queries, managing state and versioning across continuous updates, and dealing with the added operational complexity of a unified lakehouse that must satisfy both batch consistency guarantees and streaming latency requirements.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/streaming-really-large-data-flink-and-fluss",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.89,
+        "human_validated": false
+    }
+]

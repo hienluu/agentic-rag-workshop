@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/efficiency-paradox-and-how-save-yourself-and-world_q1_easy",
+        "question": "Which Java framework did Holly Cummins cite as using waste\u2011reduction techniques that benefit both computers and people?",
+        "answer": "Quarkus Java framework",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/efficiency-paradox-and-how-save-yourself-and-world",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/efficiency-paradox-and-how-save-yourself-and-world_q2_easy",
+        "question": "When (date and time) was Holly Cummins' talk \"The Efficiency Paradox and How to Save Yourself and the World\" scheduled?",
+        "answer": "Monday Apr 7 / 05:05PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/efficiency-paradox-and-how-save-yourself-and-world",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/efficiency-paradox-and-how-save-yourself-and-world_q1_medium",
+        "question": "Why does Holly Cummins argue that improving machine efficiency (e.g., through Quarkus\u2019s waste\u2011reduction techniques) can also boost human efficiency, and what trade\u2011offs must be considered to avoid falling into the \u201cefficiency paradox\u201d of over\u2011optimisation?",
+        "answer": "Holly points out that the same waste\u2011reduction techniques that make the Quarkus framework run faster and use fewer resources also reduce the time developers spend waiting on builds, deployments, or slow code, thereby freeing them to focus on higher\u2011value work \u2013 a direct boost to human efficiency. However, she warns that if we chase 100\u202f% utilization or optimise the wrong metrics (e.g., raw CPU cycles instead of overall value delivered), we create unsustainable pressure on both systems and people. The paradox emerges when higher machine efficiency leads to more work, tighter deadlines, or increased complexity, ultimately reducing overall productivity and well\u2011being. To avoid this, architects must apply systems thinking, prioritize \u201cdouble\u2011win\u201d optimisations, and accept that some idle capacity or deliberate slowdown can be beneficial for long\u2011term sustainability and happiness.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/efficiency-paradox-and-how-save-yourself-and-world",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/efficiency-paradox-and-how-save-yourself-and-world_q2_medium",
+        "question": "How does the notion of \u201cdouble wins\u201d shape the decision\u2011making process for software architects who aim to reduce climate impact while maintaining performance, and what design principles emerge from this approach?",
+        "answer": "The \u201cdouble wins\u201d concept encourages architects to seek optimisations that simultaneously deliver business value (speed, reliability, cost savings) and environmental benefits (lower energy use, reduced carbon emissions). In practice this means targeting obvious sources of waste\u2014such as zombie servers, unnecessary data storage, and slow or redundant code\u2014and replacing them with efficient alternatives like the Quarkus framework\u2019s lean runtime, server\u2011less patterns, or smarter caching. The resulting design principles are: (1) prioritize eliminating waste before adding new features; (2) measure success with both performance metrics and sustainability signals (e.g., carbon\u2011aware KPIs); (3) adopt a systems\u2011thinking view that evaluates the full lifecycle impact of a change; and (4) accept that some \u201cidle\u201d capacity can be a strategic asset, preventing over\u2011utilisation that harms both people and the planet.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/efficiency-paradox-and-how-save-yourself-and-world",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

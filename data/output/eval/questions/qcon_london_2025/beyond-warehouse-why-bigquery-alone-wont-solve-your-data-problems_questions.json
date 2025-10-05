@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/beyond-warehouse-why-bigquery-alone-wont-solve-your-data-problems_q1_easy",
+        "question": "What is the title of Sarah Usher's presentation?",
+        "answer": "Beyond the Warehouse: Why BigQuery Alone Won\u2019t Solve Your Data Problems",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/beyond-warehouse-why-bigquery-alone-wont-solve-your-data-problems",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/beyond-warehouse-why-bigquery-alone-wont-solve-your-data-problems_q2_easy",
+        "question": "When and where was Sarah Usher's talk scheduled to take place?",
+        "answer": "Wednesday Apr 9 / 03:55PM BST at Whittle (3rd Fl.)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/beyond-warehouse-why-bigquery-alone-wont-solve-your-data-problems",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/beyond-warehouse-why-bigquery-alone-wont-solve-your-data-problems_q1_medium",
+        "question": "Why does Sarah emphasize storing raw data before it enters BigQuery, and how does this design choice improve flexibility and resilience compared to treating the warehouse as the sole source of truth?",
+        "answer": "Storing raw data preserves the original, unaltered record of every event, which means the organization can re\u2011process or re\u2011ingest the data when requirements change, new tools are adopted, or errors are discovered. This decouples the ingestion pipeline from the warehouse, allowing the warehouse to focus on curated, query\u2011optimized datasets while the raw layer remains a stable, immutable backup. By not relying on the warehouse as the single source of truth, teams avoid the latency and scalability bottlenecks that arise when the warehouse must serve both raw storage and all downstream use\u2011cases, and they gain the ability to experiment with different curation strategies without risking data loss.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/beyond-warehouse-why-bigquery-alone-wont-solve-your-data-problems",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/beyond-warehouse-why-bigquery-alone-wont-solve-your-data-problems_q2_medium",
+        "question": "What are the trade\u2011offs of using BigQuery (or any data warehouse) as the single source of truth versus adopting a curated layer as the source of truth, especially as data volume and complexity increase?",
+        "answer": "Using the warehouse as the single source of truth simplifies architecture and reduces the number of systems to manage, but it forces all raw, semi\u2011structured, and processed data through a single platform. As data volume and source diversity grow, this creates latency (the warehouse must ingest and index everything before it can be queried) and scalability limits (costs and performance can degrade). A curated layer, on the other hand, adds an extra abstraction: raw data is stored unchanged, then curated datasets are produced and designated as the authoritative view for specific domains. This incurs additional processing and storage overhead, but it isolates the warehouse from raw\u2011data churn, enables faster, more reliable queries on curated data, supports multiple \u201csources of truth\u201d tailored to different use\u2011cases, and makes it easier to evolve the architecture without disrupting downstream consumers.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/beyond-warehouse-why-bigquery-alone-wont-solve-your-data-problems",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    }
+]

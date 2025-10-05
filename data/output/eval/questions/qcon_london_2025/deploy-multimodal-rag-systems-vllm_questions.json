@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/deploy-multimodal-rag-systems-vllm_q1_easy",
+        "question": "Which vector database was mentioned as part of the architecture for multimodal RAG systems?",
+        "answer": "Milvus",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/deploy-multimodal-rag-systems-vllm",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/deploy-multimodal-rag-systems-vllm_q2_easy",
+        "question": "What is the scheduled date and time for Stephen Batifol's presentation \"Deploy MultiModal RAG Systems with vLLM\"?",
+        "answer": "Tuesday Apr 8 / 10:35AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/deploy-multimodal-rag-systems-vllm",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/deploy-multimodal-rag-systems-vllm_q1_medium",
+        "question": "Why does the speaker advocate for using a vector database such as Milvus in a multimodal RAG architecture, and what specific advantages does it provide over traditional storage or indexing approaches when handling diverse data types like images, audio, and text?",
+        "answer": "The speaker highlights that vector databases are essential for managing and retrieving embeddings generated from multimodal inputs. Unlike traditional relational or document stores that index raw data, a vector database stores high\u2011dimensional embeddings that capture the semantic meaning of images, audio, and text in a unified space. This enables fast nearest\u2011neighbor searches across all modalities, allowing the RAG system to retrieve the most relevant pieces of information regardless of their original format. By using Milvus, the system can efficiently handle large volumes of embeddings, support real\u2011time retrieval, and scale to the performance demands of multimodal queries, which would be difficult with conventional indexing mechanisms that are text\u2011centric.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/deploy-multimodal-rag-systems-vllm",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/deploy-multimodal-rag-systems-vllm_q2_medium",
+        "question": "What are the primary trade\u2011offs when applying performance\u2011optimisation techniques such as parallelism and dynamic batching in a deployed multimodal RAG system, and how do these techniques influence latency, throughput, and resource utilisation?",
+        "answer": "Parallelism and dynamic batching are presented as ways to improve latency and throughput for real\u2011time multimodal RAG workloads. Parallelism allows multiple inference requests to be processed simultaneously, boosting overall throughput but increasing CPU/GPU utilisation and potentially leading to contention for shared resources. Dynamic batching groups incoming queries into larger batches, reducing per\u2011request overhead and improving GPU utilisation, which can lower average latency for high\u2011volume traffic. However, batching can introduce additional waiting time for individual requests, especially when traffic is sparse, potentially increasing tail latency. Therefore, architects must balance the desire for higher throughput against the risk of higher resource consumption and variable latency, tuning batch size and parallelism levels to match the expected request patterns and SLAs.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/deploy-multimodal-rag-systems-vllm",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

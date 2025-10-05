@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/developing-metas-orion-ar-glasses_q1_easy",
+        "question": "In which month and year did Meta announce the Orion AR Glasses?",
+        "answer": "September 2024",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/developing-metas-orion-ar-glasses",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/developing-metas-orion-ar-glasses_q2_easy",
+        "question": "How many microcontroller units are used in the Orion AR Glasses for distributed computing and heat management?",
+        "answer": "11",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/developing-metas-orion-ar-glasses",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/developing-metas-orion-ar-glasses_q1_medium",
+        "question": "Why did the Orion AR Glasses architecture adopt a system of 11 microcontroller units for distributed computing instead of a single high\u2011performance processor, and how does this decision help balance performance, thermal efficiency, and device weight?",
+        "answer": "The presentation explains that Orion uses a \"system of 11 microcontroller units for distributed computing and heat management.\" By spreading the workload across many small MCUs, the design avoids concentrating heat in one spot, which would require larger heat\u2011sinks or cooling solutions that add bulk and weight. Distributed MCUs can be placed close to the sensors they serve (cameras, eye\u2011tracking, EMG, etc.), reducing data\u2011transfer latency and allowing each unit to run at lower clock speeds, which saves power and extends battery life. The modular approach also lets the engineers scale performance by adding or upgrading individual units without redesigning a monolithic processor, preserving the lightweight form\u2011factor required for glasses. Thus, the multi\u2011MCU strategy directly addresses the three key challenges mentioned: maintaining a lightweight device, managing thermal load, and delivering sufficient performance within battery constraints.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/developing-metas-orion-ar-glasses",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/developing-metas-orion-ar-glasses_q2_medium",
+        "question": "How do the combined choices of micro\u2011LED projectors located in the temples, custom waveguide technology, and silicon\u2011carbide lenses enable Orion to provide a wide field of view while keeping the glasses lightweight and preserving image quality?",
+        "answer": "Orion\u2019s optical stack uses micro\u2011LEDs placed in the temples, which are small, low\u2011power light sources that free up space in the front of the glasses. Custom waveguides channel the light from these LEDs across the lens surface to the user\u2019s eye, allowing the optical path to be folded into a thin, transparent medium rather than bulky lenses. Silicon\u2011carbide lenses then precisely control the photon path, correcting for distortion and ensuring that the projected image remains sharp across a large angular range. Because the waveguide and silicon\u2011carbide optics are thin and can be integrated into the existing lens material, they add minimal mass, preserving the lightweight design. At the same time, the high brightness of micro\u2011LEDs and the accurate photon steering of the silicon\u2011carbide lenses deliver a bright, high\u2011resolution image over a wide field of view, meeting the visual performance goals without sacrificing ergonomics.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/developing-metas-orion-ar-glasses",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

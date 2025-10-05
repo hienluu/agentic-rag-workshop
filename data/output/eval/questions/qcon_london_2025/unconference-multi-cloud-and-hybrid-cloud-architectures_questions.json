@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-multi-cloud-and-hybrid-cloud-architectures_q1_easy",
+        "question": "When was the \"Unconference: Multi-Cloud and Hybrid Cloud Architectures\" session scheduled to start and how long was it slated to run?",
+        "answer": "Tuesday Apr 8 / 01:35PM BST (50 minutes)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-multi-cloud-and-hybrid-cloud-architectures",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-multi-cloud-and-hybrid-cloud-architectures_q2_easy",
+        "question": "Who presented the session titled \"Hybrid Cloud-Native Networking in Enterprise - Some Assembly Required\"?",
+        "answer": "Louis Ryan, CTO @solo.io, Co-Creator of Istio and gRPC",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-multi-cloud-and-hybrid-cloud-architectures",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-multi-cloud-and-hybrid-cloud-architectures_q1_medium",
+        "question": "How do the design considerations for building distributed event\u2011driven architectures across multi\u2011cloud boundaries differ from those for constructing resilient, mission\u2011critical platforms, and what trade\u2011offs might architects need to evaluate when choosing strategies for each scenario?",
+        "answer": "The event\u2011driven architecture talk emphasizes implementing patterns across cloud boundaries without sacrificing reliability, which forces architects to grapple with network latency, partition tolerance, and cross\u2011provider data consistency. In contrast, the resilient platform session focuses on long\u2011term stability, security, and scalability for mission\u2011critical workloads (e.g., electronic trading, credit\u2011card processing). Consequently, the event\u2011driven scenario may prioritize loose coupling, eventual consistency, and fault\u2011tolerant messaging fabrics, accepting higher operational complexity to achieve cross\u2011cloud reach. The resilient platform scenario may favor tighter control, strict security zones, and proven, vendor\u2011specific services to guarantee uptime, even if it limits flexibility. Architects must therefore trade off cross\u2011cloud agility versus operational simplicity, and reliability versus performance, when selecting technologies and patterns for each use case.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-multi-cloud-and-hybrid-cloud-architectures",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-multi-cloud-and-hybrid-cloud-architectures_q2_medium",
+        "question": "Based on the themes of the \"Hybrid Cloud\u2011Native Networking in Enterprise\" and \"Things SaaS Builders Keep Getting Wrong\" sessions, what are the common networking pitfalls SaaS teams encounter when operating in hybrid or multi\u2011cloud environments, and how can adopting cloud\u2011native networking practices help mitigate those issues?",
+        "answer": "Both sessions highlight that enterprises struggle to deliver a \"useful\" network amid containerization, regulatory pressure, and multi\u2011cloud mandates. SaaS builders often err by assuming a uniform network across clouds, neglecting latency and security differences, and over\u2011relying on legacy networking models that don\u2019t translate to cloud\u2011native environments. These mistakes lead to performance bottlenecks, increased operational overhead, and potential compliance gaps. By embracing cloud\u2011native networking\u2014such as service meshes (e.g., Istio), gRPC for efficient communication, and abstracted networking layers that work consistently across providers\u2014teams can achieve better observability, automated traffic management, and more resilient cross\u2011cloud connectivity, directly addressing the pitfalls identified.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-multi-cloud-and-hybrid-cloud-architectures",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

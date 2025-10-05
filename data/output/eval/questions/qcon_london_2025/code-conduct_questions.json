@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconferences.com/code-conduct_q1_easy",
+        "question": "What email address should participants use to report harassment or other concerns at QCon?",
+        "answer": "info@qconferences.com",
+        "source_chunk_id": "https://qconferences.com/code-conduct",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconferences.com/code-conduct_q2_easy",
+        "question": "When was the QCon Code of Conduct policy last updated?",
+        "answer": "March 2024",
+        "source_chunk_id": "https://qconferences.com/code-conduct",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconferences.com/code-conduct_q1_medium",
+        "question": "Why does QCon explicitly discourage political and lifestyle\u2011related comments in addition to defining harassment, and how does this design decision support the overall goal of creating a safe, inclusive environment for technical participants?",
+        "answer": "QCon\u2019s Code of Conduct lists harassment categories and then adds a separate discouragement of political and lifestyle comments because such topics are prone to polarisation and can quickly become sources of conflict, even when not overtly harassing. By proactively limiting these discussions, QCon reduces the risk of heated debates that could degrade the collaborative atmosphere, thereby protecting the primary objective of a safe, inclusive space where participants can focus on technical learning and innovation. This design choice balances freedom of expression with the need to maintain a constructive environment, ensuring that conversations stay on\u2011topic and that participants feel comfortable sharing ideas without fear of unrelated personal attacks.",
+        "source_chunk_id": "https://qconferences.com/code-conduct",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconferences.com/code-conduct_q2_medium",
+        "question": "How does the policy of handling harassment complaints internally before resorting to public social\u2011media posts reflect a trade\u2011off between rapid resolution and transparency, and what are the implications of this approach for event organizers and participants?",
+        "answer": "The Code of Conduct advises participants to first report harassment to staff or via email, emphasizing in\u2011person resolution as \"generally faster and ultimately more effective\" before posting publicly. This reflects a trade\u2011off: prioritising swift, confidential handling of incidents can protect privacy and prevent escalation, but it may limit immediate public accountability and transparency. For organizers, this approach allows them to address issues discreetly, manage reputational risk, and maintain control over the narrative. For participants, it offers a clear, private channel that can lead to quicker remediation, yet it requires trust that the organizers will act appropriately, potentially leaving some individuals uneasy if they prefer public visibility of the response. Balancing these factors helps maintain a safe environment while still upholding community trust.",
+        "source_chunk_id": "https://qconferences.com/code-conduct",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

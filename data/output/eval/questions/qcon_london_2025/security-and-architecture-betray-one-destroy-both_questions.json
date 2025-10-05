@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/security-and-architecture-betray-one-destroy-both_q1_easy",
+        "question": "When was Shana Dacres-Lawrence's presentation \"Security and Architecture: To Betray One Is To Destroy Both\" scheduled to take place?",
+        "answer": "Wednesday Apr 9 / 01:35PM BST (50 minutes)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/security-and-architecture-betray-one-destroy-both",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/security-and-architecture-betray-one-destroy-both_q2_easy",
+        "question": "What does the speaker identify as the next big disruption in software?",
+        "answer": "Quantum computing",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/security-and-architecture-betray-one-destroy-both",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/security-and-architecture-betray-one-destroy-both_q1_medium",
+        "question": "How does the notion of \u201cphysical betrayal\u201d illustrate the trade\u2011off between performance (speed) and security, and which defense strategies does the speaker recommend to mitigate this specific risk?",
+        "answer": "Physical betrayal is described as a class of failures that arise when architectural decisions prioritize speed or convenience over security\u2014examples include misconfigurations and the CrowdStrike outage that impacted millions. This trade\u2011off shows that chasing performance without embedding security can create systemic weaknesses that no downstream security controls can fully remediate. To counteract physical betrayal, the speaker proposes a set of defense strategies: (1) open communication to surface security concerns early, (2) adopting tools and technologies that embed security checks into the architectural workflow, (3) automation of compliance and testing to remove manual error, (4) hands\u2011on validation such as penetration testing to verify that performance optimizations have not introduced gaps, and (5) fostering a collaborative culture so that both architects and security engineers jointly evaluate speed\u2011vs\u2011security decisions.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/security-and-architecture-betray-one-destroy-both",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/security-and-architecture-betray-one-destroy-both_q2_medium",
+        "question": "Why does the speaker argue that architecture should both shape security and be guided by security, and how does this bidirectional relationship enable the effective adoption of zero\u2011trust and DevSecOps practices?",
+        "answer": "The speaker emphasizes that flawed architecture creates vulnerabilities that even the strongest security controls cannot fully mitigate, while a well\u2011architected system lacking security is a \u201cticking time bomb.\u201d By letting architecture define the security boundaries (e.g., secure\u2011by\u2011design principles) and allowing security requirements to inform architectural decisions (e.g., threat modeling influencing component layout), a feedback loop is created. This bidirectional alignment ensures that security is baked into the system from the ground up and that architectural choices continuously respect evolving security constraints. Such alignment is the foundation for modern approaches like zero\u2011trust\u2014where every component is assumed hostile unless verified\u2014and DevSecOps, which requires security to be integrated into continuous delivery pipelines. When architecture and security co\u2011evolve, tooling, automation, and cultural practices can be applied consistently, making zero\u2011trust policies and DevSecOps workflows practical and sustainable.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/security-and-architecture-betray-one-destroy-both",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    }
+]

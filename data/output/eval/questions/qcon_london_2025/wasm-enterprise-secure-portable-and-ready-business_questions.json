@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/wasm-enterprise-secure-portable-and-ready-business_q1_easy",
+        "question": "What runtime was highlighted for implementing WebAssembly in Java environments during the presentation?",
+        "answer": "Chicory runtime",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/wasm-enterprise-secure-portable-and-ready-business",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/wasm-enterprise-secure-portable-and-ready-business_q2_easy",
+        "question": "When was the session \"WASM in the Enterprise: Secure, Portable, and Ready for Business\" presented?",
+        "answer": "Tuesday Apr 8 / 01:35PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/wasm-enterprise-secure-portable-and-ready-business",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/wasm-enterprise-secure-portable-and-ready-business_q1_medium",
+        "question": "Why does the presentation advocate using the Chicory runtime to embed WebAssembly in Java applications (e.g., for JRuby or TrinoDB) instead of relying on traditional JVM\u2011based interpreters or native plugins, and what design benefits does this approach provide for enterprise integration?",
+        "answer": "Embedding WebAssembly via the Chicory runtime gives enterprises a portable, language\u2011agnostic binary format that can be sandboxed securely, ensuring that untrusted code cannot affect the host JVM. Because WASM modules are compiled ahead of time to a stable binary, they start up much faster than interpreted languages, addressing the \"slow\u2011starting interpreter\" problem highlighted for TrinoDB UDFs. The approach also avoids the need to maintain separate native builds for each platform, simplifying deployment across heterogeneous environments. By using a single runtime (Chicory) that can be called from Java, developers gain a consistent integration point, reduce the surface area for bugs, and retain the performance benefits of near\u2011native execution while keeping the safety guarantees of the WASM sandbox.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/wasm-enterprise-secure-portable-and-ready-business",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/wasm-enterprise-secure-portable-and-ready-business_q2_medium",
+        "question": "What are the key trade\u2011offs of running WASM sandboxes on the hot path with lazy access to host memory (as described for Debezium) compared to a more eager serialization approach, and how does this design choice impact system performance and complexity?",
+        "answer": "Lazy access to host memory minimizes the amount of data that must be copied or serialized between the host and the WASM sandbox, which reduces latency and CPU overhead on the hot path\u2014critical for high\u2011throughput systems like Debezium. However, this design introduces additional complexity: the runtime must manage safe, zero\u2011copy memory sharing, enforce correct lifetimes, and guard against memory\u2011safety violations that could arise from improper host\u2011memory handling. While the performance gains stem from avoiding unnecessary serialization, the trade\u2011off is a more intricate implementation and potential debugging challenges, as bugs in the memory\u2011sharing layer can be harder to detect than in a straightforward copy\u2011based approach.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/wasm-enterprise-secure-portable-and-ready-business",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

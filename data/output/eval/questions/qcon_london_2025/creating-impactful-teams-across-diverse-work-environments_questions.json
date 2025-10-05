@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/creating-impactful-teams-across-diverse-work-environments_q1_easy",
+        "question": "What is the title of the presentation delivered by Natan \u017dabkar Nordberg?",
+        "answer": "Creating Impactful Teams Across Diverse Work Environments",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/creating-impactful-teams-across-diverse-work-environments",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/creating-impactful-teams-across-diverse-work-environments_q2_easy",
+        "question": "When was Natan \u017dabkar Nordberg's session scheduled (date and time) and on which track was it presented?",
+        "answer": "Tuesday Apr 8 / 11:45AM BST, Track: Building a Culture that Works",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/creating-impactful-teams-across-diverse-work-environments",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/creating-impactful-teams-across-diverse-work-environments_q1_medium",
+        "question": "How does Natan recommend organizations balance a one\u2011size\u2011fits\u2011all cultural policy with team\u2011specific cultural practices, and what are the trade\u2011offs of each approach?",
+        "answer": "Natan argues that culture should be defined and nurtured at the team level rather than imposed uniformly across the organization. A uniform policy is easier to communicate and can provide a clear, shared baseline, but it risks ignoring the unique dynamics, work styles, and values of individual teams, leading to disengagement or ineffective practices. Team\u2011specific cultural practices, on the other hand, allow the culture to evolve organically through everyday actions that reflect the team\u2019s lived experiences, fostering higher trust, inclusion, and performance. The trade\u2011off is that managing many bespoke cultures can increase coordination overhead for leadership and may create inconsistencies that need careful alignment with overall company values.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/creating-impactful-teams-across-diverse-work-environments",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/creating-impactful-teams-across-diverse-work-environments_q2_medium",
+        "question": "Why does Natan stress the intentional inclusion of remote coworkers in cultural activities, and how does this practice influence team effectiveness and the broader goal of building an impactful culture?",
+        "answer": "Natan highlights that remote workers often miss informal interactions that build trust and shared understanding. By intentionally including them\u2014through scheduled check\u2011ins, virtual social moments, and explicit trust\u2011building actions\u2014teams mitigate the risk of remote isolation, ensuring that all members feel valued and heard. This inclusion strengthens psychological safety, improves communication, and leverages the diverse perspectives that remote employees bring, ultimately leading to better decision\u2011making and higher team performance. The broader cultural impact is a more resilient, inclusive culture that does not rely on physical proximity, aligning with the goal of a culture that works across diverse work environments.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/creating-impactful-teams-across-diverse-work-environments",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

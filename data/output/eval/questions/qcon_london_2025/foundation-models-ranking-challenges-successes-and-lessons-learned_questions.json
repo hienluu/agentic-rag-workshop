@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/foundation-models-ranking-challenges-successes-and-lessons-learned_q1_easy",
+        "question": "What is the name of the unified contextual model that powers Netflix's search and recommendation systems as described in the presentation?",
+        "answer": "Unicorn",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/foundation-models-ranking-challenges-successes-and-lessons-learned",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/foundation-models-ranking-challenges-successes-and-lessons-learned_q2_easy",
+        "question": "When and where was Moumita Bhattacharya's talk \"Foundation Models for Ranking: Challenges, Successes, and Lessons Learned\" scheduled?",
+        "answer": "Tuesday Apr 8 / 02:45PM BST in Whittle (3rd Fl.)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/foundation-models-ranking-challenges-successes-and-lessons-learned",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/foundation-models-ranking-challenges-successes-and-lessons-learned_q1_medium",
+        "question": "Why did Netflix choose to develop a single unified contextual foundation model (named\u202f_Unicorn_) for both search and recommendation rather than maintaining separate models for each product area, and what benefits does this design decision provide?",
+        "answer": "The presentation explains that a unified model like\u202f_Unicorn_ reduces the overall maintenance burden because the same code\u2011base, training pipeline, and model updates serve multiple downstream services. By sharing a common representation of user preferences and item semantics, the organization can more easily propagate improvements across search, recommendation, and other product surfaces, leading to faster innovation. Additionally, a single model eliminates duplicated effort in data engineering and model serving, which translates into lower operational costs and a more consistent user experience across the catalog.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/foundation-models-ranking-challenges-successes-and-lessons-learned",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/foundation-models-ranking-challenges-successes-and-lessons-learned_q2_medium",
+        "question": "How does the two\u2011stage ranking architecture help mitigate the computational challenges of training and serving large foundation models, and what trade\u2011offs does this approach introduce regarding latency and relevance of the final results?",
+        "answer": "In a two\u2011stage ranking pipeline the first stage quickly narrows a massive catalog to a manageable candidate set using lightweight models or heuristics. This dramatically cuts the amount of data that the expensive, large\u2011scale transformer\u2011based foundation model must process, thereby easing GPU usage, reducing training and inference cost, and fitting within real\u2011time latency budgets. The trade\u2011off is that the initial pruning step may discard items that could have been highly relevant, potentially lowering recall. Moreover, the extra step of passing candidates through two separate models adds some latency overhead, so system designers must balance the speed gains from reduced compute against the possible loss in relevance and the added complexity of orchestrating two stages.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/foundation-models-ranking-challenges-successes-and-lessons-learned",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

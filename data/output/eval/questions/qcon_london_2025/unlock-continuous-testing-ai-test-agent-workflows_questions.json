@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unlock-continuous-testing-ai-test-agent-workflows_q1_easy",
+        "question": "Who is the speaker for the session titled \"Unlock Continuous Testing with AI Test Agent Workflows\"?",
+        "answer": "Animesh Mishra",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unlock-continuous-testing-ai-test-agent-workflows",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unlock-continuous-testing-ai-test-agent-workflows_q2_easy",
+        "question": "What is the scheduled date and start time (including time zone) for the \"Unlock Continuous Testing with AI Test Agent Workflows\" session?",
+        "answer": "Tuesday Apr 8 / 05:05PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unlock-continuous-testing-ai-test-agent-workflows",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unlock-continuous-testing-ai-test-agent-workflows_q1_medium",
+        "question": "Why might organizations adopt AI\u2011powered unit test generation (e.g., Diffblue Cover) in their continuous testing pipelines, and what trade\u2011offs does this introduce compared to traditional manual test authoring?",
+        "answer": "Organizations adopt AI\u2011powered unit test generation to automate the creation and ongoing management of Java unit tests, which helps keep regression coverage up\u2011to\u2011date with minimal human effort. The AI agents can intelligently prioritize tests based on risk assessment, allowing teams to focus on higher\u2011impact areas while the system handles routine test maintenance. The trade\u2011offs include a reliance on the AI\u2019s correctness and coverage decisions, the possibility of missing nuanced test scenarios that a human engineer would catch, the need for oversight and validation of generated tests, and potential integration overhead with existing CI/CD tooling. In short, the benefit is speed and reduced manual workload, while the cost is added complexity in governance and the risk of over\u2011reliance on automated decisions.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unlock-continuous-testing-ai-test-agent-workflows",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unlock-continuous-testing-ai-test-agent-workflows_q2_medium",
+        "question": "How does the notion of \u201cagentic AI\u201d described in the session shape the design of a continuous testing workflow, and what design considerations are required to achieve minimal human intervention while preserving test quality?",
+        "answer": "Agentic AI refers to autonomous AI agents that can manage an entire test suite, assess risk, generate or update tests, and decide execution order without constant human direction. Designing a workflow around such agents means embedding them into the CI pipeline so they can automatically analyze code changes, evaluate the impact (risk), and produce or adjust unit tests accordingly. Key design considerations include: (1) building reliable risk\u2011assessment models that accurately surface high\u2011impact changes; (2) ensuring generated tests are meaningful, maintainable, and provide sufficient coverage; (3) providing seamless integration points with existing build and deployment tools; (4) establishing monitoring and fallback mechanisms so that edge cases or AI\u2011generated gaps can be caught and corrected; and (5) defining governance policies for test review and versioning to maintain overall test quality. These considerations enable the workflow to reap the benefits of reduced manual effort while safeguarding the integrity of the test suite.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unlock-continuous-testing-ai-test-agent-workflows",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-ii_q1_easy",
+        "question": "Who presented the session titled \"Engineering Excellence at ING: Balance Autonomy with Standardization\"?",
+        "answer": "Daniele Tonella",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-ii",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-ii_q2_easy",
+        "question": "What time (BST) was the session \"Streaming Really Large Data With Flink and Fluss\" scheduled for on Tuesday April 8?",
+        "answer": "02:45PM BST",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-ii",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-ii_q1_medium",
+        "question": "How does balancing engineer autonomy with standardization, as highlighted in ING\u2019s \u201cEngineering Excellence\u201d session, enable faster development and higher customer value, and what are the key trade\u2011offs when an organization leans more heavily toward either autonomy or standardization?",
+        "answer": "The session explains that ING empowers engineers to maximise impact, which accelerates delivery because teams can choose the tools and processes that best fit their problem space (autonomy). At the same time, a baseline of standards (e.g., shared libraries, coding conventions, CI pipelines) ensures consistency, reduces onboarding friction, and protects overall product quality. When autonomy is favoured, teams move quickly but risk divergent implementations, maintenance overhead, and difficulty integrating work across teams. When standardization dominates, the organization gains predictability and easier cross\u2011team collaboration, but may stifle innovation and slow down teams that need to experiment. The optimal balance therefore involves providing enough standards to guarantee interoperability and quality while leaving room for teams to adapt and innovate where it adds the most value.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-ii",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-ii_q2_medium",
+        "question": "Why is the row\u2011oriented approach of sending every event and every field over the network, as described in the \u201cStreaming Really Large Data With Flink and Fluss\u201d session, inefficient for modern large\u2011scale streaming workloads, and what architectural alternatives can reduce this overhead while still supporting flexible streaming pipelines?",
+        "answer": "Row\u2011oriented pipelines transmit the full payload of each event regardless of which fields downstream consumers actually need, leading to unnecessary network traffic, higher latency, and increased storage costs\u2014problems that become acute when data volumes are massive. Modern workloads often require only a subset of fields, so sending the entire row wastes bandwidth and processing power. Architectural alternatives include columnar or field\u2011projected streaming (where only required columns are serialized), push\u2011down filters that drop irrelevant fields at the source, using compact binary formats (e.g., Avro, Protobuf) with schema evolution, and leveraging Fluss\u2019s ability to perform selective data extraction or compression before transmission. These approaches trade a bit of flexibility in schema handling for substantial gains in network efficiency and downstream processing speed.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-ii",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

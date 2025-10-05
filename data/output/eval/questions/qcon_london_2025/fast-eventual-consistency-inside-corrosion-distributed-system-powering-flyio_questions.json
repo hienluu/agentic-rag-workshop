@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/fast-eventual-consistency-inside-corrosion-distributed-system-powering-flyio_q1_easy",
+        "question": "What transport protocol does Corrosion use for efficient data packet exchange between nodes?",
+        "answer": "QUIC Transport Protocol",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/fast-eventual-consistency-inside-corrosion-distributed-system-powering-flyio",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/fast-eventual-consistency-inside-corrosion-distributed-system-powering-flyio_q2_easy",
+        "question": "According to the abstract, what is the reported p99 latency for Corrosion's replication across Fly.io's distributed network?",
+        "answer": "one second",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/fast-eventual-consistency-inside-corrosion-distributed-system-powering-flyio",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/fast-eventual-consistency-inside-corrosion-distributed-system-powering-flyio_q1_medium",
+        "question": "Why did Fly replace Consul with Corrosion, and how do the chosen building blocks (SQLite, CRDTs, SWIM gossip, and QUIC) collectively address the scalability and consistency challenges that motivated this migration?",
+        "answer": "Consul was found to be a bottleneck for Fly\u2019s rapidly growing, globally distributed platform because it could not scale efficiently while providing the fast, low\u2011latency data dissemination required for service discovery. Corrosion was introduced to overcome these limits. SQLite gives each node a lightweight, local persistent store, eliminating the need for a central database and reducing read/write latency. CRDTs allow independent updates on different nodes to be merged without coordination, providing fast eventual consistency and avoiding write conflicts that would otherwise require a consensus protocol. The SWIM gossip protocol efficiently tracks cluster membership, ensuring every node quickly learns about peers and their health without a heavyweight coordination service. Finally, QUIC supplies a modern, multiplexed transport that reduces round\u2011trip times and handles packet loss gracefully, further speeding up inter\u2011node communication. Together, these components give Corrosion the horizontal scalability and rapid consistency guarantees that Consul could not provide.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/fast-eventual-consistency-inside-corrosion-distributed-system-powering-flyio",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/fast-eventual-consistency-inside-corrosion-distributed-system-powering-flyio_q2_medium",
+        "question": "How does Corrosion\u2019s architecture embody a particular choice on the CAP theorem, and what are the practical consequences of prioritizing availability and partition tolerance over immediate consistency for Fly.io\u2019s production workloads?",
+        "answer": "Corrosion is deliberately designed as an AP (Availability + Partition tolerance) system. By using CRDTs for state replication, it accepts that replicas may temporarily diverge, guaranteeing that writes can succeed even when network partitions occur. This ensures the platform remains available and responsive, which is critical for Fly.io\u2019s globally distributed services that must continue operating despite intermittent connectivity. The trade\u2011off is that reads may return stale data until the replicas converge, but the p99 latency of about one second shows that convergence happens quickly enough for the use\u2011cases (e.g., service discovery, machine metadata) where eventual consistency is acceptable. Thus, the architecture sacrifices strict, immediate consistency in favor of keeping the system up and responsive under failure conditions, aligning with Fly.io\u2019s need for high availability across many edge nodes.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/fast-eventual-consistency-inside-corrosion-distributed-system-powering-flyio",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

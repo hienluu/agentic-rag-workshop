@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/building-resilient-platforms-insights-20-years-mission-critical-infrastructure_q1_easy",
+        "question": "What are the three non\u2011negotiable aspects of platform design that Matthew Liste refers to as the \"Three S's\"?",
+        "answer": "Stability, security, and scalability",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/building-resilient-platforms-insights-20-years-mission-critical-infrastructure",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/building-resilient-platforms-insights-20-years-mission-critical-infrastructure_q2_easy",
+        "question": "When was Matthew Liste's session \"Building Resilient Platforms: Insights from 20+ Years in Mission\u2011Critical Infrastructure\" scheduled to take place?",
+        "answer": "Tuesday Apr 8 / 11:45AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/building-resilient-platforms-insights-20-years-mission-critical-infrastructure",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/building-resilient-platforms-insights-20-years-mission-critical-infrastructure_q1_medium",
+        "question": "Why does Matthew Liste stress the use of standardized, interchangeable components (likened to Lego blocks) and open\u2011source technologies in mission\u2011critical platforms, and how do these choices help achieve the \u201cThree S\u2019s\u201d (stability, security, scalability) while avoiding undifferentiated heavy lifting?",
+        "answer": "Standardized, interchangeable components reduce the amount of unique, bespoke code that must be built, tested, and maintained. By treating parts of the platform as Lego\u2011like blocks, teams can replace or upgrade pieces without rippling changes through the whole system, which directly improves **stability** (fewer obscure failure modes) and **scalability** (blocks can be replicated or swapped out to meet load). Open\u2011source technologies further this goal: they are already vetted by large communities, receive frequent security patches, and avoid the need to reinvent common tooling\u2014addressing **security** and eliminating **undifferentiated heavy lifting**. Together, these practices let the platform focus engineering effort on unique business value rather than on re\u2011creating generic infrastructure, satisfying all three non\u2011negotiable aspects.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/building-resilient-platforms-insights-20-years-mission-critical-infrastructure",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/building-resilient-platforms-insights-20-years-mission-critical-infrastructure_q2_medium",
+        "question": "How does the notion of \u201cevergreen systems\u201d reconcile the need for continuous innovation with the requirement to avoid customer disruption in financial\u2011services platforms, and what design or operational practices enable this balance according to the talk?",
+        "answer": "An evergreen system is one that is kept continuously up\u2011to\u2011date without taking the service offline. This is achieved through a modular architecture where individual components can be upgraded or replaced independently, combined with automated testing, canary or blue\u2011green deployments, and robust CI/CD pipelines. By decoupling services and using standardized blocks (the \u201cLego\u201d approach), new features or security patches can be rolled out incrementally, ensuring **continuous innovation** while preserving **stability** and **security** for end users. The speaker also highlights a culture of empowerment and automation, which encourages teams to own their services and push changes safely, further reducing the risk of client\u2011visible disruption.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/building-resilient-platforms-insights-20-years-mission-critical-infrastructure",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    }
+]

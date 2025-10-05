@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/data-backbone-llm-systems_q1_easy",
+        "question": "What are the four dimensions of an LLM application highlighted in Paul Iusztin's presentation?",
+        "answer": "code, data, models, and prompts",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/data-backbone-llm-systems",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/data-backbone-llm-systems_q2_easy",
+        "question": "On what date and time was the session \"The Data Backbone of LLM Systems\" scheduled?",
+        "answer": "Wednesday Apr 9 / 02:45PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/data-backbone-llm-systems",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/data-backbone-llm-systems_q1_medium",
+        "question": "Why does Paul emphasize the need for a dedicated data registry (and model registry) in LLM/RAG systems instead of relying solely on traditional code version\u2011control practices?",
+        "answer": "In LLM applications the data that feeds training, fine\u2011tuning, and retrieval\u2011augmented generation directly influences model behavior and output quality. Unlike source code, data sets evolve rapidly, are large, and often need to be shared across multiple pipelines (feature extraction, training, inference). A dedicated data registry provides versioning, provenance, and discoverability of these data assets, enabling reproducibility and observability from the start. This complements code version control, which alone cannot capture the nuances of data lineage, transformations, or the coupling between data and model versions, which is critical for reliable LLM and RAG deployments.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/data-backbone-llm-systems",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/data-backbone-llm-systems_q2_medium",
+        "question": "How does the feature\u202f/\u202ftraining\u202f/\u202finference architecture pattern help balance simplicity and scalability when designing the data layer for an LLM Twin or a Second Brain AI Assistant?",
+        "answer": "The pattern separates the data flow into three clear stages: feature extraction pipelines, training pipelines, and inference pipelines. This separation enforces simplicity by giving each stage a well\u2011defined responsibility and a clean interface, making the system easier to understand, test, and observe. At the same time, it supports scalability because each stage can be independently optimized or scaled (e.g., using distributed storage for features, parallel training clusters, or low\u2011latency vector stores for inference). The trade\u2011off is that additional plumbing (data contracts, versioning, and orchestration) is required, but the benefits\u2014reproducibility, modularity, and the ability to swap components without breaking the whole system\u2014outweigh the overhead for production\u2011grade LLM applications.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/data-backbone-llm-systems",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

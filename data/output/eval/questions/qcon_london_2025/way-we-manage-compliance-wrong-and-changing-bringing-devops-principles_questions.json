@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/way-we-manage-compliance-wrong-and-changing-bringing-devops-principles_q1_easy",
+        "question": "What is the name of the open\u2011source initiative that aims to automate compliance checks mentioned in the presentation?",
+        "answer": "Continuous Compliance Framework (CCF)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/way-we-manage-compliance-wrong-and-changing-bringing-devops-principles",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/way-we-manage-compliance-wrong-and-changing-bringing-devops-principles_q2_easy",
+        "question": "When was Ian Miell's session \"The Way We Manage Compliance Is Wrong\u2026 And Is Changing! Bringing DevOps Principles to Controls and Audit\" scheduled?",
+        "answer": "Wednesday Apr 9 / 01:35PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/way-we-manage-compliance-wrong-and-changing-bringing-devops-principles",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/way-we-manage-compliance-wrong-and-changing-bringing-devops-principles_q1_medium",
+        "question": "Why does the speaker consider traditional, manual compliance processes incompatible with agile methodologies, and how does the Continuous Compliance Framework (CCF) resolve this incompatibility?",
+        "answer": "Traditional compliance audits are described as manual, process\u2011focused, and periodic, which means they provide only snapshot evidence and cannot keep pace with the rapid, iterative changes characteristic of agile development. This lack of real\u2011time, consistent assurance makes it impossible to embed compliance checks into continuous delivery pipelines. The CCF addresses the mismatch by automating GRC checks, integrating directly with the tools and platforms used in development, and delivering continuous, real\u2011time compliance feedback. By turning compliance into a programmable, observable activity, the framework enables organizations to maintain assurance without breaking the flow of agile work.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/way-we-manage-compliance-wrong-and-changing-bringing-devops-principles",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/way-we-manage-compliance-wrong-and-changing-bringing-devops-principles_q2_medium",
+        "question": "What are the primary trade\u2011offs and challenges of adopting an open\u2011source, standards\u2011based solution like the Continuous Compliance Framework (built on OSCAL) in large, regulated enterprises, and what strategies can organizations employ to mitigate these challenges?",
+        "answer": "Adopting an open\u2011source, OSCAL\u2011based framework brings several benefits\u2014standardised control definitions, community\u2011driven innovation, and the ability to automate compliance across hybrid cloud environments. However, the trade\u2011offs include the conservative nature of large institutions that may be reluctant to trust external code, the need to align rapidly evolving open standards with existing regulatory mandates (e.g., DORA), and the effort required to develop and maintain integrations with legacy systems. To mitigate these issues, organizations can start with incremental pilots, invest in custom plugins that bridge gaps to legacy tools, actively participate in the open\u2011source community to influence roadmap and compliance coverage, and align adoption timelines with regulatory change cycles, ensuring that governance, risk, and audit teams are involved early in the process.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/way-we-manage-compliance-wrong-and-changing-bringing-devops-principles",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    }
+]

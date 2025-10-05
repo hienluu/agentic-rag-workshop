@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/things-saas-builders-keep-getting-wrong_q1_easy",
+        "question": "Who is the speaker of the session titled \"Things SaaS Builders Keep Getting Wrong\"?",
+        "answer": "Jon Topper",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/things-saas-builders-keep-getting-wrong",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 1.0,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/things-saas-builders-keep-getting-wrong_q2_easy",
+        "question": "What track was the session \"Things SaaS Builders Keep Getting Wrong\" listed under?",
+        "answer": "Multi-Cloud and Hybrid Cloud Architectures",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/things-saas-builders-keep-getting-wrong",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 1.0,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/things-saas-builders-keep-getting-wrong_q1_medium",
+        "question": "Why does Jon Topper advise against building a multicloud solution for SaaS, and how does concentrating on specific cloud services help avoid architectural duplication while still meeting scalability and reliability requirements?",
+        "answer": "Topper points out that trying to support multiple clouds adds unnecessary complexity to the architecture because each cloud often provides its own set of services that need to be integrated and managed separately. This leads to duplicated effort\u2014building the same capability multiple times for different providers\u2014 and makes the system harder to operate and evolve. By focusing on a single cloud (or a well\u2011chosen subset of clouds) and leveraging its high\u2011level managed services, a SaaS team can take advantage of built\u2011in scalability, reliability, and operational tooling without reinventing those capabilities for each provider. The resulting architecture is simpler, easier to automate, and more cost\u2011effective, while still being able to scale because the chosen cloud\u2019s services are designed for that purpose.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/things-saas-builders-keep-getting-wrong",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/things-saas-builders-keep-getting-wrong_q2_medium",
+        "question": "How does incorporating tenancy concepts from the start of an application\u2019s design affect later stages such as automated tenant provisioning and the development of a control plane, and what problems might arise if tenancy is deferred?",
+        "answer": "When tenancy is baked into the data model early\u2014using techniques like separate schemas or tenant\u2011specific foreign keys\u2014it creates a clear boundary for each customer\u2019s data. This clarity makes it possible to automate tenant lifecycle actions (provisioning, de\u2011provisioning, scaling) because the system can programmatically create, configure, and isolate resources based on the tenancy model. A well\u2011defined tenancy also gives the control plane a reliable way to orchestrate billing, monitoring, and automation tasks, because it knows exactly which resources belong to which tenant. If tenancy is added later, the data model may be tangled, requiring costly migrations, manual data segregation, and ad\u2011hoc scripts, which become bottlenecks as the customer base grows and can compromise security and compliance.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/things-saas-builders-keep-getting-wrong",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

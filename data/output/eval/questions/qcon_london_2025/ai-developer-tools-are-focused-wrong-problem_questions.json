@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ai-developer-tools-are-focused-wrong-problem_q1_easy",
+        "question": "What is the title of Dennis Pilarinos's session and at what time (BST) was it scheduled?",
+        "answer": "AI Developer Tools Are Focused on the Wrong Problem \u2013 Monday Apr 7 / 05:05PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ai-developer-tools-are-focused-wrong-problem",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ai-developer-tools-are-focused-wrong-problem_q2_easy",
+        "question": "Which collaboration and development tools are mentioned as sources of codebase context in the abstract?",
+        "answer": "Confluence, Slack, Notion, Jira, Linear, GitHub",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ai-developer-tools-are-focused-wrong-problem",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ai-developer-tools-are-focused-wrong-problem_q1_medium",
+        "question": "Why does Dennis Pilarinos claim that most AI developer tools are targeting the wrong problem, and how does Unblocked\u2019s design specifically address the underlying productivity bottleneck he identifies?",
+        "answer": "Pilarinos argues that the primary productivity loss for developers is not the act of writing code but the time spent locating the right context about how a codebase works\u2014information that is scattered across tools such as Confluence, Slack, Notion, Jira, Linear, and GitHub. Current AI tools focus on generating or completing code, which does not help with this contextual search. Unblocked tackles the root cause by aggregating the knowledge stored in all those disparate systems and exposing it through a unified, AI\u2011augmented query interface. This lets developers ask natural\u2011language questions and receive answers that include historical decisions, discussions, and documentation without having to interrupt teammates or schedule meetings, thereby directly reducing the time spent on context\u2011gathering.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ai-developer-tools-are-focused-wrong-problem",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ai-developer-tools-are-focused-wrong-problem_q2_medium",
+        "question": "What are the key trade\u2011offs and challenges involved in building a platform like Unblocked that pulls data from many heterogeneous sources (e.g., Confluence, Slack, GitHub), and how might these affect its ability to deliver fast, accurate answers?",
+        "answer": "Integrating data from a wide variety of sources introduces several trade\u2011offs: \u2022 **Data consistency and freshness** \u2013 keeping the indexed knowledge up\u2011to\u2011date across fast\u2011changing repositories can increase indexing latency or require complex sync mechanisms. \u2022 **Security and privacy** \u2013 aggregating internal discussions and code raises concerns about access control, requiring fine\u2011grained permissions and possibly limiting what can be exposed to the AI layer. \u2022 **Performance vs coverage** \u2013 indexing large volumes of unstructured text improves answer completeness but can degrade query response time; designers must balance the depth of the knowledge base with acceptable latency. \u2022 **Schema heterogeneity** \u2013 different tools store information in varied formats, so normalising this data adds engineering overhead and may lead to loss of nuance. These challenges affect the platform\u2019s effectiveness by potentially introducing stale or incomplete answers, increasing response times, or restricting access to sensitive information, all of which must be managed through careful architecture and operational policies.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ai-developer-tools-are-focused-wrong-problem",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

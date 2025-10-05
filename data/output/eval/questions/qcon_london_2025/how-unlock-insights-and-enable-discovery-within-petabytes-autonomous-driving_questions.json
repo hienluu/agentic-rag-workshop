@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-unlock-insights-and-enable-discovery-within-petabytes-autonomous-driving_q1_easy",
+        "question": "Which workflow orchestration platform is mentioned as part of the technical infrastructure for scalable data processing?",
+        "answer": "Flyte workflows",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-unlock-insights-and-enable-discovery-within-petabytes-autonomous-driving",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-unlock-insights-and-enable-discovery-within-petabytes-autonomous-driving_q2_easy",
+        "question": "On what date and time was the session \"How to Unlock Insights and Enable Discovery Within Petabytes of Autonomous Driving Data\" scheduled?",
+        "answer": "Tuesday Apr 8 / 05:05PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-unlock-insights-and-enable-discovery-within-petabytes-autonomous-driving",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-unlock-insights-and-enable-discovery-within-petabytes-autonomous-driving_q1_medium",
+        "question": "Why does Wayve\u2019s pipeline rely on foundation models and embeddings for data discovery and labeling instead of traditional rule\u2011based or keyword indexing approaches?",
+        "answer": "The talk explains that foundation models and embeddings provide a semantic representation of video frames and scenes, enabling similarity\u2011based search that can retrieve relevant driving scenarios even when exact keywords are absent. This semantic search scales to petabytes of data, supports auto\u2011labeling and clustering without manual effort, and works across modalities (vision\u2011language). Traditional rule\u2011based or keyword indexing would require exhaustive hand\u2011crafted rules, struggle with the diversity of driving scenes, and would not support the active\u2011learning loops needed to refine lightweight classifiers. Hence, embeddings are chosen to improve discovery speed, labeling efficiency, and to handle rare edge cases more effectively.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-unlock-insights-and-enable-discovery-within-petabytes-autonomous-driving",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-unlock-insights-and-enable-discovery-within-petabytes-autonomous-driving_q2_medium",
+        "question": "What are the key trade\u2011offs involved in moving from centralized similarity\u2011search pipelines to on\u2011device edge filtering for autonomous\u2011driving data, as suggested for future applications?",
+        "answer": "On\u2011device edge filtering aims to reduce storage and bandwidth by capturing only the most interesting scenarios in real time, which can dramatically cut downstream processing costs. However, this approach introduces trade\u2011offs: edge devices have limited compute and memory, restricting the size and complexity of the foundation models that can run locally; there is a risk of missing valuable data if the on\u2011device model\u2019s recall is insufficient; and maintaining model updates across a fleet adds operational complexity. In contrast, a centralized pipeline can leverage larger models and more extensive resources for higher accuracy but incurs higher storage, transfer, and latency costs. The decision therefore balances the benefits of data reduction and real\u2011time insight against constraints on model performance and operational overhead.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-unlock-insights-and-enable-discovery-within-petabytes-autonomous-driving",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

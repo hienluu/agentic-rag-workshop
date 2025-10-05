@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-future-human-code-healthcare_q1_easy",
+        "question": "What is the title of the panel that took place on Monday Apr 7 at 03:55\u202fPM BST?",
+        "answer": "The Future of Human Code in Healthcare",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-future-human-code-healthcare",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-future-human-code-healthcare_q2_easy",
+        "question": "In which location (building and floor) was the panel \"The Future of Human Code in Healthcare\" held?",
+        "answer": "Windsor (5th Fl.)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-future-human-code-healthcare",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-future-human-code-healthcare_q1_medium",
+        "question": "How might the discussion in the panel \"The Future of Human Code in Healthcare\" build on the challenges and lessons highlighted in the adjacent sessions on AI\u2011powered healthcare products and scaling primary\u2011care systems, and what design trade\u2011offs would senior engineers need to consider when integrating human\u2011written code with increasingly autonomous AI components?",
+        "answer": "The panel is positioned within a Health Tech track that also includes sessions on shipping AI\u2011powered healthcare products and scaling primary\u2011care platforms. Those sessions emphasize practical strategies for safety, reliability, and managing rapid growth. Consequently, the panel is likely to explore how traditional human\u2011written code must evolve to coexist with autonomous AI models\u2014balancing maintainability and auditability of human code against the performance and adaptability benefits of AI. Senior engineers would need to consider trade\u2011offs such as: (1) ensuring deterministic behavior for regulatory compliance versus leveraging probabilistic AI outputs; (2) preserving clear code ownership and documentation while integrating black\u2011box models; (3) designing modular interfaces that allow safe swapping of AI components without breaking core system logic; and (4) managing latency and scalability when AI services are introduced into existing codebases. These considerations synthesize the safety\u2011first mindset from the AI\u2011product session with the scalability challenges discussed in the primary\u2011care case study.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-future-human-code-healthcare",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-future-human-code-healthcare_q2_medium",
+        "question": "Given the range of topics in the Health Tech track\u2014from AI\u2011driven symptom checkers to large\u2011scale primary\u2011care system evolution\u2014what best\u2011practice principles are likely to be advocated for maintaining code quality and regulatory compliance as healthcare solutions become more AI\u2011centric, and why are these principles critical for future deployments?",
+        "answer": "Across the listed sessions, a common thread is the need to deliver AI\u2011enhanced functionality while adhering to strict healthcare regulations. Best\u2011practice principles that would be advocated include: (1) rigorous testing pipelines that combine unit tests for human code with validation suites for AI model behavior; (2) continuous monitoring and logging of AI decisions to provide audit trails required for compliance; (3) clear separation of concerns\u2014keeping deterministic business logic in human code and encapsulating AI inference behind well\u2011defined interfaces; (4) employing version control and model governance to track changes in both code and AI models. These principles are critical because they ensure that as AI components become more pervasive, the overall system remains transparent, safe, and can be inspected by regulators, thereby protecting patient safety and enabling trustworthy scaling of healthcare technologies.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-future-human-code-healthcare",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.89,
+        "human_validated": false
+    }
+]

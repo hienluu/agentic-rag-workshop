@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-api-independence-mocking-contract-testing-observability-large_q1_easy",
+        "question": "Who presented the talk titled \"Scaling API Independence: Mocking, Contract Testing & Observability in Large Microservices Environments\"?",
+        "answer": "Tom Akehurst",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-api-independence-mocking-contract-testing-observability-large",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-api-independence-mocking-contract-testing-observability-large_q2_easy",
+        "question": "On which track was Tom Akehurst's session scheduled?",
+        "answer": "Connecting Systems: APIs, Protocols, Observability",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-api-independence-mocking-contract-testing-observability-large",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-api-independence-mocking-contract-testing-observability-large_q1_medium",
+        "question": "Why does Tom Akehurst advocate for combining mocking, contract testing, and API observability rather than relying on any single technique to achieve API independence at scale?",
+        "answer": "He argues that each technique addresses a different limitation: mocking decouples services but mock implementations can drift from real APIs; contract testing provides a syntactic description of the API but lacks behavioral context; observability captures real interactions (both active and passive) to validate that contracts and mocks reflect actual behavior. By integrating the three, teams can continuously validate mocks against live traffic, ensure contracts remain behaviorally accurate, and quickly detect drift, thereby improving productivity and reliability in large micro\u2011service environments.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-api-independence-mocking-contract-testing-observability-large",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-api-independence-mocking-contract-testing-observability-large_q2_medium",
+        "question": "What are the trade\u2011offs involved in using AI/LLM\u2011generated mock data to enhance API simulations, and how does Tom suggest mitigating the associated risks?",
+        "answer": "AI\u2011generated mock data can dramatically speed up the creation and maintenance of realistic mocks, reducing manual effort and keeping simulations in sync with evolving APIs. However, the trade\u2011off is the potential for inaccurate or biased data that does not reflect real production behavior, which could lead to false confidence in tests. Tom mitigates this risk by pairing AI\u2011generated mocks with existing contract\u2011testing infrastructure and continuous observability: the contracts enforce structural correctness, while traffic observation validates that the AI\u2011produced behavior matches real interactions, providing a feedback loop to correct any AI\u2011induced errors.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-api-independence-mocking-contract-testing-observability-large",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/resilient-engineering-practices-security-against-modern-threats_q1_easy",
+        "question": "Who presented the session titled \"Secure by Design: Building Security into Engineering Workflows and Teams\"?",
+        "answer": "Stefania Chaplin \u2013 Founder & CEO @DevStefOps, Previously Solutions Architect @GitLab, AWS Certified Security - Speciality",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/resilient-engineering-practices-security-against-modern-threats",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/resilient-engineering-practices-security-against-modern-threats_q2_easy",
+        "question": "At what time (date and BST) was the session \"Trust No One: Securing the Modern Software Supply Chain with Zero Trust\" scheduled?",
+        "answer": "Tuesday Apr 8 / 01:35PM BST",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/resilient-engineering-practices-security-against-modern-threats",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/resilient-engineering-practices-security-against-modern-threats_q1_medium",
+        "question": "Why does the session \u201cSecure by Design: Building Security into Engineering Workflows and Teams\u201d present security as an *enabler* rather than a blocker, and what design decisions are recommended to achieve this shift?",
+        "answer": "The session frames security as an enabler because it advocates embedding security checks directly into the engineering pipeline and fostering a culture of shared ownership. By integrating automated security testing, code\u2011review policies, and clear responsibility for security within development teams, security activities become part of the normal workflow instead of a separate, interruptive step. This design decision\u2014shifting security left, using tooling that runs in CI/CD, and encouraging collaboration between developers and security practitioners\u2014means security issues are identified early, reducing re\u2011work and downtime, and allowing teams to ship faster while maintaining a strong security posture.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/resilient-engineering-practices-security-against-modern-threats",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/resilient-engineering-practices-security-against-modern-threats_q2_medium",
+        "question": "What are the primary trade\u2011offs of adopting a Zero Trust model for the modern software supply chain, as highlighted in the \u201cTrust No One: Securing the Modern Software Supply Chain with Zero Trust\u201d session, compared with traditional perimeter\u2011based defenses?",
+        "answer": "Zero Trust treats every component of the supply chain\u2014CI/CD pipelines, dependencies, container images\u2014as untrusted, requiring continuous verification and strict access controls. The trade\u2011offs include increased complexity and operational overhead because organizations must deploy additional identity, policy, and monitoring tools, and may experience latency from constant authentication checks. However, this approach dramatically reduces the risk of a compromised element propagating through the pipeline, which traditional perimeter defenses often miss. In contrast, perimeter\u2011based models are simpler and less costly but assume internal components are trustworthy, leaving the supply chain vulnerable to insider threats and compromised third\u2011party artifacts.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/resilient-engineering-practices-security-against-modern-threats",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

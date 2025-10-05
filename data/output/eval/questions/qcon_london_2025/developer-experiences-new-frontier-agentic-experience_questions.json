@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/developer-experiences-new-frontier-agentic-experience_q1_easy",
+        "question": "Who is the speaker for the session titled \"Developer Experience\u2019s New Frontier: Agentic Experience\"?",
+        "answer": "Nolan Di Mare Sullivan, Head of Developer Relations @Speakeasy",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/developer-experiences-new-frontier-agentic-experience",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/developer-experiences-new-frontier-agentic-experience_q2_easy",
+        "question": "When was the session \"Developer Experience\u2019s New Frontier: Agentic Experience\" scheduled to take place?",
+        "answer": "Wednesday Apr 9 at 10:35\u202fAM BST (50 minutes)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/developer-experiences-new-frontier-agentic-experience",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/developer-experiences-new-frontier-agentic-experience_q1_medium",
+        "question": "Why does the abstract claim that future success depends on being AI\u2011friendly, and how does this shift the focus of traditional developer experience toward the emerging \u201cAgentic Experience\u201d?",
+        "answer": "The abstract states that AI agents will increasingly programmatically consume business services, creating a new class of consumers that operate without human intervention. Organizations that design their APIs, SDKs, and tooling to be easily discoverable, stable, and machine\u2011readable will capture this emerging traffic and gain a competitive edge, whereas those that ignore agents risk missing out on significant usage. This shifts developer experience from being solely about human developers to also encompassing agents, requiring design decisions such as explicit contracts, automated onboarding, and robust tooling that can be consumed by autonomous software.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/developer-experiences-new-frontier-agentic-experience",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/developer-experiences-new-frontier-agentic-experience_q2_medium",
+        "question": "What are the potential trade\u2011offs an organization might encounter when implementing the concrete steps to become AI\u2011friendly (e.g., robust SDKs, Terraform providers, REST tooling), and how could these trade\u2011offs impact existing developer workflows?",
+        "answer": "Making services AI\u2011friendly often involves formalising APIs, enforcing stricter versioning, providing machine\u2011readable documentation, and delivering stable SDKs or Terraform providers. These actions increase upfront engineering effort and can reduce the flexibility to iterate quickly, leading to higher short\u2011term costs and potentially slower release cycles. However, they improve reliability and predictability for AI agents, lowering long\u2011term maintenance burdens. Existing developers may need to adapt to tighter contracts and more rigorous testing, balancing the desire for rapid innovation against the need for stability and consistency required by autonomous agents.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/developer-experiences-new-frontier-agentic-experience",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.9,
+        "human_validated": false
+    }
+]

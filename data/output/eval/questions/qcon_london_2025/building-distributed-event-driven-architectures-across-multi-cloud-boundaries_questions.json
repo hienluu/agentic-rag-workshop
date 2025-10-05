@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/building-distributed-event-driven-architectures-across-multi-cloud-boundaries_q1_easy",
+        "question": "What dedicated link services were mentioned as solutions for achieving low\u2011latency connections in multi\u2011cloud environments?",
+        "answer": "Azure's ExpressRoute and AWS's Direct Connect.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/building-distributed-event-driven-architectures-across-multi-cloud-boundaries",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/building-distributed-event-driven-architectures-across-multi-cloud-boundaries_q2_easy",
+        "question": "On what date and time was the session \"Building Distributed Event\u2011Driven Architectures Across Multi\u2011Cloud Boundaries\" scheduled?",
+        "answer": "Tuesday Apr 8 / 10:35AM BST.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/building-distributed-event-driven-architectures-across-multi-cloud-boundaries",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/building-distributed-event-driven-architectures-across-multi-cloud-boundaries_q1_medium",
+        "question": "How does the combination of sequence numbers and deferred processing at the subscriber level help maintain event\u2011ordering consistency across multi\u2011cloud boundaries, and what trade\u2011offs does this approach introduce compared to relying solely on a cloud provider\u2019s native ordering guarantees?",
+        "answer": "Using sequence numbers embeds an explicit order in each event, allowing subscribers to detect out\u2011of\u2011order arrivals that are common when messages traverse different clouds and networks. Deferred processing lets the subscriber buffer events until the missing earlier sequence numbers arrive, then processes them in the correct order. This decouples ordering from the transport layer, so the system remains robust even if the underlying cloud services (e.g., Azure Event Hubs, AWS Kinesis) provide only per\u2011partition ordering or no ordering at all across regions. The trade\u2011offs include added subscriber complexity (state management, buffering logic), increased latency while waiting for missing events, and potential storage overhead for the buffer. In contrast, relying on native provider guarantees simplifies the consumer but can\u2019t guarantee global ordering across cloud boundaries, leading to inconsistent state or race conditions in a distributed system.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/building-distributed-event-driven-architectures-across-multi-cloud-boundaries",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/building-distributed-event-driven-architectures-across-multi-cloud-boundaries_q2_medium",
+        "question": "Why does the speaker recommend a layered\u2011defense strategy against duplicate events, and how do idempotent event handling together with unique schemas enhance overall resilience in a multi\u2011cloud event\u2011driven architecture?",
+        "answer": "Duplicate events can arise from retries, network glitches, or cross\u2011cloud fail\u2011over scenarios, and a single line of defense may miss some duplicates. A layered approach\u2014detecting duplicates early (e.g., at the ingress gateway), enforcing idempotent processing in the business logic, and using unique schemas that embed identifiers\u2014provides multiple checkpoints that each reduce the chance of a duplicate causing incorrect state. Idempotent handling ensures that even if a duplicate slips through, re\u2011processing the event does not change the outcome, while unique schemas give a reliable way to recognize the same logical event across different clouds and services. Together they improve fault tolerance and data consistency, though they introduce extra overhead (schema management, additional metadata, and idempotency checks) and require careful design to avoid performance penalties.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/building-distributed-event-driven-architectures-across-multi-cloud-boundaries",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

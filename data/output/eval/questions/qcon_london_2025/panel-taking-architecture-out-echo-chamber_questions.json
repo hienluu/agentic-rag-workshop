@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-taking-architecture-out-echo-chamber_q1_easy",
+        "question": "When was the panel \"Taking Architecture Out of the Echo Chamber\" scheduled, including the day, date, and start time?",
+        "answer": "Wednesday Apr 9 / 03:55PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-taking-architecture-out-echo-chamber",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-taking-architecture-out-echo-chamber_q2_easy",
+        "question": "Who were the presenters for the session titled \"Empowering Teams: Decentralizing Architectural Decision-Making\"?",
+        "answer": "Peter Hunter \u2013 Head of R&D, Tech Architect @OpenGI, Led the Transformation of a Legacy Solution Into a Modern Cloud-Based SaaS Platform; Elena Stojmilova \u2013 Technical Lead @Open GI",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-taking-architecture-out-echo-chamber",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-taking-architecture-out-echo-chamber_q1_medium",
+        "question": "Why does the panel argue that decentralizing architectural decision\u2011making improves team agility and accountability, and what potential trade\u2011offs or challenges does this approach introduce?",
+        "answer": "The panel highlights that moving decision\u2011making closer to the teams that implement the architecture allows those teams to react faster to changing contexts and own the outcomes of their choices, which boosts agility and accountability. However, decentralization can also lead to inconsistencies across the system, a loss of a holistic view, and the need for stronger communication and governance mechanisms to ensure that independent decisions still align with overall architectural goals.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-taking-architecture-out-echo-chamber",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/panel-taking-architecture-out-echo-chamber_q2_medium",
+        "question": "How do visual communication techniques and early stakeholder feedback help architects convey complex architectural ideas to non\u2011technical audiences, and what design practices support this strategy?",
+        "answer": "Visual tools such as sketches and diagrams translate abstract architectural concepts into concrete, understandable representations, making it easier for non\u2011technical stakeholders to grasp the implications of design choices. Seeking early feedback ensures that these representations are interpreted correctly and that any misunderstandings are caught before costly decisions are made. Supporting practices include deliberately designing knowledge\u2011flow artifacts, tailoring documentation to diverse audiences, and iteratively refining visuals based on stakeholder input.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/panel-taking-architecture-out-echo-chamber",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

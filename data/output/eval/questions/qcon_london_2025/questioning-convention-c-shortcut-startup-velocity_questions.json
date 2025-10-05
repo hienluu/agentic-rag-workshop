@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/questioning-convention-c-shortcut-startup-velocity_q1_easy",
+        "question": "Who is the speaker of the session titled \"Questioning Convention: C# as a Shortcut to Startup Velocity\"?",
+        "answer": "Sam Cox",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/questioning-convention-c-shortcut-startup-velocity",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/questioning-convention-c-shortcut-startup-velocity_q2_easy",
+        "question": "Under which conference track was the session \"Questioning Convention: C# as a Shortcut to Startup Velocity\" listed?",
+        "answer": "Memory Safe Native Languages and WASM",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/questioning-convention-c-shortcut-startup-velocity",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/questioning-convention-c-shortcut-startup-velocity_q1_medium",
+        "question": "Why did Tracebit opt for C# as its primary language despite the prevalence of Golang, TypeScript, and Python in startup environments, and what specific advantages did this choice provide for their early\u2011stage development and growth?",
+        "answer": "Tracebit chose C# because its rich ecosystem, mature tooling, and strong performance characteristics offered higher productivity for rapid prototyping and iteration. Sam Cox highlighted that C#\u2019s modern language features and extensive libraries allowed the solo engineer to build essential platform components quickly, facilitating fast feedback loops with customers. The language\u2019s robustness also made it easier to evolve infrastructure configurations without large rewrites, and its tooling (e.g., generic hosts, integrated debugging) reduced friction, enabling the team to scale from a solo\u2011engineer MVP to a funded enterprise\u2011focused product more efficiently than they might have with the more commonly\u2011chosen languages.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/questioning-convention-c-shortcut-startup-velocity",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/questioning-convention-c-shortcut-startup-velocity_q2_medium",
+        "question": "How does the modular monolith architecture, together with the use of generic hosts and service orchestration, help Tracebit balance the need for rapid development speed with operational concerns such as performance, scalability, and infrastructure flexibility?",
+        "answer": "The modular monolith approach lets Tracebit keep the entire system in a single deployable unit while still enforcing clear module boundaries. This reduces the overhead and operational complexity of managing many micro\u2011services, allowing developers to iterate quickly. Generic hosts provide a common hosting model for all modules, simplifying configuration and lifecycle management. Service orchestration built on top of this model enables fine\u2011grained control of functionality (e.g., batching, concurrency limits) without requiring extensive rewrites. Together, these patterns give the team the ability to adjust infrastructure settings, introduce performance optimizations, and scale components as needed, all while preserving the speed and simplicity needed in a startup context.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/questioning-convention-c-shortcut-startup-velocity",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    }
+]

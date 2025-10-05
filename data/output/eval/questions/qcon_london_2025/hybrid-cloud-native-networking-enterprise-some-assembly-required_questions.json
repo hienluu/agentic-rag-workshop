@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/hybrid-cloud-native-networking-enterprise-some-assembly-required_q1_easy",
+        "question": "Who delivered the presentation titled \"Hybrid Cloud-Native Networking in Enterprise - Some Assembly Required\"?",
+        "answer": "Louis Ryan",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/hybrid-cloud-native-networking-enterprise-some-assembly-required",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/hybrid-cloud-native-networking-enterprise-some-assembly-required_q2_easy",
+        "question": "On what date and time was Louis Ryan's talk scheduled to take place?",
+        "answer": "Tuesday Apr 8 / 03:55PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/hybrid-cloud-native-networking-enterprise-some-assembly-required",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/hybrid-cloud-native-networking-enterprise-some-assembly-required_q1_medium",
+        "question": "Why does Louis Ryan emphasize introducing verifiable identities into enterprise networking, and how does this design choice enable more composable policies and stronger security across hybrid\u2011cloud and multi\u2011cloud environments?",
+        "answer": "Ryan argues that traditional networks rely on low\u2011level identifiers (e.g., IP addresses) that are volatile and hard to manage at scale. By assigning a verifiable identity to each workload, service, or user, policies can be written against stable, meaningful attributes rather than mutable network locations. This makes policies composable\u2014different policy modules can reference the same identity and be combined without conflict\u2014while also simplifying enforcement because the identity can be authenticated and authorized at each hop. In hybrid\u2011cloud and multi\u2011cloud scenarios, where workloads move between on\u2011premise, public clouds, and containers, a consistent identity layer ensures that security controls travel with the workload, providing uniform protection regardless of the underlying infrastructure.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/hybrid-cloud-native-networking-enterprise-some-assembly-required",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/hybrid-cloud-native-networking-enterprise-some-assembly-required_q2_medium",
+        "question": "What are the key trade\u2011offs between using large, centralized proxies with a single policy store versus adopting more distributed, composable policy mechanisms in enterprise networks, according to the presentation?",
+        "answer": "Large proxies and a centralized policy store simplify management because all traffic passes through a single control point, making it easy to enforce uniform policies and gain visibility. However, this approach can introduce latency, create a potential single point of failure, and limit scalability as traffic volume grows. Distributed, composable policy mechanisms spread enforcement across the fabric, reducing bottlenecks and improving resilience, but they increase operational complexity: policies must be kept consistent across many nodes, state synchronization becomes a challenge, and debugging can be harder. The presentation suggests that while centralized proxies are useful for certain control\u2011plane functions, modern hybrid\u2011cloud networks benefit from a balanced approach that leverages composable policies to maintain flexibility and repeatability across diverse infrastructures.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/hybrid-cloud-native-networking-enterprise-some-assembly-required",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

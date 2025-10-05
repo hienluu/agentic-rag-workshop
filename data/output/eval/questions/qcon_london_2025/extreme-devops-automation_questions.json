@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/extreme-devops-automation_q1_easy",
+        "question": "According to the presentation, how many deployments does Revolut's 15\u2011person DevOps platform team manage?",
+        "answer": "6500 deployments",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/extreme-devops-automation",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/extreme-devops-automation_q2_easy",
+        "question": "What is the name of the developer portal system that helps engineers handle deployments efficiently?",
+        "answer": "Tower",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/extreme-devops-automation",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/extreme-devops-automation_q1_medium",
+        "question": "Why does Revolut prioritize a zero\u2011configuration, highly automated DevOps platform for its micro\u2011services environment, and what are the potential trade\u2011offs of this design decision for engineering teams?",
+        "answer": "Revolut\u2019s massive micro\u2011services landscape (1300 engineers, 6500 deployments) makes manual tooling setup a huge waste of time and a source of inconsistency. By pushing automation and a zero\u2011configuration approach, the platform removes the need for engineers to spend effort on configuring CI/CD pipelines, Kubernetes manifests, monitoring dashboards, etc., allowing them to focus on product innovation. The trade\u2011offs include a significant upfront investment to build and maintain the automation layer, reduced flexibility for teams that might need custom configurations, and a higher dependency on the stability and correctness of the platform itself \u2013 any platform failure can impact many services simultaneously.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/extreme-devops-automation",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/extreme-devops-automation_q2_medium",
+        "question": "How does the \"Tower\" developer portal enable Revolut\u2019s 15\u2011person DevOps team to support 1300 engineers and 6500 deployments, and why is the use of well\u2011defined deployment patterns critical in this context?",
+        "answer": "Tower acts as a unified developer portal that encapsulates standardized deployment patterns and automation hooks. By presenting engineers with a self\u2011service interface that abstracts away the underlying tooling, Tower lets them trigger deployments consistently without manual configuration. This standardisation reduces cognitive load, minimizes human error, and allows the small DevOps team to scale its support by reusing the same automated workflows across many services. Well\u2011defined patterns are essential because they ensure that every deployment follows the same safety and quality checks, making it feasible to manage thousands of deployments reliably and to keep the platform maintainable as the organization grows.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/extreme-devops-automation",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

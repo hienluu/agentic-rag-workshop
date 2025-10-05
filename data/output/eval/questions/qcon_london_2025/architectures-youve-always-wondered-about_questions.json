@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/architectures-youve-always-wondered-about_q1_easy",
+        "question": "How many visitors did the BBC\u2019s websites and apps handle in 2024, as stated in the session description?",
+        "answer": "well over 100 million visitors",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/architectures-youve-always-wondered-about",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/architectures-youve-always-wondered-about_q2_easy",
+        "question": "In which month and year did Meta announce the Orion AR Glasses?",
+        "answer": "September 2024",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/architectures-youve-always-wondered-about",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/architectures-youve-always-wondered-about_q1_medium",
+        "question": "Why does the BBC\u2019s architecture need to go beyond handling the current 100\u202fmillion annual visitors, and what design principles or architectural patterns are implied by the session title \u201cScaling Today, Shaping Tomorrow\u201d for meeting future demand?",
+        "answer": "The BBC\u2019s traffic spikes\u201440\u202fmillion visitors on a single election night\u2014demonstrate that the system must cope with extreme, unpredictable loads. Moreover, digital products continuously evolve (new services, richer media, global audiences), so the architecture must be future\u2011proof. The phrase \u201cScaling Today, Shaping Tomorrow\u201d suggests a design that balances immediate scalability (e.g., horizontal scaling, CDN edge caching, stateless services, load\u2011balancing) with long\u2011term adaptability (e.g., modular micro\u2011service boundaries, platform\u2011agnostic APIs, observability, and automated deployment pipelines). By adopting these principles, the BBC can handle current peaks while keeping the system flexible enough to incorporate new features, traffic patterns, and technology shifts without major rewrites.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/architectures-youve-always-wondered-about",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/architectures-youve-always-wondered-about_q2_medium",
+        "question": "What are the key trade\u2011offs of using a serverless architecture for Kraken\u2019s grid\u2011energy platform, as described in \u201cKraken's Serverless Architecture for Keeping the Grid Green\u201d, compared to a traditional always\u2011on infrastructure?",
+        "answer": "A serverless approach offers automatic scaling, pay\u2011as\u2011you\u2011go cost model, and reduced operational overhead, which are attractive for handling the highly variable load of renewable\u2011energy generation and consumer demand. However, it introduces trade\u2011offs such as potential cold\u2011start latency (which can affect real\u2011time grid\u2011balancing decisions), limited control over underlying hardware (affecting performance tuning), vendor lock\u2011in, and constraints on long\u2011running processes. In contrast, a traditional always\u2011on infrastructure provides predictable performance and fine\u2011grained resource control but requires capacity planning, higher fixed costs, and more operational effort. The talk implies that Kraken has judged the benefits of rapid elasticity and lower operational friction to outweigh the latency and control limitations for their green\u2011energy use case.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/architectures-youve-always-wondered-about",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

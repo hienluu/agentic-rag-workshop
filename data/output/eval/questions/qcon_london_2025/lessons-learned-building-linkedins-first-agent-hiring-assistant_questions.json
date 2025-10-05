@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-building-linkedins-first-agent-hiring-assistant_q1_easy",
+        "question": "What is the name of the central repository introduced for managing tool abstractions in the Hiring Assistant architecture?",
+        "answer": "Skill Register",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-building-linkedins-first-agent-hiring-assistant",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-building-linkedins-first-agent-hiring-assistant_q2_easy",
+        "question": "When and where was the \"Lessons Learned From Building LinkedIn\u2019s First Agent: Hiring Assistant\" session scheduled to take place?",
+        "answer": "Monday Apr 7 / 05:05PM BST at Fleming (3rd Fl.)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-building-linkedins-first-agent-hiring-assistant",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-building-linkedins-first-agent-hiring-assistant_q1_medium",
+        "question": "Why did the LinkedIn team choose a modular architecture with sub\u2011agents and a supervisory agent for the Hiring Assistant instead of building a single monolithic agent, and what benefits does this design provide in a production\u2011grade AI system?",
+        "answer": "The modular approach lets the team develop and test sub\u2011agents independently, isolating quality and allowing parallel work streams across a large engineering organization. A supervisory agent can orchestrate tasks, route requests to the appropriate sub\u2011agent, and handle fallback or error recovery. This separation reduces system complexity, makes it easier to swap or upgrade individual components (e.g., swapping a fine\u2011tuned LLM for a newer model), improves scalability because each sub\u2011agent can be scaled independently, and enhances observability and fault isolation\u2014critical for a non\u2011deterministic, high\u2011throughput AI service. In contrast, a monolithic design would couple all functionality, making changes riskier, harder to test, and more difficult to maintain at LinkedIn\u2019s scale.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-building-linkedins-first-agent-hiring-assistant",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-building-linkedins-first-agent-hiring-assistant_q2_medium",
+        "question": "How does moving from structured to natural\u2011language input improve the Hiring Assistant\u2019s user experience, what new challenges does this shift introduce, and which design mechanisms did the team employ to mitigate the risk of information loss?",
+        "answer": "Natural\u2011language input removes the need for recruiters to learn rigid schemas or fill out forms, making the system feel more conversational and lowering friction, which improves overall usability. However, natural language can be ambiguous, omit critical fields, or introduce parsing errors, leading to potential information loss. To counteract this, the team added several safeguards: a human\u2011in\u2011the\u2011loop feedback loop that lets recruiters correct or confirm the agent\u2019s interpretations; progress indicators and UI tooling that surface uncertainty and request clarification; a Skill Register that maps high\u2011level intents to concrete tool abstractions, ensuring the agent invokes the right functionality even when the input is vague; and extensive observability (monitoring, logging) to detect and debug mis\u2011interpretations. Together, these mechanisms preserve the benefits of natural language while mitigating its downsides.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/lessons-learned-building-linkedins-first-agent-hiring-assistant",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

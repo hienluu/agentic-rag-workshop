@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/advanced-message-queuing-politics_q1_easy",
+        "question": "On what date and time was the presentation \"Advanced Message Queuing Politics\" scheduled?",
+        "answer": "Wednesday Apr 9 / 09:00AM BST",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/advanced-message-queuing-politics",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/advanced-message-queuing-politics_q2_easy",
+        "question": "How many credited individuals participated in the standardization journey of AMQP?",
+        "answer": "91",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/advanced-message-queuing-politics",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/advanced-message-queuing-politics_q1_medium",
+        "question": "Why did the AMQP designers emphasize an asymmetric design that favors client\u2011side implementation, and what trade\u2011offs does this design decision introduce for protocol adoption and broker complexity?",
+        "answer": "The text notes that one of the protocol\u2019s key contributions was \u201cmaking its specification machine\u2011readable and emphasizing the need for an asymmetric design favoring client\u2011side implementation.\u201d This approach reduces the burden on brokers, making it easier for a wide variety of broker products to support the protocol because they do not need to implement the full feature set. It also speeds up client adoption, since developers can integrate the protocol without waiting for a fully\u2011featured broker. The trade\u2011off is that brokers must still interoperate with many heterogeneous clients, which can increase the complexity of ensuring compatibility and may limit the broker\u2019s ability to enforce advanced features centrally. Additionally, pushing more logic to the client can raise concerns about consistency and security that would otherwise be managed by a broker.",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/advanced-message-queuing-politics",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/advanced-message-queuing-politics_q2_medium",
+        "question": "How did the shift from a broker\u2011centric to a brokerless model reflect the compatibility challenges and industry needs described in the talk, and what broader lesson does this transition offer for building scalable messaging standards?",
+        "answer": "The summary states that \u201cthe transition from broker\u2011centric to brokerless models was a pivotal change in AMQP's development, reflecting compatibility challenges and industry needs.\u201d As organizations like the U.S. Department of Homeland Security adopted AMQP, they required a messaging system that could operate across diverse environments without being locked into a single broker implementation. Moving to a brokerless model addressed these compatibility challenges by allowing direct client\u2011to\u2011client communication and reducing dependence on a specific broker\u2019s feature set. The broader lesson is that scalable messaging standards must be flexible enough to accommodate varied deployment scenarios and should evolve toward architectures that minimize single points of control, thereby enhancing interoperability and future\u2011proofing the protocol.",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/advanced-message-queuing-politics",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

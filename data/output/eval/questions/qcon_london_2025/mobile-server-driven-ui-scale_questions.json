@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/mobile-server-driven-ui-scale_q1_easy",
+        "question": "How many engineers can modify user interfaces and business logic without app releases using Nubank's server\u2011driven UI framework?",
+        "answer": "over 3000 engineers",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/mobile-server-driven-ui-scale",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/mobile-server-driven-ui-scale_q2_easy",
+        "question": "What percentage decrease in resources was reported for new feature deployments after adopting the server\u2011driven UI framework?",
+        "answer": "40% decrease",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/mobile-server-driven-ui-scale",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/mobile-server-driven-ui-scale_q1_medium",
+        "question": "Why did Nubank choose to adopt a server\u2011driven UI framework instead of relying on traditional client\u2011side releases, and what concrete benefits does this architectural shift provide for deployment frequency and engineering efficiency?",
+        "answer": "Nubank moved to a server\u2011driven UI because traditional mobile updates are bottlenecked by app\u2011store review cycles, users who do not update promptly, and the need to maintain many concurrent app versions. By shifting UI rendering to the server, the UI can be changed in real time without a new client release. This reduces lead times from weeks to minutes, enables several deployments per day, and lets over 3,000 engineers modify screens and business logic directly. The framework also cuts the resources needed for new feature roll\u2011outs by about 40\u202f%, simplifying UI development and allowing rapid A/B testing and bug fixes.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/mobile-server-driven-ui-scale",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/mobile-server-driven-ui-scale_q2_medium",
+        "question": "What are the main technical trade\u2011offs and challenges that arise when scaling a server\u2011driven UI framework, and how does Nubank mitigate issues such as connection reliability, payload size for complex screens, and the learning curve for engineers using the new DSL and tooling?",
+        "answer": "Scaling a server\u2011driven UI introduces several trade\u2011offs: it creates a dependency on network connectivity, so users with poor connections may experience delays; complex screens can generate large JSON payloads, increasing bandwidth and rendering time; and the introduction of a domain\u2011specific language (DSL), templates, and actions adds a learning curve for engineers accustomed to pure client\u2011side development. Nubank addresses these challenges by designing a compact DSL that expresses UI components efficiently, using templating and action mechanisms to reuse definitions and keep payloads small, and building tooling, documentation, and internal training to lower the adoption barrier. They also monitor connection requirements and plan for fallback strategies to maintain a usable experience when connectivity is limited.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/mobile-server-driven-ui-scale",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    }
+]

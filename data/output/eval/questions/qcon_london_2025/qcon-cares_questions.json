@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/qcon-cares_q1_easy",
+        "question": "For how many months after the event is on\u2011demand access provided?",
+        "answer": "12 months",
+        "source_chunk_id": "https://qconlondon.com/qcon-cares",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/qcon-cares_q2_easy",
+        "question": "According to the speaker invitation guidelines, how many speakers from an underrepresented group must be included?",
+        "answer": "at least two Speakers from an underrepresented group in tech",
+        "source_chunk_id": "https://qconlondon.com/qcon-cares",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/qcon-cares_q1_medium",
+        "question": "Why does QCon deliberately \u201cshift diversity and inclusion left\u201d in its content curation process, and how does this early\u2011stage integration change the speaker selection workflow compared to a traditional call\u2011for\u2011papers model?",
+        "answer": "QCon shifts diversity and inclusion left by embedding DEI considerations at the very start of agenda planning \u2013 selecting a diverse Programming Committee, meeting weekly for 6\u20119\u202fmonths, and requiring track hosts to invite at least two speakers from under\u2011represented groups. This early integration eliminates the need for a later\u2011stage, centralized call\u2011for\u2011papers and single authority decision point. Instead, diversity is baked into every invitation and review step, which reduces bias, ensures a broader network of speakers, and creates a continuous feedback loop for improvement. The result is a more proactive, systematic approach that aligns speaker recruitment with the conference\u2019s inclusive values rather than treating inclusion as an afterthought.",
+        "source_chunk_id": "https://qconlondon.com/qcon-cares",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/qcon-cares_q2_medium",
+        "question": "How does QCon\u2019s policy of providing travel budgets and speaker\u2011training resources for less\u2011experienced presenters balance the trade\u2011off between maintaining high session quality and achieving diversity goals, and what safeguards are described to preserve content standards?",
+        "answer": "By offering travel and accommodation budgets to all speakers, QCon removes financial barriers that would otherwise favor presenters from large, well\u2011funded companies, thereby widening the pool to include under\u2011represented voices. To counteract any risk that less\u2011experienced speakers might lower overall session quality, QCon pairs the budget with optional speaker training and rehearsals conducted by senior Programming Committee members. This dual approach ensures that diverse speakers receive the support needed to deliver high\u2011quality talks while the conference retains its reputation for strong technical content. The safeguards\u2014structured training, rehearsals, and weekly committee reviews\u2014mitigate potential quality gaps without compromising the diversity objective.",
+        "source_chunk_id": "https://qconlondon.com/qcon-cares",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-cloud-and-distributed-applications-lessons-and-strategies-chasecom-1_q1_easy",
+        "question": "What is the title of the session presented by Durai Arasan?",
+        "answer": "Scaling Cloud and Distributed Applications: Lessons and Strategies From chase.com, #1 Banking Portal in the US",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-cloud-and-distributed-applications-lessons-and-strategies-chasecom-1",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-cloud-and-distributed-applications-lessons-and-strategies-chasecom-1_q2_easy",
+        "question": "What are the three key goals and strategies highlighted in the presentation?",
+        "answer": "Efficient Scaling, Resilience, Performance",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-cloud-and-distributed-applications-lessons-and-strategies-chasecom-1",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-cloud-and-distributed-applications-lessons-and-strategies-chasecom-1_q1_medium",
+        "question": "Why did Durai Arasan emphasize a multi\u2011region architecture for Chase.com\u2019s resilience, and what are the primary trade\u2011offs that such an approach introduces in terms of cost, operational complexity, and user experience?",
+        "answer": "A multi\u2011region architecture isolates failures to a single zone or region, allowing the system to continue serving users even when part of the infrastructure is down \u2013 this directly supports the resilience goal of \u201cpreparing for failures with circuit breakers and maintaining system availability even when components fail.\u201d However, spreading workloads across regions adds extra infrastructure cost (duplicate resources, data replication, inter\u2011region traffic) and increases operational complexity (coordinating deployments, ensuring data consistency, managing latency differences). The design decision balances the higher cost and complexity against the benefit of reduced outage impact and a more reliable user experience for millions of banking customers.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-cloud-and-distributed-applications-lessons-and-strategies-chasecom-1",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/scaling-cloud-and-distributed-applications-lessons-and-strategies-chasecom-1_q2_medium",
+        "question": "How do automated infrastructure repaving and comprehensive observability together enable proactive failure management in Chase.com\u2019s cloud transformation, and what cultural shift does this combination require from engineering teams?",
+        "answer": "Automated infrastructure repaving removes manual configuration steps, eliminating human error and ensuring that failover routines can be executed quickly and consistently. Observability provides real\u2011time metrics and alerts that feed into these automated responses, allowing the system to detect anomalies and trigger remediation without human intervention. Together, they create a closed loop where failures are identified, isolated, and corrected automatically, supporting the \u201chigh\u2011performance automation\u201d and \u201ceffective monitoring\u201d strategies described. This requires a cultural shift from reactive, manual incident handling to a proactive, automation\u2011first mindset, where engineers trust automated systems, focus on building reliable abstractions, and continuously improve the observability stack.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/scaling-cloud-and-distributed-applications-lessons-and-strategies-chasecom-1",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

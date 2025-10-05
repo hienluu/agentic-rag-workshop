@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ai-enabled-delivery-icsaet-cohort-only_q1_easy",
+        "question": "What is the full title and affiliation of the speaker listed for the \"AI-Enabled Delivery - ICSAET Cohort Only\" session?",
+        "answer": "Technical Principal @EqualExperts, ex-Thoughtworker & ex-VMWare, 16-Time QCon Chair, Creator/Co-host of The InfoQ Podcast",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ai-enabled-delivery-icsaet-cohort-only",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ai-enabled-delivery-icsaet-cohort-only_q2_easy",
+        "question": "When (date and time) was the \"AI-Enabled Delivery - ICSAET Cohort Only\" session scheduled?",
+        "answer": "Tuesday Apr 8 / 03:55PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ai-enabled-delivery-icsaet-cohort-only",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ai-enabled-delivery-icsaet-cohort-only_q1_medium",
+        "question": "How does the panel composition \u2013 a senior data scientist, a global lead for AI\u2011assisted software delivery, an AI hiring assistant engineer, and a data\u2011engineering/AI author \u2013 support a holistic understanding of AI\u2019s impact on the entire software lifecycle, and what design trade\u2011offs might arise when trying to integrate insights from these diverse roles into a unified delivery process?",
+        "answer": "The panel brings together four complementary viewpoints: (1) the data\u2011scientist (Iaroslav) can speak to model development and data pipelines; (2) the AI\u2011assisted delivery lead (Birgitta) focuses on how AI augments design, coding, and deployment (e.g., chat\u2011oriented programming); (3) the AI hiring assistant engineer (Karthik) illustrates AI\u2019s role in talent acquisition and team composition; and (4) the data\u2011engineering/AI author (Srini) adds depth on data\u2011centric architectures and AI governance. By covering creation, integration, staffing, and data management, the panel can illustrate how AI influences every stage from design to production. The trade\u2011offs when unifying these insights include balancing the speed gains from AI\u2011driven automation against the need for rigorous model validation, ensuring that AI\u2011generated code remains maintainable, reconciling hiring\u2011AI recommendations with human judgment, and aligning data\u2011engineering practices with AI\u2011driven feature extraction. Teams must decide how much autonomy to grant AI tools versus retaining manual oversight, which directly affects reliability, security, and developer trust.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ai-enabled-delivery-icsaet-cohort-only",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/ai-enabled-delivery-icsaet-cohort-only_q2_medium",
+        "question": "Why does Wes Reisz emphasize the concept of a T\u2011shaped engineer in the context of AI\u2011enabled software delivery, and what are the potential benefits and drawbacks of building teams around this skill model for large\u2011scale, cloud\u2011native projects?",
+        "answer": "Wes\u2019s background highlights his breadth across many software domains and depth in cloud\u2011native engineering. By championing the T\u2011shaped engineer, he suggests that developers need a wide understanding of the end\u2011to\u2011end delivery pipeline (design, AI tooling, deployment, platform engineering) while retaining deep expertise in a core area (e.g., Kubernetes, AI\u2011assisted tooling). The benefit is that such engineers can bridge gaps between AI\u2011driven components and traditional infrastructure, facilitating smoother adoption of AI services and better communication across specialties. However, the drawback is the risk of spreading expertise too thin, making it harder to achieve true mastery in complex AI or cloud domains, and potentially increasing onboarding time as engineers acquire breadth before depth. Organizations must balance hiring for breadth versus investing in deep specialists, especially when scaling AI\u2011centric platforms.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/ai-enabled-delivery-icsaet-cohort-only",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/continuous-delivery-not-possible-without-pair-programming-lessons-sparebank-1_q1_easy",
+        "question": "What deployment frequency did SpareBank\u202f1 increase to, after moving from daily deployments?",
+        "answer": "Hourly frequency",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/continuous-delivery-not-possible-without-pair-programming-lessons-sparebank-1",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/continuous-delivery-not-possible-without-pair-programming-lessons-sparebank-1_q2_easy",
+        "question": "How often were pair programming sessions scheduled during the interventions described by the speakers?",
+        "answer": "Twice a week",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/continuous-delivery-not-possible-without-pair-programming-lessons-sparebank-1",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/continuous-delivery-not-possible-without-pair-programming-lessons-sparebank-1_q1_medium",
+        "question": "Why did SpareBank\u202f1 choose to eliminate traditional pull\u2011requests and dedicated test environments in favor of continuous pair/mob programming and CI\u2011based feedback, and what are the primary trade\u2011offs of this design decision?",
+        "answer": "The speakers explain that moving from daily to hourly deployments made the latency introduced by pull\u2011requests and separate test environments unacceptable \u2013 code reviews had to happen in real time, not as a hand\u2011off. By embedding review in pair/mob programming, feedback becomes immediate, reducing cycle time and waste. CI provides fast automated validation, while developers test locally and in production, removing the need for long\u2011lived test environments. The trade\u2011offs include a higher reliance on a robust CI pipeline and on developers\u2019 discipline to test locally, a potential loss of the isolation that dedicated test environments provide, and the need for strong team norms to catch defects early without the safety net of a separate staging tier.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/continuous-delivery-not-possible-without-pair-programming-lessons-sparebank-1",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/continuous-delivery-not-possible-without-pair-programming-lessons-sparebank-1_q2_medium",
+        "question": "How do the \"pair programming interventions\" (twice\u2011weekly sessions with rotating roles) foster psychological safety and knowledge sharing, and what design considerations must be addressed to make such interventions sustainable in a fast\u2011moving team?",
+        "answer": "The interventions create regular, predictable collaborative time where every developer experiences both driver and navigator roles, preventing knowledge silos and ensuring shared ownership of code. Rotating roles builds empathy and trust, which strengthens psychological safety because team members see that mistakes are caught and fixed together rather than blamed. To sustain this approach, the team must consider scheduling (so sessions do not clash with critical delivery work), ensure balanced participation (avoiding dominance by senior members), provide adequate tooling for seamless hand\u2011offs, monitor fatigue or burnout, and embed metrics or retrospectives to verify that the interventions are delivering the intended quality and morale improvements.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/continuous-delivery-not-possible-without-pair-programming-lessons-sparebank-1",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

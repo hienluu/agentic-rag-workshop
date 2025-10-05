@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/recap/apr2025_q1_easy",
+        "question": "What are the dates for QCon London 2026?",
+        "answer": "March 16-19",
+        "source_chunk_id": "https://qconlondon.com/recap/apr2025",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/recap/apr2025_q2_easy",
+        "question": "Who presented the track titled \"Performance and Sustainability in Practice: How to Make Software Greener\"?",
+        "answer": "Erica Pisani",
+        "source_chunk_id": "https://qconlondon.com/recap/apr2025",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/recap/apr2025_q1_medium",
+        "question": "The conference highlights \"Performance and Sustainability in Practice: How to Make Software Greener\" and treats carbon impact as a \"golden signal\" alongside traditional performance metrics. Why is it important for senior engineers to consider sustainability as a first\u2011class quality attribute, and what are the primary trade\u2011offs they must navigate when trying to optimise both response time and carbon footprint?",
+        "answer": "Senior engineers are encouraged to treat carbon impact as a \"golden signal\" because modern software runs at massive scale, and energy consumption directly translates into operational cost and environmental impact. By making sustainability a measurable metric, teams can make data\u2011driven decisions about where to cut waste (e.g., over\u2011provisioned resources, inefficient algorithms). The trade\u2011offs arise because the techniques that improve latency\u2014such as aggressive caching, high\u2011frequency polling, or using the latest high\u2011performance hardware\u2014can increase energy usage. Conversely, strategies that reduce carbon (e.g., throttling, batch processing, using lower\u2011power languages or runtimes) may add latency or reduce throughput. Engineers must therefore balance architectural choices (e.g., selecting a language that offers both speed and memory safety like Rust/WASM), deployment patterns (e.g., scaling out versus scaling up), and operational practices (e.g., auto\u2011scaling thresholds, green\u2011cloud regions) to achieve an acceptable compromise between performance SLAs and carbon targets.",
+        "source_chunk_id": "https://qconlondon.com/recap/apr2025",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/recap/apr2025_q2_medium",
+        "question": "The \"Resilient Engineering Practices for Security Against Modern Threats\" track advocates moving from reactive defenses to proactively embedding security into engineering workflows. How does this proactive stance differ from a conventional DevSecOps approach, and what specific design decisions enable vulnerabilities to be addressed before they can be exploited in the software supply chain?",
+        "answer": "While traditional DevSecOps adds security checks into the CI/CD pipeline, it often treats security as an after\u2011the\u2011fact gate that can be bypassed or delayed. The proactive stance described in the track pushes security upstream: security policies are codified as code (e.g., Open Policy Agent), supply\u2011chain components are continuously scanned for known vulnerabilities, and trust boundaries are enforced at the source\u2011code and dependency\u2011management level. Design decisions that enable this include: (1) integrating automated SBOM (Software Bill of Materials) generation to track every component, (2) enforcing policy\u2011as\u2011code that blocks merges containing vulnerable dependencies, (3) using reproducible builds and signed artifacts to guarantee integrity, and (4) adopting a \u201cshift\u2011left\u201d culture where developers receive immediate feedback on security issues within their IDEs. These choices transform security from a reactive checkpoint into a continuous, immutable part of the development workflow, reducing the window of exposure to modern supply\u2011chain attacks.",
+        "source_chunk_id": "https://qconlondon.com/recap/apr2025",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    }
+]

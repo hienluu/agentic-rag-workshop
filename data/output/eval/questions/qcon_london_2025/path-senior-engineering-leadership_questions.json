@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/path-senior-engineering-leadership_q1_easy",
+        "question": "Who presented the session titled \"The Principal Engineer\u2019s Path: Skills, Strategies, and Lessons Learned\"?",
+        "answer": "Sophie Weston, Principal Engineer @ClearBank, Co-Organizer of DevOpsDays London & FastFlowConf",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/path-senior-engineering-leadership",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/path-senior-engineering-leadership_q2_easy",
+        "question": "At what time (BST) was the session \"Scaling to 100+ as a Director: Lessons From Growing Engineering Organizations\" scheduled?",
+        "answer": "Monday Apr 7 / 03:55PM BST",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/path-senior-engineering-leadership",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/path-senior-engineering-leadership_q1_medium",
+        "question": "How does changing the power dynamics between senior and junior engineers, as described by Beth Anderson, affect the way engineering teams should design their collaboration processes and decision\u2011making structures to maximize innovation?",
+        "answer": "Beth Anderson points out that traditional hierarchies where senior engineers dominate decisions can stifle fresh ideas and hinder collaboration. By flattening these power dynamics, teams are encouraged to create more inclusive processes\u2014such as rotating ownership of features, peer\u2011review loops that give juniors equal voice, and decision\u2011making frameworks that solicit input from all levels. This shift promotes a culture where diverse perspectives are valued, leading to higher innovation velocity and better problem\u2011solving because ideas are evaluated on merit rather than seniority alone.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/path-senior-engineering-leadership",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/path-senior-engineering-leadership_q2_medium",
+        "question": "Why is participation in high\u2011level strategic conversations, as emphasized by Mark Allen, considered a critical skill for engineers pursuing senior leadership, and how does this requirement intersect with the career paths (IC vs management) outlined in the conference track?",
+        "answer": "Mark Allen stresses that moving beyond technical depth to demonstrate business impact is essential for advancement. Engaging in strategic conversations shows an engineer\u2019s ability to understand and influence broader organizational goals, a prerequisite for both Distinguished Engineer (IC) and CTO/Director (management) tracks. For ICs, it validates their role as technical thought leaders who shape product direction; for managers, it demonstrates the capacity to align teams with company strategy. Thus, mastering strategic dialogue bridges the gap between deep technical expertise and the broader business acumen required for senior leadership, regardless of the chosen path.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/path-senior-engineering-leadership",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    }
+]

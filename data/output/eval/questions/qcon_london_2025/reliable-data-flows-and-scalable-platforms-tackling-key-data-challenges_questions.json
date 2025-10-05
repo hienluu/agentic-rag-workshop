@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/reliable-data-flows-and-scalable-platforms-tackling-key-data-challenges_q1_easy",
+        "question": "What is the date and start time of Matthias Niehoff's presentation \"Reliable Data Flows and Scalable Platforms: Tackling Key Data Challenges\"?",
+        "answer": "Wednesday Apr 9 / 10:35AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/reliable-data-flows-and-scalable-platforms-tackling-key-data-challenges",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/reliable-data-flows-and-scalable-platforms-tackling-key-data-challenges_q2_easy",
+        "question": "Which technology did Matthias Niehoff say he learned more about from Hannes M\u00fchleisen's 2023 QCon presentation?",
+        "answer": "duckdb",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/reliable-data-flows-and-scalable-platforms-tackling-key-data-challenges",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/reliable-data-flows-and-scalable-platforms-tackling-key-data-challenges_q1_medium",
+        "question": "Why does Matthias advocate for integrating data pipelines with consistent schema contracts, and how does this design decision help solve the problem of reliably moving data from operational systems to analytics platforms while also reducing complexity and cost?",
+        "answer": "Matthias argues that a tightly\u2011coupled pipeline\u2011to\u2011schema contract relationship creates a single source of truth for data shape and semantics. When every producer and consumer must adhere to the same contract, ad\u2011hoc transformations and mismatched expectations disappear, which directly improves reliability of the data flow from operational sources to analytics targets. Because the contracts are defined once and enforced automatically, teams spend less time debugging schema drift and can automate validation, which cuts down on manual effort and error\u2011prone code. This reduction in bespoke glue logic simplifies the overall architecture, leading to lower infrastructure footprints and operational overhead, and therefore lowers cost. In short, consistent contracts turn a complex, fragile data\u2011movement problem into a predictable, maintainable pipeline that scales without exploding expenses.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/reliable-data-flows-and-scalable-platforms-tackling-key-data-challenges",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/reliable-data-flows-and-scalable-platforms-tackling-key-data-challenges_q2_medium",
+        "question": "What are the key trade\u2011offs of applying software\u2011engineering practices such as environment separation and explicit contract definitions between applications and data solutions in a modern data platform, as described in the talk?",
+        "answer": "Applying environment separation (e.g., dev, test, prod) and explicit contracts brings several benefits: it isolates changes, enables safe testing, and makes failures easier to diagnose, which improves platform stability and observability. Contracts also create clear expectations, reducing accidental breaking changes and facilitating automated validation. However, these practices introduce overhead: teams must maintain multiple environments, synchronize contract versions, and invest in tooling and governance to keep contracts up\u2011to\u2011date. There is a risk of increased latency in delivering new features if contract approval processes are too rigid, and the added operational burden can raise short\u2011term costs. The trade\u2011off is therefore between higher long\u2011term reliability, maintainability, and reduced technical debt versus the upfront effort and potential slowdown in rapid iteration.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/reliable-data-flows-and-scalable-platforms-tackling-key-data-challenges",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

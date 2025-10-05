@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/achieve-optimal-efficiency-your-developer-experience-teams_q1_easy",
+        "question": "How many experiments did Monzo's new experimentation platform run after the upgrade, and what was the decision time after the improvement?",
+        "answer": "The platform ran 134 experiments and reduced decision time to 21 days.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/achieve-optimal-efficiency-your-developer-experience-teams",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/achieve-optimal-efficiency-your-developer-experience-teams_q2_easy",
+        "question": "When was Monzo's Developer Experience team founded and what was its initial focus?",
+        "answer": "It was founded in December\u202f2023 with a small team focused on building an experimentation platform to improve engineering velocity.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/achieve-optimal-efficiency-your-developer-experience-teams",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/achieve-optimal-efficiency-your-developer-experience-teams_q1_medium",
+        "question": "Why does Fabien stress hiring engineers with strong product acumen and soft\u2011skill fit over \u201csuperstar\u201d engineers for a Developer Experience (DevEx) team, and what trade\u2011offs does this hiring approach introduce for the team\u2019s ability to deliver impact?",
+        "answer": "Fabien argues that DevEx products must align with company values, solve real problems, and be adopted across the organization. Engineers with product acumen understand user needs, can prioritize work that delivers measurable business value, and communicate effectively with other engineering groups. Soft\u2011skills further enable collaboration and cultural integration, which are crucial for driving adoption. By not insisting on \u201csuperstar\u201d engineers\u2014who may excel technically but lack product focus\u2014the team gains broader alignment and faster delivery of useful tooling. The trade\u2011off is that the team may have fewer deep\u2011technical specialists, potentially requiring more reliance on existing platform expertise or external support, but this is offset by higher adoption rates and better\u2011aligned outcomes.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/achieve-optimal-efficiency-your-developer-experience-teams",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/achieve-optimal-efficiency-your-developer-experience-teams_q2_medium",
+        "question": "How does the combined \u201ccarrot and stick\u201d approach\u2014building compelling DevEx products while sometimes mandating their adoption\u2014affect the overall adoption of DevEx tools, and what risks arise if a team leans too heavily on either side of this balance?",
+        "answer": "The \u201ccarrot\u201d side creates tools that are genuinely useful and enjoyable, generating organic enthusiasm and voluntary adoption. The \u201cstick\u201d side ensures that critical tools reach the necessary user base, preventing gaps where essential functionality is ignored. Together they produce a higher, more reliable adoption rate: the carrot drives motivation and advocacy, while the stick guarantees baseline usage. Over\u2011reliance on the carrot can leave adoption uneven, with teams opting out of tools that are not perceived as valuable, limiting the intended productivity gains. Conversely, leaning too much on the stick can breed resentment, reduce morale, and diminish the perceived value of the tools, leading to superficial compliance rather than true, effective usage.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/achieve-optimal-efficiency-your-developer-experience-teams",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

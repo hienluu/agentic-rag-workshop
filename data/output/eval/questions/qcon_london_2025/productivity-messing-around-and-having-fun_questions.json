@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/productivity-messing-around-and-having-fun_q1_easy",
+        "question": "What is the title of the presentation delivered by Holly Cummins and Trisha Gee?",
+        "answer": "Productivity Is Messing Around and Having Fun",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/productivity-messing-around-and-having-fun",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/productivity-messing-around-and-having-fun_q2_easy",
+        "question": "Which developer productivity framework mentioned in the transcript identifies satisfaction as a key metric?",
+        "answer": "SPACE",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/productivity-messing-around-and-having-fun",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/productivity-messing-around-and-having-fun_q1_medium",
+        "question": "How does the talk\u2019s recommendation to use \u201cboredom\u201d or \u201cdead time\u201d for creative thinking connect to the SPACE framework\u2019s focus on developer satisfaction, and why is this approach argued to be more effective than relying on traditional productivity proxies such as lines\u2011of\u2011code?",
+        "answer": "The SPACE framework treats Satisfaction as a core dimension of developer productivity. By deliberately carving out moments of boredom, developers are given mental space to explore ideas, experiment, and recharge, which directly boosts satisfaction. The speakers argue that traditional proxies like lines\u2011of\u2011code are poor indicators because they ignore the human factors that drive quality and innovation. When developers feel joy and have time for creative thought, they produce higher\u2011quality work and are more engaged, leading to better business outcomes than simply measuring output volume.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/productivity-messing-around-and-having-fun",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/productivity-messing-around-and-having-fun_q2_medium",
+        "question": "What are the key trade\u2011offs when a team chooses to automate tedious tasks to increase efficiency versus preserving opportunities for play and joy, and how can a team design a \u201cdouble win\u201d strategy that balances both productivity and happiness?",
+        "answer": "Automating repetitive work reduces cognitive load and frees time, which improves efficiency and can prevent burnout. However, over\u2011automation can eliminate the informal moments where developers naturally engage in playful problem\u2011solving or spontaneous collaboration\u2014activities that the speakers identify as sources of joy and creativity. A \u201cdouble win\u201d strategy acknowledges this tension: automate only the truly dead\u2011end, low\u2011value tasks while intentionally retaining or creating spaces (e.g., hack days, \u201cdead time\u201d) for play. This balanced approach ensures that automation delivers measurable efficiency gains without eroding the joy that fuels long\u2011term productivity and satisfaction.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/productivity-messing-around-and-having-fun",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

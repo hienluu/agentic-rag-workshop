@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/symptom-checkers-smart-chatbots-role-ai-virtual-care_q1_easy",
+        "question": "What statistical modeling approach does Healthily's smart symptom checker employ?",
+        "answer": "It utilizes Bayesian models for accurate assessments.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/symptom-checkers-smart-chatbots-role-ai-virtual-care",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/symptom-checkers-smart-chatbots-role-ai-virtual-care_q2_easy",
+        "question": "According to the transcript, what three core components does Healthily's system architecture route user inputs through?",
+        "answer": "NLP engines, clinical reasoning engines, and flow clinical logic.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/symptom-checkers-smart-chatbots-role-ai-virtual-care",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/symptom-checkers-smart-chatbots-role-ai-virtual-care_q1_medium",
+        "question": "Why does Healthily integrate Bayesian inference with NLP and machine\u2011learning components for its symptom checker instead of using a purely end\u2011to\u2011end deep\u2011learning model, and what trade\u2011offs does this hybrid approach entail?",
+        "answer": "Healthily combines Bayesian models with NLP/ML to leverage the strengths of both probabilistic reasoning and data\u2011driven language understanding. Bayesian inference provides a transparent, mathematically grounded way to combine prior clinical knowledge with observed symptoms, which improves safety and interpretability\u2014critical for a medical device that will become a class\u20112 device. Pure deep\u2011learning models, while powerful, often act as black boxes, require large labeled datasets, and can produce unpredictable outputs when faced with out\u2011of\u2011distribution inputs. By using Bayesian reasoning for clinical assessment and NLP for parsing user input, Healthily can build guardrails, ensure consistent triage decisions, and meet regulatory expectations. The trade\u2011offs include added system complexity (maintaining two separate inference pipelines) and potential latency from sequential processing, but the gains in safety, explainability, and regulatory compliance outweigh these costs for a health\u2011focused product.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/symptom-checkers-smart-chatbots-role-ai-virtual-care",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/symptom-checkers-smart-chatbots-role-ai-virtual-care_q2_medium",
+        "question": "How does the three\u2011stage architecture (NLP engine \u2192 clinical reasoning engine \u2192 flow clinical logic) contribute to reliable and safe chatbot triage, and what challenges might arise when scaling this design to handle multiple concurrent user symptoms?",
+        "answer": "The architecture routes a user\u2019s free\u2011text input first through an NLP engine that extracts intent and symptom entities, then passes the structured data to a clinical reasoning engine that applies Bayesian and other AI models to assess risk, and finally uses flow clinical logic to enforce predefined care pathways and safety guardrails. This separation ensures that language understanding, clinical decision\u2011making, and regulatory\u2011driven workflow enforcement are each handled by specialized components, reducing the chance of unsafe recommendations slipping through. However, scaling this design introduces challenges: maintaining consistency across the components when symptom combinations grow, ensuring low latency as each stage adds processing time, and keeping the guardrails up\u2011to\u2011date as clinical guidelines evolve. Additionally, coordinating state across multiple concurrent sessions requires robust orchestration to prevent cross\u2011talk contamination and to preserve context for multi\u2011symptom interactions.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/symptom-checkers-smart-chatbots-role-ai-virtual-care",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

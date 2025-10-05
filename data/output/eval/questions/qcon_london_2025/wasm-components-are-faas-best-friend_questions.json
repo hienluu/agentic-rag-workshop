@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/wasm-components-are-faas-best-friend_q1_easy",
+        "question": "Who presented the session titled \"WASM Components are a FaaS' Best Friend\"?",
+        "answer": "Laurent Doguin, Director of Developer Relations & Strategy at Couchbase",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/wasm-components-are-faas-best-friend",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/wasm-components-are-faas-best-friend_q2_easy",
+        "question": "Which messaging system was highlighted as a critical component for inter\u2011component communication in the WASM architecture?",
+        "answer": "NATS Messaging System",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/wasm-components-are-faas-best-friend",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/wasm-components-are-faas-best-friend_q1_medium",
+        "question": "Why does Laurent argue that WebAssembly (WASM) components can be a better fit than traditional containers for building Function\u2011as\u2011a\u2011Service (FaaS) platforms, especially regarding portability, security, and observability?",
+        "answer": "Laurent points out that WASM components are inherently portable and lightweight, allowing the same binary to run across different environments without the heavy OS\u2011level overhead that containers require. Because each WASM component runs in a sandboxed runtime, it offers strong isolation and a reduced attack surface, addressing security concerns more directly than container images that rely on OS\u2011level isolation. Additionally, WASM components have built\u2011in support for OpenTelemetry, which simplifies observability and tracing across functions, whereas containers often need extra instrumentation layers. Together, these attributes make WASM a more streamlined, secure, and observable choice for FaaS compared with the heavier, more complex container approach.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/wasm-components-are-faas-best-friend",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/wasm-components-are-faas-best-friend_q2_medium",
+        "question": "How does the emerging WebAssembly Component Model mitigate the complexities of memory management and data exchange between WASM modules in a serverless/FaaS architecture, and what trade\u2011offs might still need to be considered when adopting this model?",
+        "answer": "The WebAssembly Component Model introduces a standardized interface definition that abstracts away the low\u2011level details of memory allocation and data marshaling between modules. By defining clear import/export contracts, developers no longer need to manually coordinate shared memory buffers or write custom glue code for each interaction, which simplifies integration and reduces bugs. However, adopting the model still requires careful capability configuration to ensure that each component only receives the permissions it needs, which can add operational overhead. There may also be performance trade\u2011offs because the abstraction layer can introduce indirection, and teams must evaluate whether the added portability and safety outweigh any latency or resource costs in their specific multi\u2011cloud or multi\u2011platform deployment scenarios.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/wasm-components-are-faas-best-friend",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

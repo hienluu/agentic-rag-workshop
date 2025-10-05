@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/timeouts-retries-and-idempotency-distributed-systems_q1_easy",
+        "question": "What are the three Golden Rules of Distributed Systems mentioned in Sam Newman's presentation?",
+        "answer": "1. You cannot instantly beam information between two points.\n2. You may not always be able to reach the desired service.\n3. Resources are not infinite.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/timeouts-retries-and-idempotency-distributed-systems",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/timeouts-retries-and-idempotency-distributed-systems_q2_easy",
+        "question": "According to the talk, what technique is recommended to prevent synchronized retries that could overload the system?",
+        "answer": "Randomizing retry intervals (jitter) helps prevent synchronized retries that can lead to system overloads.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/timeouts-retries-and-idempotency-distributed-systems",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/timeouts-retries-and-idempotency-distributed-systems_q1_medium",
+        "question": "Why does Sam Newman advocate for adding jitter (randomized intervals) to retry logic in distributed systems, and what problems can arise if retries are performed with fixed intervals?",
+        "answer": "Jitter is recommended to break up the synchronization that can occur when many clients experience the same transient failure and retry at the same moment. Without jitter, these coordinated retries can cause a \"thundering herd\" effect, overwhelming the target service and turning a temporary issue into a larger outage. Randomizing the wait times spreads the retry attempts over a broader window, reducing the chance of overload and improving overall system stability.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/timeouts-retries-and-idempotency-distributed-systems",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/timeouts-retries-and-idempotency-distributed-systems_q2_medium",
+        "question": "How do timeouts and idempotency complement each other in building resilient distributed systems, and what design trade\u2011offs must be considered when choosing timeout durations for operations that rely on idempotent behavior?",
+        "answer": "Timeouts protect resources by aborting requests that exceed a reasonable execution window, preventing hanging calls from consuming threads, connections, or memory. Idempotency ensures that if a client retries a request after a timeout (or any failure), the repeated operation will not produce unintended side\u2011effects, keeping the system state consistent. When setting timeout values, designers must balance being long enough for legitimate operations to finish (so that retries don\u2019t need to be performed unnecessarily) against being short enough to free resources promptly. Additionally, the operation must be truly idempotent\u2014often achieved with unique request IDs\u2014so that any retry triggered by a timeout does not cause duplicate processing.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/timeouts-retries-and-idempotency-distributed-systems",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

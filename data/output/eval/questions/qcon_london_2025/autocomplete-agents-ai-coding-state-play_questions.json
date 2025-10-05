@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/autocomplete-agents-ai-coding-state-play_q1_easy",
+        "question": "Who was the speaker for the session titled \"From Autocomplete to Agents: AI Coding State of Play\"?",
+        "answer": "Birgitta B\u00f6ckeler",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/autocomplete-agents-ai-coding-state-play",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/autocomplete-agents-ai-coding-state-play_q2_easy",
+        "question": "According to the transcript, what are two challenges associated with AI coding assistants that were highlighted?",
+        "answer": "Coding errors and security vulnerabilities",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/autocomplete-agents-ai-coding-state-play",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/autocomplete-agents-ai-coding-state-play_q1_medium",
+        "question": "Why does the presentation recommend that developers collaborate with AI agents by planning tasks together and giving concrete, detailed instructions, and how does this practice affect cognitive load and the overall effectiveness of the agent\u2011assisted workflow?",
+        "answer": "The talk explains that agents act on prompts that are orchestrated across the entire codebase. When developers plan tasks together with the agent and provide concrete, unambiguous instructions, the agent can generate more accurate and relevant actions, reducing the need for the developer to repeatedly clarify or correct the agent\u2019s output. This shared planning limits the mental effort required to keep track of what the agent is doing (i.e., lowers cognitive load) and helps maintain a clear, bounded scope for each interaction, which in turn improves the efficiency and reliability of the workflow.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/autocomplete-agents-ai-coding-state-play",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/autocomplete-agents-ai-coding-state-play_q2_medium",
+        "question": "What are the key trade\u2011offs of depending on external MCP (Model\u2011as\u2011a\u2011Service) servers for AI coding assistants, and how should teams balance the automation benefits against the risks of security vulnerabilities and code\u2011quality degradation?",
+        "answer": "Relying on external MCP servers gives teams access to powerful, up\u2011to\u2011date AI models and reduces the effort of hosting and maintaining the infrastructure, which accelerates adoption and enables richer features such as whole\u2011codebase context. However, this dependency introduces risks: code or proprietary data may be sent to third\u2011party servers, creating potential security and confidentiality issues; the assistant may generate incorrect code or introduce vulnerabilities, and teams become vulnerable to service outages or version changes. To balance these trade\u2011offs, the presentation advises vigilant supervision\u2014treating AI output as suggestions that must be reviewed\u2014and maintaining manual oversight for critical sections, while using the automation for repetitive or low\u2011risk tasks where the speed gains outweigh the residual risk.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/autocomplete-agents-ai-coding-state-play",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

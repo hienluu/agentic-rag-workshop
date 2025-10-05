@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-build-database-without-server_q1_easy",
+        "question": "What is the name of the serverless database engine that Alex Seaton discusses, which interacts directly with object storage?",
+        "answer": "ArcticDB",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-build-database-without-server",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-build-database-without-server_q2_easy",
+        "question": "In which conference track was the session \"How to Build a Database Without a Server\" scheduled?",
+        "answer": "The Tech of FinTech",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-build-database-without-server",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-build-database-without-server_q1_medium",
+        "question": "Why did Alex Seaton advocate for a serverless architecture that relies on a client\u2011side library and object storage instead of continuing with a traditional server\u2011based database like MongoDB?",
+        "answer": "Alex argues that managing large, traditional database installations (e.g., MongoDB) is both costly and operationally complex. By moving the database logic into a client\u2011side library that talks directly to modern object storage, the system eliminates the need for coordinating servers, reduces operational overhead, and gains natural scalability because object storage services already handle petabyte\u2011scale data and thousands of concurrent users. This approach also leverages recent advances in object\u2011storage performance, allowing the database to be built on a simpler, more cost\u2011effective foundation while still supporting the high\u2011throughput workloads required by large\u2011scale analytics.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-build-database-without-server",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-build-database-without-server_q2_medium",
+        "question": "What are the key trade\u2011offs involved in using Conflict\u2011free Replicated Data Types (CRDTs) for global state management in a serverless, object\u2011storage\u2011backed database, and how do they address the challenges of high\u2011latency commodity storage?",
+        "answer": "CRDTs provide lock\u2011free, eventually consistent state replication, which removes the need for heavy synchronization protocols that would be penalised by the high latency of commodity object storage. This design choice improves write\u2011throughput and reduces coordination latency, fitting the serverless model where each client writes directly to storage. However, the trade\u2011off is that CRDTs can increase storage overhead (because multiple versions or metadata must be kept to resolve conflicts) and may complicate reasoning about exact consistency guarantees compared to strict ACID transactions. Alex\u2019s approach balances these concerns by carefully choosing core data structures that preserve ACID\u2011like guarantees where needed while relying on CRDTs for parts of the system where eventual consistency is acceptable, thus achieving high performance without a central server.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-build-database-without-server",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

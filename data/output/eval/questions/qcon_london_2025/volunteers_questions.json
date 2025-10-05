@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/volunteers_q1_easy",
+        "question": "What is the minimum age requirement for volunteers at QCon London?",
+        "answer": "Must be 18 years of age or older",
+        "source_chunk_id": "https://qconlondon.com/volunteers",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/volunteers_q2_easy",
+        "question": "How many full days of volunteer work must be completed to be eligible for the volunteer prize raffle?",
+        "answer": "You will need to have fulfilled 3 full days of volunteer work to be able to win.",
+        "source_chunk_id": "https://qconlondon.com/volunteers",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/volunteers_q1_medium",
+        "question": "Why does QCon require volunteers to cover their own travel and hotel expenses, and how does this requirement influence both the composition of the volunteer pool and the conference\u2019s overall cost structure?",
+        "answer": "Requiring volunteers to pay for their own travel and accommodation shifts a significant portion of the event\u2019s operational costs away from the conference organizers. This design decision reduces the financial burden on QCon, allowing resources to be allocated to other areas such as speaker fees, venue costs, and the provision of meals and T\u2011shirts for volunteers. At the same time, it creates a natural filter: only individuals who are highly motivated\u2014perhaps because they seek networking opportunities, free conference access, or a r\u00e9sum\u00e9 boost\u2014will apply. Consequently, the volunteer pool is likely to consist of committed students, recent graduates, or early\u2011career professionals who are willing to invest in the experience, rather than a broader, possibly less engaged audience.",
+        "source_chunk_id": "https://qconlondon.com/volunteers",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/volunteers_q2_medium",
+        "question": "How does the combination of volunteer duties (e.g., badge scanning, room monitoring) and the benefits offered (free session access, meals, T\u2011shirts, raffle prize) create a trade\u2011off between volunteer workload and the conference\u2019s staffing needs, and why is full\u2011day, three\u2011day availability emphasized?",
+        "answer": "The volunteer program is structured so that the tasks volunteers perform directly fill operational gaps that would otherwise require paid staff\u2014such as registration support, directing attendees, and monitoring rooms. In exchange, QCon provides tangible benefits: free access to recorded sessions, meals, branded apparel, and a chance at a prize raffle. This incentive package compensates volunteers for the demanding schedule (7\u202fAM\u20117\u202fPM) and encourages them to commit to the full three\u2011day period, ensuring consistent coverage across all conference days. Prioritizing volunteers who can work the entire duration reduces the need for shift handovers and minimizes staffing gaps, while the benefits serve as a cost\u2011effective way to attract and retain reliable help. The trade\u2011off is that volunteers must invest significant time, but they receive valuable professional exposure and perks, aligning their workload with the conference\u2019s staffing requirements.",
+        "source_chunk_id": "https://qconlondon.com/volunteers",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

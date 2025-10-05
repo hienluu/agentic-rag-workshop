@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/venue/mar2026_q1_easy",
+        "question": "What is the telephone number provided for The Queen Elizabeth II Conference Centre?",
+        "answer": "+44 20 7798 4000",
+        "source_chunk_id": "https://qconlondon.com/venue/mar2026",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/venue/mar2026_q2_easy",
+        "question": "Which bus routes stop at Parliament Square for attendees traveling to QCon?",
+        "answer": "Buses 11, 12, 24, 53, 77a, and 88",
+        "source_chunk_id": "https://qconlondon.com/venue/mar2026",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/venue/mar2026_q1_medium",
+        "question": "Why does QCon advise participants to book accommodation early through the appointed partner BCD\u202fM&E rather than allowing unrestricted hotel selection, and what are the key trade\u2011offs of this centralized booking strategy?",
+        "answer": "The recommendation to book early through BCD\u202fM&E is driven by several practical considerations. Early booking secures the lowest possible room rates and unlocks group\u2011discount pricing for nine or more rooms, which reduces overall travel costs for attendees and the conference budget. Using an appointed partner eliminates administration and handling fees, streamlines the reservation process, and gives the conference organizers visibility into attendee numbers for capacity planning and on\u2011site logistics. The trade\u2011offs include reduced flexibility for participants who might prefer a different hotel, location, or amenity, and a reliance on a single vendor which could limit options if the partner\u2019s inventory is constrained. However, the cost savings, simplified logistics, and predictable accommodation inventory are deemed to outweigh these limitations for a large\u2011scale event.",
+        "source_chunk_id": "https://qconlondon.com/venue/mar2026",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/venue/mar2026_q2_medium",
+        "question": "How does the detailed presentation of multiple transport modes (international airport travel times, nearest tube stations, and bus routes) reflect a design decision aimed at accessibility and sustainability for conference attendees, and what benefits and challenges does this multi\u2011modal approach introduce?",
+        "answer": "Listing travel times from all major London airports, the three closest tube stations, and the specific bus routes that stop at Parliament Square is a deliberate design choice to encourage the use of public transportation and reduce reliance on private cars. This supports the venue\u2019s sustainability goals by lowering carbon emissions and traffic congestion, while also improving accessibility for international attendees who may be unfamiliar with the city. The benefits include offering attendees a range of convenient, cost\u2011effective options, enhancing the overall attendee experience, and aligning the event with broader environmental best practices. Challenges arise in ensuring the information remains accurate and up\u2011to\u2011date, coordinating schedules across different transit services, and handling edge cases where certain attendees may have mobility constraints that make public transit less viable. Nonetheless, the multi\u2011modal strategy balances environmental responsibility with practical convenience for most participants.",
+        "source_chunk_id": "https://qconlondon.com/venue/mar2026",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

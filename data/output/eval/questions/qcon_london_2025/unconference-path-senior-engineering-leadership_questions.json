@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-path-senior-engineering-leadership_q1_easy",
+        "question": "What is the scheduled start time (including time zone) for the session titled \"The Principal Engineer\u2019s Path: Skills, Strategies, and Lessons Learned\"?",
+        "answer": "Monday Apr 7 / 10:35AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-path-senior-engineering-leadership",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-path-senior-engineering-leadership_q2_easy",
+        "question": "Who is the speaker for the session \"Changing Power Dynamics: What Senior Engineers Can Learn From Junior Engineers\"?",
+        "answer": "Beth Anderson",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-path-senior-engineering-leadership",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-path-senior-engineering-leadership_q1_medium",
+        "question": "Why does the session \"Changing Power Dynamics: What Senior Engineers Can Learn From Junior Engineers\" argue that senior engineers should actively seek input from junior engineers, and what problems does this approach aim to solve within engineering teams?",
+        "answer": "The description points out that traditional hierarchies where senior engineers make all decisions can stifle innovation, suppress fresh perspectives, and create barriers to collaboration. By learning from junior engineers, senior staff can break down these rigid dynamics, surface new ideas, and foster a more inclusive environment that encourages experimentation and shared ownership, ultimately improving team performance and product quality.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-path-senior-engineering-leadership",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-path-senior-engineering-leadership_q2_medium",
+        "question": "How does the framing of the \"Principal Engineer\u2019s Path\" as a long, winding journey rather than a straight ladder influence the way organizations should design career development programs for senior individual contributors?",
+        "answer": "The abstract contrasts the traditional ladder model\u2014short, straight, evenly spaced\u2014with a career that is \"long, winding, and often challenging.\" This suggests that principal engineers need varied experiences, flexible milestones, and opportunities for lateral growth rather than linear promotions. Consequently, organizations should provide diverse project assignments, mentorship, and skill\u2011building pathways that accommodate non\u2011linear progress, ensuring engineers can navigate the complex trajectory described.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-path-senior-engineering-leadership",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.9,
+        "human_validated": false
+    }
+]

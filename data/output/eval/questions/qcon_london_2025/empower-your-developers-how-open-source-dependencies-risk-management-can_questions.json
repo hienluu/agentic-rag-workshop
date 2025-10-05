@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/empower-your-developers-how-open-source-dependencies-risk-management-can_q1_easy",
+        "question": "Which automation tools were mentioned for efficient vulnerability tracking and management in the presentation?",
+        "answer": "Dependabot and Black Duck",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/empower-your-developers-how-open-source-dependencies-risk-management-can",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/empower-your-developers-how-open-source-dependencies-risk-management-can_q2_easy",
+        "question": "What is the scheduled date and time for Celine Pypaert's session \"Empower Your Developers: How Open Source Dependencies Risk Management Can Unlock Innovation\"?",
+        "answer": "Tuesday Apr 8 / 11:45AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/empower-your-developers-how-open-source-dependencies-risk-management-can",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/empower-your-developers-how-open-source-dependencies-risk-management-can_q1_medium",
+        "question": "Why does the speaker stress establishing clear ownership and accountability for open\u2011source dependencies, and how does this practice help prevent the problem of orphaned repositories within an organization?",
+        "answer": "Clear ownership assigns a specific team or individual the responsibility for continuously monitoring, updating, and patching each dependency. When someone is accountable, the component is less likely to be neglected or forgotten, which is what creates an \"orphaned\" repository\u2014a library that no longer has a maintainer watching for new vulnerabilities. By tying each dependency to an owner, the organization ensures that security updates are applied promptly, that risk assessments are performed regularly, and that any issues are escalated through a known channel. This proactive stance reduces the attack surface and aligns with the broader cultural shift toward shared security responsibility that the talk advocates.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/empower-your-developers-how-open-source-dependencies-risk-management-can",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/empower-your-developers-how-open-source-dependencies-risk-management-can_q2_medium",
+        "question": "How do automation tools such as Dependabot and Black Duck work together with a Software Bill of Materials (S\u2011bomb) to enable proactive open\u2011source risk management, and what are the key trade\u2011offs an organization should consider when relying heavily on automation?",
+        "answer": "Automation tools continuously scan codebases and dependency manifests, automatically detecting new vulnerabilities and, in the case of Dependabot, generating pull\u2011requests to upgrade affected libraries. Black Duck provides deeper composition analysis and licensing compliance data. The results from these tools populate the Software Bill of Materials (S\u2011bomb), which is a transparent, machine\u2011readable inventory of all components used in a product. By keeping the S\u2011bomb up\u2011to\u2011date through automation, organizations can quickly prioritize remediation, demonstrate compliance, and maintain continuous visibility into their supply chain. The trade\u2011offs include potential false positives or missed issues if the tools\u2019 vulnerability databases are incomplete, the risk of over\u2011reliance on automated pull\u2011requests that may break builds, and the need for human oversight to validate changes and manage tool configuration. Organizations must balance the speed and coverage automation provides against the overhead of reviewing and integrating automated updates.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/empower-your-developers-how-open-source-dependencies-risk-management-can",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/what-i-wish-i-knew-when-i-started-green-it_q1_easy",
+        "question": "What is the title of Ludi AKUE's presentation?",
+        "answer": "What I Wish I Knew When I Started with Green IT",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/what-i-wish-i-knew-when-i-started-green-it",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/what-i-wish-i-knew-when-i-started-green-it_q2_easy",
+        "question": "According to the transcript, what architectural shift is recommended to reduce technical debt?",
+        "answer": "Transitioning from microservices to modular monolith architectures",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/what-i-wish-i-knew-when-i-started-green-it",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/what-i-wish-i-knew-when-i-started-green-it_q1_medium",
+        "question": "Why does the speaker recommend migrating from a microservices architecture to a modular monolith when pursuing Green IT goals, and what are the primary trade\u2011offs of this design decision?",
+        "answer": "The speaker argues that a modular monolith reduces architectural complexity and technical debt, which in turn lowers the amount of compute, storage, and networking resources required to run the system. Fewer moving parts mean less overhead for orchestration, monitoring, and inter\u2011service communication, directly cutting the energy consumption that contributes to greenhouse\u2011gas emissions. The trade\u2011off is that a monolith can limit independent deployment, scaling granularity, and fault isolation that microservices provide. However, when the monolith is designed with clear modular boundaries, many of those benefits can be retained while achieving the energy\u2011efficiency gains needed for Green IT.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/what-i-wish-i-knew-when-i-started-green-it",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/what-i-wish-i-knew-when-i-started-green-it_q2_medium",
+        "question": "How does adopting cloud\u2011based solutions increase flexibility and transparency for emissions management according to the talk, and what governance or accountability mechanisms must accompany this shift to ensure it supports net\u2011zero objectives?",
+        "answer": "Cloud platforms provide centralized telemetry, fine\u2011grained usage metrics, and automated scaling, which give teams real\u2011time visibility into compute and storage consumption. This transparency makes it possible to attribute energy use to specific services or teams, enabling more accurate Life\u2011Cycle Assessments (LCA) and Scope\u20111/2/3 reporting. To turn that visibility into net\u2011zero progress, the speaker stresses the need for robust governance frameworks: clear data\u2011transparency policies, accountability structures that tie resource usage to performance targets, and organizational mandates that embed sustainability criteria into budgeting, FinOps, and architectural decision\u2011making. Without these controls, the raw data from the cloud would not translate into actionable emissions reductions.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/what-i-wish-i-knew-when-i-started-green-it",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

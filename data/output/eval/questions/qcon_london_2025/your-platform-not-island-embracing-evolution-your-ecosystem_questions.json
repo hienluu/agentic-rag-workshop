@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/your-platform-not-island-embracing-evolution-your-ecosystem_q1_easy",
+        "question": "What is the title of Rachael Wonnacott's presentation at QCon London?",
+        "answer": "Your Platform is Not an Island: Embracing Evolution in Your Ecosystem",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/your-platform-not-island-embracing-evolution-your-ecosystem",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/your-platform-not-island-embracing-evolution-your-ecosystem_q2_easy",
+        "question": "Which cloud provider and managed Kubernetes service does Rachael lead the greenfield build of a strategic platform on?",
+        "answer": "AWS EKS (Amazon Web Services Elastic Kubernetes Service)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/your-platform-not-island-embracing-evolution-your-ecosystem",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/your-platform-not-island-embracing-evolution-your-ecosystem_q1_medium",
+        "question": "Why does Rachael argue that business value should be the primary goal of a platform, with developer experience (DevEx) treated as a lever rather than the end\u2011goal, and how does this perspective influence platform design decisions in large enterprises?",
+        "answer": "Rachael emphasizes that platforms exist to deliver measurable business outcomes; DevEx is important because it enables teams to achieve those outcomes more efficiently, but it is not valuable in isolation. By positioning business value first, architects are forced to evaluate features, tooling, and processes against concrete ROI metrics rather than purely on developer convenience. This leads to design decisions that prioritize integration with existing business workflows, observable performance and cost metrics, and alignment with strategic initiatives, while still using DevEx improvements as a means to accelerate the delivery of that value. In large enterprises, where legacy systems and diverse team structures add complexity, this focus helps avoid over\u2011engineering for developer niceties that do not translate into business impact.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/your-platform-not-island-embracing-evolution-your-ecosystem",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/your-platform-not-island-embracing-evolution-your-ecosystem_q2_medium",
+        "question": "How do technical shifts (e.g., moving from Cloud Foundry to Kubernetes) and cultural shifts (e.g., addressing organizational silos) interact in Rachael\u2019s platform evolution strategy, and what trade\u2011offs must an enterprise consider when undertaking such a transition?",
+        "answer": "The technical shift to Kubernetes provides capabilities such as container orchestration, scalability, and cloud\u2011native tooling, but it also exposes cultural challenges because teams must adopt new operational models, shared responsibilities, and cross\u2011team collaboration. Rachael\u2019s strategy treats the platform as a sociotechnical system, using approaches like Domain\u2011Driven Design and Team Topologies to reshape team structures alongside the technology change. The trade\u2011offs include the cost and risk of migrating legacy workloads, the need for up\u2011skilling staff, and potential disruption to existing delivery pipelines versus the long\u2011term gains in flexibility, faster delivery, and better alignment with business value. Enterprises must balance the immediate overhead of cultural change against the strategic benefits of a modern, unified platform.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/your-platform-not-island-embracing-evolution-your-ecosystem",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

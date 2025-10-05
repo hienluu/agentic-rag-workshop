@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/trust-no-one-securing-modern-software-supply-chain-zero-trust_q1_easy",
+        "question": "On what date and time did Emma Yuan Fang deliver the session \"Trust No One: Securing the Modern Software Supply Chain with Zero Trust\"?",
+        "answer": "Tuesday Apr 8 / 01:35PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/trust-no-one-securing-modern-software-supply-chain-zero-trust",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/trust-no-one-securing-modern-software-supply-chain-zero-trust_q2_easy",
+        "question": "Which two specific supply chain attacks are cited as examples in the presentation?",
+        "answer": "The SolarWinds attack and dependency confusion exploits",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/trust-no-one-securing-modern-software-supply-chain-zero-trust",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/trust-no-one-securing-modern-software-supply-chain-zero-trust_q1_medium",
+        "question": "Why does Emma advocate for applying Zero Trust principles to the software supply chain instead of relying on traditional perimeter\u2011based security, and which specific security controls does she recommend to realize Zero Trust within CI/CD pipelines?",
+        "answer": "Emma argues that supply\u2011chain attacks exploit the implicit trust placed in tools, dependencies, and container images that reside inside the traditional security perimeter. Because attackers can compromise a trusted component and then move laterally, a perimeter\u2011only model fails to detect or stop the breach. Zero Trust assumes that any component could be compromised, so every interaction must be verified and access must be limited to the minimum required. To enact this in CI/CD pipelines she recommends a set of controls that enforce verification and least\u2011privilege:\u202fartifact signing and checksum verification for code and container images; branch\u2011protection policies to prevent unauthorized changes; conditional access and strict identity\u2011based permissions for pipeline agents; robust secret\u2011management (e.g., vaults, short\u2011lived tokens) to avoid credential leakage; and continuous auditing of CI/CD tooling to detect anomalous behavior. Together these controls embody the Zero Trust mantra of \u201cverify every interaction, assume breach, and enforce least privilege.\u201d",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/trust-no-one-securing-modern-software-supply-chain-zero-trust",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/trust-no-one-securing-modern-software-supply-chain-zero-trust_q2_medium",
+        "question": "What are the trade\u2011offs between relying solely on automated dependency\u2011scanning tools and incorporating manual verification methods such as digital signatures and checksum validation when managing open\u2011source dependencies, and how does Emma\u2019s guidance balance security with developer productivity?",
+        "answer": "Automated scanning scales well and provides rapid feedback, catching known vulnerabilities and misconfigurations without adding friction to developers\u2019 workflows. However, it can miss novel or targeted attacks (e.g., dependency\u2011confusion or malicious packages that have not yet been flagged) and may generate false positives that erode trust in the tool. Manual verification\u2014using digital signatures, checksums, and signed artifact registries\u2014offers a higher assurance that the exact code intended for deployment is what actually runs, but it introduces additional steps, requires key management, and can slow down the release cycle. Emma\u2019s recommendation balances these concerns by advocating a layered approach: use automated scanning as the first line of defense for speed and coverage, then enforce mandatory signing and checksum verification for any published artifact before it can be promoted through the pipeline. Branch\u2011protection policies and conditional access further ensure that only verified code can be merged, while secret\u2011management practices keep the signing keys secure. This hybrid strategy maintains strong security guarantees without unduly hampering developer velocity.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/trust-no-one-securing-modern-software-supply-chain-zero-trust",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

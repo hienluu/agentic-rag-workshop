@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/beyond-code-building-personal-brand-boost-your-career_q1_easy",
+        "question": "Who are the two speakers listed for the session \"Beyond Code: Building a Personal Brand To Boost Your Career\"?",
+        "answer": "Roland Meertens and Steef-Jan Wiggers",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/beyond-code-building-personal-brand-boost-your-career",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/beyond-code-building-personal-brand-boost-your-career_q2_easy",
+        "question": "What is the scheduled date and start time (including time zone) for the \"Beyond Code: Building a Personal Brand To Boost Your Career\" session?",
+        "answer": "Tuesday Apr 8 / 01:35PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/beyond-code-building-personal-brand-boost-your-career",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/beyond-code-building-personal-brand-boost-your-career_q1_medium",
+        "question": "Why do the speakers advocate combining activity on platforms such as GitHub, LinkedIn, and Twitter with open\u2011source contributions to build a personal brand, and what are the key trade\u2011offs a senior developer must consider when allocating time to these activities versus core engineering work?",
+        "answer": "The speakers argue that visibility on GitHub, LinkedIn, and Twitter, together with tangible open\u2011source work, creates a public record of expertise that can be discovered by recruiters, peers, and community members, opening career pathways that go beyond pure technical output. This multi\u2011channel presence demonstrates influence, credibility, and thought leadership, which are increasingly important in a competitive job market. The trade\u2011offs involve the opportunity cost of time spent on personal\u2011branding activities: senior engineers may divert focus from product development, risk burnout, or expose themselves to scrutiny. Balancing these activities requires careful planning to ensure that the branding effort adds measurable value (e.g., new opportunities, network growth) without compromising delivery commitments.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/beyond-code-building-personal-brand-boost-your-career",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/beyond-code-building-personal-brand-boost-your-career_q2_medium",
+        "question": "How does actively helping others\u2014through mentoring, Q&A sites, or community contributions\u2014simultaneously expand a senior engineer\u2019s professional network and sharpen their own technical skills, and why is this considered a strategic design decision in a career development plan?",
+        "answer": "Helping others forces a senior engineer to articulate concepts clearly, expose gaps in their own knowledge, and stay current with emerging problems, which directly sharpens technical expertise. At the same time, each mentoring interaction or answer on a Q&A site creates a connection with peers, mentees, and industry influencers, organically growing the engineer\u2019s network. This dual benefit makes knowledge\u2011sharing a strategic choice: it delivers personal growth while building relationships that can lead to collaborations, speaking opportunities, or job offers, thereby reinforcing the engineer\u2019s professional brand and long\u2011term career resilience.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/beyond-code-building-personal-brand-boost-your-career",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

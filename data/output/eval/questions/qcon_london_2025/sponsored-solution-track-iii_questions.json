@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-iii_q1_easy",
+        "question": "Who presented the session titled \"Developer Experience\u2019s New Frontier: Agentic Experience\"?",
+        "answer": "Nolan Di Mare Sullivan",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-iii",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-iii_q2_easy",
+        "question": "At what time (BST) was the session \"Developer Experience\u2019s New Frontier: Agentic Experience\" scheduled according to the transcript?",
+        "answer": "10:35AM BST",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-iii",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-iii_q1_medium",
+        "question": "Why does the speaker present Agentic Experience (AX) as the next frontier after companies have begun to recognize the importance of Developer Experience (DX)?",
+        "answer": "The speaker implies that once organizations understand DX\u2019s business value, they start to hit the limits of static, usability\u2011focused tooling. To continue improving productivity and reduce friction, they need tooling that can act proactively\u2014anticipating needs, automating routine steps, and offering intelligent guidance. AX embodies this shift by giving developer tools agency, moving from merely \"good\" experiences to experiences that can make decisions and act on behalf of developers.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-iii",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.87,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-iii_q2_medium",
+        "question": "What design trade\u2011offs and responsibilities should a Head of Developer Relations consider when introducing Agentic Experience (AX) into a developer platform, based on the transition described in the text?",
+        "answer": "A Head of Developer Relations must balance the added agency (automation, AI\u2011driven assistance) with preserving developer control and trust. They need to ensure AX integrates smoothly with existing DX practices, avoid overwhelming users with opaque automation, and provide clear onboarding and documentation so developers understand what the agent does and can opt\u2011in or out. Additionally, they must align AX\u2019s capabilities with the business outcomes that originally motivated DX investment, measuring whether the new agency actually improves productivity and satisfaction without introducing new friction.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/sponsored-solution-track-iii",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.82,
+        "human_validated": false
+    }
+]

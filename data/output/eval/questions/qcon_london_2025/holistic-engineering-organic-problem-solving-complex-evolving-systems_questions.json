@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/holistic-engineering-organic-problem-solving-complex-evolving-systems_q1_easy",
+        "question": "On what date and at what time was Vanessa Formicola's session \"Holistic Engineering: Organic Problem Solving for Complex Evolving Systems\" scheduled to start?",
+        "answer": "Wednesday Apr 9 / 10:35AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/holistic-engineering-organic-problem-solving-complex-evolving-systems",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/holistic-engineering-organic-problem-solving-complex-evolving-systems_q2_easy",
+        "question": "Which company does Vanessa Formicola work for as a Principal Engineer, as mentioned in the transcript?",
+        "answer": "FloHealth",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/holistic-engineering-organic-problem-solving-complex-evolving-systems",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/holistic-engineering-organic-problem-solving-complex-evolving-systems_q1_medium",
+        "question": "Why does Vanessa emphasize the need to identify and make explicit the various forces (technical and non\u2011technical) impacting a system, and how does this practice shape architectural decision\u2011making according to the holistic engineering approach?",
+        "answer": "Vanessa argues that many defects, delays, and sub\u2011optimal outcomes stem from hidden, non\u2011technical influences such as organizational structure, budgets, politics, and culture. By surfacing these forces, teams can create models and visualisations that reveal how they interact with the code base. This explicit understanding enables architects to anticipate constraints, align technical choices with business realities, and communicate insights across the organisation, leading to more resilient and adaptable designs. In short, making the forces explicit turns implicit risk into a concrete factor that can be reasoned about during design.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/holistic-engineering-organic-problem-solving-complex-evolving-systems",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/holistic-engineering-organic-problem-solving-complex-evolving-systems_q2_medium",
+        "question": "How does the holistic engineering methodology help mitigate common project pitfalls such as late deliveries caused by unforeseen constraints, and what trade\u2011offs might a team face when deliberately incorporating non\u2011technical variables into their architectural plans?",
+        "answer": "The methodology tackles late deliveries by first mapping the social dynamics, organisational constraints, and external events that often surface only late in a project. By socialising these findings early, teams can adjust scope, allocate resources, or redesign components before they become blockers. However, deliberately folding non\u2011technical variables into architecture introduces trade\u2011offs: it requires additional upfront analysis time, broader stakeholder coordination, and may slow rapid prototyping. Teams must balance the cost of this extra effort against the benefit of reduced surprise and higher system resilience.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/holistic-engineering-organic-problem-solving-complex-evolving-systems",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

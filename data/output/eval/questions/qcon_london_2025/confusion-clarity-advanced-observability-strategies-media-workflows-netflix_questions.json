@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/confusion-clarity-advanced-observability-strategies-media-workflows-netflix_q1_easy",
+        "question": "What are the four key observability strategies highlighted in the Netflix media workflows talk?",
+        "answer": "Near Real-time Insights, Optimal Rollup Strategies, Opinionated Tagging Taxonomy, and Enabling ROI Analysis.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/confusion-clarity-advanced-observability-strategies-media-workflows-netflix",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/confusion-clarity-advanced-observability-strategies-media-workflows-netflix_q2_easy",
+        "question": "When and at what time was the session \"From Confusion to Clarity: Advanced Observability Strategies for Media Workflows at Netflix\" scheduled?",
+        "answer": "Wednesday Apr 9 at 11:45\u202fAM BST.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/confusion-clarity-advanced-observability-strategies-media-workflows-netflix",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/confusion-clarity-advanced-observability-strategies-media-workflows-netflix_q1_medium",
+        "question": "Why did Netflix transition from traditional observability tools to a custom stream\u2011processing pipeline for its media workflows, and how does this design address the specific challenges of asynchronous, high\u2011throughput encoding tasks?",
+        "answer": "Traditional observability tools were built for RPC\u2011style services and could not cope with the scale, asynchrony, and long\u2011running nature of Netflix\u2019s media workflows, which involve millions of executions and billions of events. By adopting a stream\u2011processing pipeline, Netflix can ingest domain\u2011specific events in near real\u2011time, perform on\u2011the\u2011fly aggregations, and provide rapid insights that surface errors before they waste compute resources. This design directly tackles the need for scalability, low\u2011latency detection, and a unified view across distributed, asynchronous tasks that the legacy tools could not provide.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/confusion-clarity-advanced-observability-strategies-media-workflows-netflix",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/confusion-clarity-advanced-observability-strategies-media-workflows-netflix_q2_medium",
+        "question": "What are the trade\u2011offs of employing the \"optimal rollup strategy\" (pre\u2011aggregation and event collapsing) described in the talk, and how does this affect storage efficiency versus the ability to perform detailed analysis?",
+        "answer": "The optimal rollup strategy reduces storage costs and speeds up top\u2011level queries by consolidating millions of low\u2011level events into a smaller set of business\u2011insight events. The trade\u2011off is a loss of fine\u2011grained data: once events are collapsed, it becomes harder or impossible to drill down to the original raw details for root\u2011cause analysis. Therefore, the design balances the need for efficient storage and fast query performance against the requirement for detailed forensic investigation, often by keeping a limited window of raw events or by carefully selecting which dimensions to preserve in the rollup.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/confusion-clarity-advanced-observability-strategies-media-workflows-netflix",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

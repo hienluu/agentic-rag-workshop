@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/platforms-secure-api-connectivity-architecture-code_q1_easy",
+        "question": "Who delivered the presentation titled \"Platforms for Secure API Connectivity With Architecture as Code\"?",
+        "answer": "Jim Gough",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/platforms-secure-api-connectivity-architecture-code",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/platforms-secure-api-connectivity-architecture-code_q2_easy",
+        "question": "Which open\u2011source initiative provides CALM, the structured approach for defining secure and resilient architecture patterns?",
+        "answer": "FINOS",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/platforms-secure-api-connectivity-architecture-code",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/platforms-secure-api-connectivity-architecture-code_q1_medium",
+        "question": "How does adopting Architecture as Code with CALM enable a secure\u2011by\u2011design approach while preserving a smooth developer experience, and why is this considered an improvement over traditional security models that are applied later in the pipeline?",
+        "answer": "CALM codifies security and resilience patterns as reusable, machine\u2011readable definitions. By using the CALM CLI, architects can generate architectures that already embed Zero\u2011Trust principles, network segmentation, and threat\u2011model controls. The CLI then validates the generated code against these patterns, surfacing violations before any code is written or deployed. This early, automated feedback removes the need for developers to retrofit security after a service is built, eliminating the friction and delays typical of traditional, post\u2011hoc security reviews. Consequently, security becomes part of the development workflow rather than an afterthought, maintaining developer velocity while ensuring compliance.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/platforms-secure-api-connectivity-architecture-code",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/platforms-secure-api-connectivity-architecture-code_q2_medium",
+        "question": "What are the key trade\u2011offs of using the CALM CLI to generate and enforce security controls at the start of a deployment versus applying security controls retrospectively, especially in highly regulated environments?",
+        "answer": "Generating and enforcing security controls early with the CALM CLI provides several benefits: it guarantees that every component complies with predefined security patterns, reduces rework and remediation costs, and helps meet regulatory compliance continuously. However, this approach also introduces trade\u2011offs: teams must invest upfront in defining accurate patterns and threat models, which can increase initial complexity and require cross\u2011functional coordination. Early enforcement may also limit flexibility for rapid prototyping or experimental features that fall outside the established patterns. In contrast, applying security retrospectively is simpler to start with but often leads to hidden vulnerabilities, costly retro\u2011fits, and potential compliance gaps, especially problematic in regulated sectors where audits expect security to be baked in from day one.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/platforms-secure-api-connectivity-architecture-code",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

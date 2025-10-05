@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/changing-face-architectural-practice_q1_easy",
+        "question": "What is the title and scheduled time of the session presented by Vanessa Formicola?",
+        "answer": "Holistic Engineering: Organic Problem Solving for Complex Evolving Systems \u2013 Wednesday Apr 9 / 10:35AM BST",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/changing-face-architectural-practice",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/changing-face-architectural-practice_q2_easy",
+        "question": "Which open\u2011source project does Andrew Harmel\u2011Law cite as being one of the originators of?",
+        "answer": "Jenkins JobDSL",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/changing-face-architectural-practice",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/changing-face-architectural-practice_q1_medium",
+        "question": "Why does the session *Empowering Teams: Decentralizing Architectural Decision\u2011Making* claim that centralised architectural decision\u2011making can become a bottleneck, and how does decentralising those decisions address the challenges of a rapidly evolving tech landscape?",
+        "answer": "The description states that \u201ccentralised architectural decision\u2011making can become a bottleneck to delivery performance and innovation.\u201d In fast\u2011moving environments, a single authority must evaluate many competing demands, which slows the flow of work and limits the ability to experiment or adapt quickly. By decentralising decision\u2011making, the responsibility and authority are pushed to the teams that are closest to the problem domain, enabling faster feedback loops, greater ownership, and the ability to iterate on solutions without waiting for top\u2011down approval. This aligns with the track\u2019s theme of adapting architecture to change\u2011driven contexts and helps teams maintain delivery velocity while still adhering to architectural intent.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/changing-face-architectural-practice",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/changing-face-architectural-practice_q2_medium",
+        "question": "How do the themes of *Holistic Engineering*, *The Friction Fix*, and *Security and Architecture* collectively illustrate the track\u2019s goal of taking architecture out of the echo chamber, and what underlying design principle ties these sessions together?",
+        "answer": "Each session tackles a different dimension that traditionally lives outside the narrow technical focus of architecture. *Holistic Engineering* highlights how non\u2011technical decisions (e.g., from business or regulatory groups) embed themselves in code, urging architects to consider the broader socio\u2011technical context. *The Friction Fix* addresses the interpersonal and organisational \u201cfriction\u201d between product and technology teams, emphasizing collaborative relationships as part of architectural success. *Security and Architecture* points out that flawed architecture creates security vulnerabilities, while secure systems need solid architectural foundations, linking two disciplines that are often siloed. Together, they demonstrate that effective architecture requires the right conversations with the right people at the right time\u2014a core message of the panel \u201cTaking Architecture Out of the Echo Chamber.\u201d The unifying design principle is **systemic, interdisciplinary thinking**, where architecture is viewed as a conduit for aligning technical, organisational, and security concerns.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/changing-face-architectural-practice",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

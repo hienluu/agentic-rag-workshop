@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/engineering-productivity-and-developer-experience_q1_easy",
+        "question": "Which session was scheduled for Monday Apr 7 at 02:45PM BST and who was the speaker?",
+        "answer": "From Autocomplete to Agents: AI Coding State of Play \u2013 Birgitta B\u00f6ckeler",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/engineering-productivity-and-developer-experience",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/engineering-productivity-and-developer-experience_q2_easy",
+        "question": "What deployment frequency change did SpareBank 1 implement in autumn 2021?",
+        "answer": "They increased deployment frequency from daily to hourly.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/engineering-productivity-and-developer-experience",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/engineering-productivity-and-developer-experience_q1_medium",
+        "question": "Why does the session \u201cProductivity Is Messing Around and Having Fun\u201d argue that developer satisfaction (as captured by the SPACE framework) is a key driver of business results, and how does framing productivity around joy and \u201cmessing around\u201d address the frustrations developers commonly face?",
+        "answer": "The talk links the **Satisfaction** dimension of the SPACE framework to measurable business outcomes, asserting that when developers feel satisfied and experience joy, they are more engaged, produce higher\u2011quality code, and are less likely to leave the organization. Framing productivity as \u201cmessing around and having fun\u201d directly tackles the reported frustrations of mindless, joy\u2011less work by encouraging practices that inject playfulness, autonomy, and creative problem\u2011solving into daily tasks. This shift not only improves morale but also leverages the proven correlation between developer happiness and metrics such as velocity, defect rates, and delivery speed, thereby delivering tangible business value.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/engineering-productivity-and-developer-experience",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/engineering-productivity-and-developer-experience_q2_medium",
+        "question": "What are the primary trade\u2011offs of adopting intensive pair programming as a prerequisite for high\u2011frequency continuous delivery, as illustrated by the SpareBank\u202f1 case, and how might these trade\u2011offs impact both team productivity and system stability?",
+        "answer": "The SpareBank\u202f1 experience shows that pair programming can **accelerate knowledge transfer, improve code quality, and catch defects early**, which are essential for moving from daily to hourly deployments. However, the approach also introduces **resource overhead** (two engineers on a single task), requires a strong collaborative culture, and can create **scheduling bottlenecks** if pairing is not evenly distributed. These trade\u2011offs mean that while system stability may improve due to higher code quality, overall team throughput can suffer if pairing is forced without adequate tooling or cultural readiness. Organizations must balance the benefits of rapid, reliable releases against the cost of reduced parallel work and the need for sustained collaboration practices.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/engineering-productivity-and-developer-experience",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

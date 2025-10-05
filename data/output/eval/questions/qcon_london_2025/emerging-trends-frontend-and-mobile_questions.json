@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/emerging-trends-frontend-and-mobile_q1_easy",
+        "question": "When was the session \"So You\u2019ve Decided To Do a Technical Migration\" scheduled?",
+        "answer": "Wednesday Apr 9 / 10:35AM BST",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/emerging-trends-frontend-and-mobile",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/emerging-trends-frontend-and-mobile_q2_easy",
+        "question": "Who presented the session \"Mobile Server-Driven UI at Scale\" and what is their role?",
+        "answer": "Rafael Ring, Senior Staff Software Engineer, Mobile Platform Team @Nubank",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/emerging-trends-frontend-and-mobile",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/emerging-trends-frontend-and-mobile_q1_medium",
+        "question": "Why might a mobile team opt for a Server\u2011Driven UI approach, as presented by Rafael Ring, instead of relying on frequent client\u2011side releases, and what are the key trade\u2011offs of this architectural decision?",
+        "answer": "A Server\u2011Driven UI lets the team push UI changes from the backend without requiring a new app store submission or waiting for users to update the app, which eliminates the pain of store reviews, version fragmentation, and delayed feature rollout. The trade\u2011offs include increased dependence on the server for rendering logic, potential latency or performance impacts on the device, the need for a robust configuration and version\u2011control system on the backend, and tighter coupling between UI and backend services, which can raise the complexity of testing and debugging.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/emerging-trends-frontend-and-mobile",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/emerging-trends-frontend-and-mobile_q2_medium",
+        "question": "How does scaling a design system, as described by Sophie Beaumont, require balancing tooling, community governance, and ongoing \"gardening,\" and what could happen if any of these aspects is neglected?",
+        "answer": "Scaling a design system at the BBC involves providing tooling that enables many teams to adopt and extend components efficiently, establishing community governance to align disparate team priorities and product requirements, and continuously \"gardening\"\u2014maintaining, refactoring, and retiring components\u2014to keep the system healthy. Ignoring tooling can create friction and low adoption; weak governance can lead to conflicting design decisions and stakeholder frustration; neglecting gardening results in technical debt, outdated components, and performance regressions, ultimately undermining the system\u2019s long\u2011term scalability and usefulness.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/emerging-trends-frontend-and-mobile",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

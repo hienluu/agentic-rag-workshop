@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/beyond-code-hiring-cultural-alignment_q1_easy",
+        "question": "What is the speaker's name and current role as listed in the transcript?",
+        "answer": "Alicia Collymore, Senior Engineering Manager @Incident.io",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/beyond-code-hiring-cultural-alignment",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/beyond-code-hiring-cultural-alignment_q2_easy",
+        "question": "When (date and time) was the \"Beyond the Code: Hiring for Cultural Alignment\" session scheduled?",
+        "answer": "Tuesday Apr 8 / 01:35PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/beyond-code-hiring-cultural-alignment",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/beyond-code-hiring-cultural-alignment_q1_medium",
+        "question": "Why does Alicia emphasize balancing technical assessments with cultural evaluation in hiring, and what are the key trade\u2011offs a team faces if it over\u2011prioritises one dimension over the other?",
+        "answer": "Alicia argues that hiring solely on technical skill ignores the impact of shared values, beliefs, and behaviours on team speed, satisfaction and conflict frequency. When technical assessment dominates, a team may gain strong individual contributors but suffer from misaligned work styles, leading to friction, lower morale and slower delivery. Conversely, over\u2011emphasising cultural fit can produce a harmonious but technically weak team that struggles to solve complex problems or innovate. The trade\u2011off is therefore between immediate technical capability and long\u2011term team health; the optimal balance ensures that new hires can both contribute technically and integrate smoothly into the existing cultural fabric, maximizing productivity and retention.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/beyond-code-hiring-cultural-alignment",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/beyond-code-hiring-cultural-alignment_q2_medium",
+        "question": "How does establishing clear criteria for cultural attributes during interviews and debriefs help embed cultural evaluation into the hiring workflow, and what design considerations are needed to keep those criteria effective as the organization\u2019s culture evolves?",
+        "answer": "Clear, pre\u2011defined cultural criteria turn an abstract concept into observable interview signals that can be consistently rated and discussed during debriefs, making cultural evaluation a repeatable part of the hiring process rather than an after\u2011thought. This structured approach also creates a shared language for interviewers, reducing bias and enabling data\u2011driven decisions. Because culture is dynamic, the criteria must be revisited regularly: they should be tied to concrete behaviours that reflect current values, be measurable (e.g., \u201cdemonstrates collaborative problem\u2011solving\u201d), and allow for iteration as the company grows or pivots. Designing the criteria as living artifacts\u2014reviewed each quarter, linked to internal cultural initiatives, and updated based on feedback\u2014ensures they stay relevant and continue to guide hiring in line with the evolving cultural blueprint.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/beyond-code-hiring-cultural-alignment",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.91,
+        "human_validated": false
+    }
+]

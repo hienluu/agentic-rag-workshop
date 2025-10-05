@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-webassembly-components-enable-safe-and-portable-software-extensions_q1_easy",
+        "question": "Which tool is mentioned for generating code boilerplate to create extensions in languages such as Rust, Java, and JavaScript?",
+        "answer": "wit-bindgen",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-webassembly-components-enable-safe-and-portable-software-extensions",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-webassembly-components-enable-safe-and-portable-software-extensions_q2_easy",
+        "question": "What are the two Rust projects cited as examples that have implemented extensions using WebAssembly?",
+        "answer": "Zed and Zellij",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-webassembly-components-enable-safe-and-portable-software-extensions",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-webassembly-components-enable-safe-and-portable-software-extensions_q1_medium",
+        "question": "Why does using WebAssembly components allow Rust extensions to avoid the C ABI and FFI, and what benefits does this provide over the traditional shared\u2011library approach?",
+        "answer": "WebAssembly components define a language\u2011agnostic binary interface and execute in a sandbox, so Rust code can be compiled to WASM and called without exposing a C ABI. This eliminates the need for FFI, which would otherwise force Rust to abandon its strict type and memory model. By staying within the WASM runtime, extensions retain Rust\u2019s safety guarantees, can use richer data types, and are isolated from the host application, improving security and portability across languages.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-webassembly-components-enable-safe-and-portable-software-extensions",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/how-webassembly-components-enable-safe-and-portable-software-extensions_q2_medium",
+        "question": "How does the combination of caching compiled WebAssembly extensions and verifying them with SHA\u2011256 hashes improve system performance while maintaining security, and what trade\u2011offs must developers manage when applying this strategy?",
+        "answer": "Caching compiled WASM extensions avoids the overhead of recompiling or re\u2011instantiating the module on each load, resulting in faster startup and lower latency. However, to ensure that a cached binary has not been tampered with, the system verifies its integrity using a SHA\u2011256 hash before execution. This verification step preserves security by detecting malicious modifications. The trade\u2011offs involve additional storage for cached binaries and the computational cost of hash verification; developers must balance the performance gains of caching against the overhead of integrity checks and the need to manage cache invalidation when extensions are updated.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/how-webassembly-components-enable-safe-and-portable-software-extensions",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

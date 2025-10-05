@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/latency-race-zeroare-we-there-yet_q1_easy",
+        "question": "What is the name of the future product that Amir Langer works on at Adaptive?",
+        "answer": "Aeron Sequencer",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/latency-race-zeroare-we-there-yet",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/latency-race-zeroare-we-there-yet_q2_easy",
+        "question": "When was the presentation \"Latency: The Race to Zero...Are We There Yet?\" scheduled to take place?",
+        "answer": "Wednesday Apr 9 / 11:45AM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/latency-race-zeroare-we-there-yet",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/latency-race-zeroare-we-there-yet_q1_medium",
+        "question": "Why does Amir advocate using Virtual Synchrony and a Sequencer for low\u2011latency financial trading systems, and what are the key trade\u2011offs of this approach compared to more traditional distributed concurrency mechanisms?",
+        "answer": "Amir highlights that Virtual Synchrony gives a deterministic, total order of messages while also providing high\u2011availability semantics, which eliminates the need for complex distributed locking and reduces unpredictable pauses\u2014both critical for ultra\u2011low, predictable latency in trading. A Sequencer centralises ordering, allowing state\u2011machine\u2011based processing to be built on a single, well\u2011defined stream, further simplifying latency\u2011critical code. The trade\u2011offs are that maintaining group membership and view changes in Virtual Synchrony adds protocol overhead and can limit scalability, and the Sequencer can become a single point of failure or a bottleneck if not replicated or sharded. Thus, the design gains latency predictability at the cost of added coordination complexity and potential scalability constraints.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/latency-race-zeroare-we-there-yet",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.93,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/latency-race-zeroare-we-there-yet_q2_medium",
+        "question": "How does the combination of separation of concerns via asynchronous state\u2011machine processing and kernel\u2011bypass techniques (as used in Aeron) improve predictable low latency, and what drawbacks might this design introduce for system complexity and maintainability?",
+        "answer": "Separating concerns with asynchronous state machines decouples each processing stage, allowing non\u2011blocking execution and better CPU utilisation; each state handles a small, well\u2011defined piece of work, which reduces contention and makes latency more deterministic. Kernel\u2011bypass (e.g., Aeron\u2019s direct NIC interface) removes OS networking stack overhead, delivering messages straight to user space and eliminating variable kernel scheduling delays. Together they shrink both the mean and variance of latency. The downside is increased system complexity: developers must design, test, and reason about many small state transitions, debugging becomes harder, and the solution is less portable because it relies on specific hardware/NIC features. Maintaining such a stack requires deep expertise and careful versioning of low\u2011level components.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/latency-race-zeroare-we-there-yet",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

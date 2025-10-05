@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/changing-power-dynamics-what-senior-engineers-can-learn-junior-engineers_q1_easy",
+        "question": "Who is the speaker of the presentation titled \"Changing Power Dynamics: What Senior Engineers Can Learn From Junior Engineers\"?",
+        "answer": "Beth Anderson",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/changing-power-dynamics-what-senior-engineers-can-learn-junior-engineers",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/changing-power-dynamics-what-senior-engineers-can-learn-junior-engineers_q2_easy",
+        "question": "According to the speaker bio, how much on\u2011demand content does BBC Digital Distribution provide?",
+        "answer": "2.5 petabytes",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/changing-power-dynamics-what-senior-engineers-can-learn-junior-engineers",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/changing-power-dynamics-what-senior-engineers-can-learn-junior-engineers_q1_medium",
+        "question": "Why does Beth Anderson argue that lowering power distance is essential for innovation in engineering teams, and how do the four stages of psychological safety support this objective?",
+        "answer": "Anderson explains that high power distance creates an environment where junior engineers feel unable to voice disagreement or propose new ideas, which stifles fresh perspectives and hampers collaboration. By reducing this hierarchical gap, teams become more open to diverse inputs, leading to greater innovation. The four stages of psychological safety\u2014(1) inclusion safety, (2) learner safety, (3) contributor safety, and (4) challenger safety\u2014provide a roadmap for building that openness: they first assure members they belong, then encourage learning without fear, enable active contribution, and finally allow people to challenge the status\u2011quo. Together, these stages create the trust needed for juniors to speak up, directly addressing the problems caused by high power distance.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/changing-power-dynamics-what-senior-engineers-can-learn-junior-engineers",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/changing-power-dynamics-what-senior-engineers-can-learn-junior-engineers_q2_medium",
+        "question": "What are the potential trade\u2011offs of introducing reverse mentoring between junior and senior engineers, and what strategies does the talk suggest to mitigate the risks while preserving its benefits?",
+        "answer": "Reverse mentoring flips the traditional flow of knowledge, giving seniors access to fresh perspectives and emerging technologies from juniors. The trade\u2011offs include possible resistance from senior staff who may feel their authority is challenged, the risk of juniors being overwhelmed by senior expectations, and the need for time investment to establish effective mentor\u2011mentee relationships. Anderson recommends practical strategies to offset these risks: actively listening and celebrating curiosity to reduce defensive reactions, setting clear onboarding plans for juniors so they have a structured entry point, using decision records to make the impact of junior contributions visible, and fostering a culture of psychological safety so both parties feel safe to give and receive feedback. These actions help balance the power shift while retaining the learning and cultural benefits of reverse mentoring.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/changing-power-dynamics-what-senior-engineers-can-learn-junior-engineers",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

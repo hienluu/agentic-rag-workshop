@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/tech-fintech_q1_easy",
+        "question": "Who is the Track Host for the \"Tech of FinTech\" conference track?",
+        "answer": "Ian Ellis",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/tech-fintech",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/tech-fintech_q2_easy",
+        "question": "What is the title of the session presented by Amir Langer, and at what time does it start?",
+        "answer": "Latency: The Race to Zero...Are We There Yet? \u2013 Wednesday Apr 9 / 11:45AM BST",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/tech-fintech",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/tech-fintech_q1_medium",
+        "question": "Why does Alex Seaton propose building a database without a server for modern data analytics workflows, and what are the key trade\u2011offs of adopting a server\u2011less database architecture in a high\u2011scale financial services environment?",
+        "answer": "Alex Seaton argues that modern analytics require scaling out to huge numbers of users and compute nodes, and managing traditional database installations at that scale becomes \"unsustainably complex and expensive.\" A server\u2011less (or \"database without a server\") approach removes the operational burden of provisioning, patching, and scaling physical or virtual database instances, thereby reducing complexity and cost while allowing the system to elastically grow with demand. The trade\u2011offs include relinquishing direct control over low\u2011level performance tuning and latency optimisations (which can be critical in finance), potential vendor lock\u2011in to the managed service, and the need to redesign applications to handle eventual consistency or stateless interactions that server\u2011less platforms often impose.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/tech-fintech",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/tech-fintech_q2_medium",
+        "question": "How does applying DevOps principles to compliance controls, as described by Ian Miell, aim to solve the problems of manual, spreadsheet\u2011based audit processes, and what challenges might organizations face when integrating such automation within regulated financial services?",
+        "answer": "Ian Miell points out that many organisations still manage critical compliance through manual checks, spreadsheets, Word documents, and Confluence pages, which are error\u2011prone and inefficient. By bringing DevOps practices\u2014such as infrastructure\u2011as\u2011code, automated testing, and continuous monitoring\u2014to compliance, the process becomes repeatable, auditable, and less dependent on human error, thereby increasing reliability and speed of delivery. However, integrating DevOps into compliance introduces challenges: ensuring that automated controls satisfy regulatory requirements, maintaining traceability and documentation for auditors, handling the cultural shift from manual to automated processes, and guaranteeing that rapid deployment pipelines do not bypass essential governance checks in a highly regulated environment.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/tech-fintech",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

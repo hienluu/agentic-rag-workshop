@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/memory-safe-native-languages-and-wasm_q1_easy",
+        "question": "Who presented the session \"WASM Components are a FaaS' Best Friend\"?",
+        "answer": "Laurent Doguin",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/memory-safe-native-languages-and-wasm",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/memory-safe-native-languages-and-wasm_q2_easy",
+        "question": "What was the scheduled start time for the session \"Expanding Swift from Apps to Services\"?",
+        "answer": "Tuesday Apr 8 / 11:45AM BST",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/memory-safe-native-languages-and-wasm",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/memory-safe-native-languages-and-wasm_q1_medium",
+        "question": "Why does the conference argue that memory safety and performance do not have to be mutually exclusive, and how does WebAssembly\u2019s isolation model support this claim compared to traditional sandboxing approaches?",
+        "answer": "The conference points out that modern native languages (e.g., Rust, Swift) can compile to highly efficient machine code while embedding compile\u2011time guarantees that prevent common memory errors, so developers can write fast code without sacrificing safety. WebAssembly reinforces this argument by providing a low\u2011overhead sandbox that isolates code at the runtime level without the heavy context\u2011switching, VM overhead, or heavyweight OS\u2011level isolation used by other sandboxing methods. Because the isolation is built into the binary format and execution engine, developers get strong safety guarantees (preventing out\u2011of\u2011bounds accesses, memory corruption, etc.) while retaining near\u2011native speed, demonstrating that safety and performance can coexist.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/memory-safe-native-languages-and-wasm",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/track/apr2025/memory-safe-native-languages-and-wasm_q2_medium",
+        "question": "What are the primary trade\u2011offs of adopting Swift for server\u2011side services, as highlighted in the \u2018Expanding Swift from Apps to Services\u2019 session, especially regarding memory safety, interoperability, and ecosystem maturity?",
+        "answer": "Swift brings strong memory\u2011safety guarantees and a modern type system to server\u2011side code, which can reduce runtime crashes and security bugs. Its design also emphasizes interoperability with C and other languages, making it easier to integrate existing libraries. However, the trade\u2011off is that many engineers are more familiar with established service languages (e.g., Java, Go, Node.js), so adopting Swift may incur a learning curve and require investment in tooling and libraries that are still maturing for backend workloads. Teams must weigh the safety and language\u2011level benefits against the potential slower onboarding, smaller ecosystem, and fewer production\u2011grade frameworks compared to more entrenched server\u2011side stacks.",
+        "source_chunk_id": "https://qconlondon.com/track/apr2025/memory-safe-native-languages-and-wasm",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

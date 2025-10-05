@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/making-ai-agents-work-you-and-your-team_q1_easy",
+        "question": "What is the title of Hannah Foxwell's presentation?",
+        "answer": "Making AI Agents Work For You (and Your Team)",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/making-ai-agents-work-you-and-your-team",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/making-ai-agents-work-you-and-your-team_q2_easy",
+        "question": "What is the name of the AI community that Hannah Foxwell is leading?",
+        "answer": "AI for the rest of us",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/making-ai-agents-work-you-and-your-team",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/making-ai-agents-work-you-and-your-team_q1_medium",
+        "question": "Why does Hannah Foxwell emphasize applying the \"principle of least privilege\" when integrating AI agents, and what are the key trade\u2011offs this design decision introduces for agent capability versus security and reliability?",
+        "answer": "The speaker stresses the principle of least privilege so that each AI agent is granted only the tools and permissions it truly needs to perform its assigned task. This limits the potential attack surface and reduces the risk of an agent unintentionally misusing broader system capabilities, thereby improving overall security and reliability. The trade\u2011off is that an overly restrictive permission set can hinder an agent\u2019s ability to solve problems that require additional data or tools, possibly requiring more frequent human intervention or the creation of additional specialized agents. Designers must therefore balance the desire for tight security with the need for sufficient functionality, carefully scoping each agent\u2019s responsibilities and monitoring its performance to adjust privileges as needed.",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/making-ai-agents-work-you-and-your-team",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/keynote/apr2025/making-ai-agents-work-you-and-your-team_q2_medium",
+        "question": "How does the proposed design of multi\u2011agent teams overcome the limitations of a single AI agent, and what considerations are necessary to ensure that specialized agents collaborate effectively without causing redundancy or conflict?",
+        "answer": "According to the talk, a single AI agent often lacks the breadth of expertise to handle diverse or complex tasks efficiently. By forming a team of specialized agents, each can focus on a narrow, well\u2011defined role, leading to more efficient and higher\u2011quality outcomes. Effective collaboration requires clear task specificity, well\u2011defined interfaces, and coordination mechanisms (such as feedback loops and human oversight) to synchronize actions and resolve conflicts. Additionally, applying the principle of least privilege to each agent prevents overlap in tool access, reducing redundancy and the chance of contradictory actions. Designers must also implement monitoring and communication channels so that agents can share progress and hand off work seamlessly, ensuring the team operates as a cohesive unit rather than a collection of isolated bots.",
+        "source_chunk_id": "https://qconlondon.com/keynote/apr2025/making-ai-agents-work-you-and-your-team",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

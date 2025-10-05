@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/empowering-teams-decentralizing-architectural-decision-making_q1_easy",
+        "question": "Which tools were mentioned as being used to decentralize architectural decisions in the presentation?",
+        "answer": "Architectural Decision Records (ADRs) and an Architectural Advisory Forum (AAF).",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/empowering-teams-decentralizing-architectural-decision-making",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/empowering-teams-decentralizing-architectural-decision-making_q2_easy",
+        "question": "When was the \"Empowering Teams: Decentralizing Architectural Decision-Making\" session scheduled to take place?",
+        "answer": "Wednesday Apr 9 / 02:45PM BST.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/empowering-teams-decentralizing-architectural-decision-making",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.97,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/empowering-teams-decentralizing-architectural-decision-making_q1_medium",
+        "question": "How do Architectural Decision Records (ADRs) and the Architectural Advisory Forum (AAF) work together to provide both autonomy for product teams and lightweight governance for the organization when architectural decisions are decentralized, and what challenges might this combination introduce?",
+        "answer": "ADRs give each team a structured way to record the rationale, alternatives, and outcomes of their decisions and make those records publicly visible. The AAF acts as a consultative channel where teams can seek advice from subject\u2011matter experts before finalising a decision. Together, ADRs ensure transparency and accountability after a decision is made, while the AAF supplies the advisory oversight needed to keep decisions aligned with broader architectural goals without imposing a top\u2011down approval gate. This combination enables teams to act autonomously but still operate within a shared knowledge base. Potential challenges include ensuring the advice from the AAF is timely and consistent, avoiding decision\u2011record overload that makes it hard to locate relevant ADRs, and preventing divergent interpretations of the advice that could lead to architectural drift.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/empowering-teams-decentralizing-architectural-decision-making",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.95,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/empowering-teams-decentralizing-architectural-decision-making_q2_medium",
+        "question": "Why did the organization prioritize defining clear architectural principles before granting teams the freedom to make their own architectural choices, and in what ways do those principles mitigate the risks inherent in shifting from a centralized to a decentralized decision\u2011making model?",
+        "answer": "The principles serve as explicit guardrails that encode the business strategy and technical constraints into a concise, shared language. By establishing them first, the organization ensures that every autonomous team has a common reference point for what is acceptable, reducing the likelihood of divergent or conflicting solutions. These guardrails help mitigate risks such as architectural inconsistency, loss of alignment with strategic goals, and the re\u2011emergence of bottlenecks that the decentralization seeks to eliminate. When teams propose new technologies or practices, they can quickly check the principles to see if the proposal fits, which limits the need for heavy\u2011weight approvals while still preserving overall system coherence.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/empowering-teams-decentralizing-architectural-decision-making",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]

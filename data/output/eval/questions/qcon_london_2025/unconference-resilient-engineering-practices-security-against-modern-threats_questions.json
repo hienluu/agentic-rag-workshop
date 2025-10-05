@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-resilient-engineering-practices-security-against-modern-threats_q1_easy",
+        "question": "On what date and time did the session \"Unconference: Resilient Engineering Practices for Security Against Modern Threats\" take place?",
+        "answer": "Tuesday Apr 8 / 05:05PM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-resilient-engineering-practices-security-against-modern-threats",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-resilient-engineering-practices-security-against-modern-threats_q2_easy",
+        "question": "Where was the \"Unconference: Resilient Engineering Practices for Security Against Modern Threats\" held?",
+        "answer": "Rutherford (4th Fl.)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-resilient-engineering-practices-security-against-modern-threats",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-resilient-engineering-practices-security-against-modern-threats_q1_medium",
+        "question": "How does the \u201cSecure by Design: Building Security into Engineering Workflows and Teams\u201d session suggest turning security from a blocker into an enabler, and what design decisions or cultural practices are required to achieve that shift?",
+        "answer": "The session proposes embedding secure development practices directly into existing engineering workflows rather than treating security as a separate, downstream gate. By doing so, security activities become part of the daily work (e.g., automated scans in CI/CD, shared security\u2011as\u2011code artefacts) and are owned collectively by developers and ops teams. The design decisions that support this include: integrating security tooling early in the pipeline, defining clear, reusable security policies, and providing feedback loops that surface issues instantly. Culturally, the session emphasizes fostering collaboration and shared ownership\u2014security is presented as a team responsibility, not a veto power\u2014so that developers feel empowered rather than impeded. This combination of workflow integration and a collaborative culture converts security into an enabler of rapid, safe delivery.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-resilient-engineering-practices-security-against-modern-threats",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/unconference-resilient-engineering-practices-security-against-modern-threats_q2_medium",
+        "question": "What are the primary trade\u2011offs discussed in the \u201cEmpower Your Developers: How Open Source Dependencies Risk Management Can Unlock Innovation\u201d session between accelerating innovation with open\u2011source components and maintaining a robust security posture?",
+        "answer": "The session highlights that open\u2011source dependencies accelerate development by providing ready\u2011made functionality, which fuels innovation and reduces time\u2011to\u2011market. However, each added dependency introduces potential vulnerabilities, supply\u2011chain attacks, and maintenance overhead. The trade\u2011off lies in balancing the speed and creative freedom that open\u2011source offers against the need for rigorous risk\u2011management processes\u2014such as continuous vulnerability scanning, version pinning, and governance policies. Effective risk management can unlock the benefits of open source while mitigating exposure, but it requires dedicated resources, tooling, and a culture that prioritizes both security and rapid iteration.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/unconference-resilient-engineering-practices-security-against-modern-threats",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

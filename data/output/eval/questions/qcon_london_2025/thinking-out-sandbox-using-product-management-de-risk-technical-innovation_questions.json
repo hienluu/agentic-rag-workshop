@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/thinking-out-sandbox-using-product-management-de-risk-technical-innovation_q1_easy",
+        "question": "What is the title of Miriam Fahim's session?",
+        "answer": "Thinking Out of the Sandbox - Using Product Management to De-Risk Technical Innovation",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/thinking-out-sandbox-using-product-management-de-risk-technical-innovation",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/thinking-out-sandbox-using-product-management-de-risk-technical-innovation_q2_easy",
+        "question": "When and where was the session scheduled to take place?",
+        "answer": "Wednesday Apr 9 / 02:45PM BST (50 minutes) at Churchill (Ground Fl.)",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/thinking-out-sandbox-using-product-management-de-risk-technical-innovation",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.98,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/thinking-out-sandbox-using-product-management-de-risk-technical-innovation_q1_medium",
+        "question": "Why does Miriam Fahim advocate for embedding a product\u2011mindset within a highly technical R&D team, and how does this approach help de\u2011risk technical innovation while still delivering customer value?",
+        "answer": "Miriam argues that a product\u2011mindset forces the team to continuously ask *who* will benefit from the technology and *what* problem it solves, turning vague research ideas into concrete value propositions. By framing experiments as product features rather than pure technical proofs, the team can set clear success criteria, prioritize work that aligns with business goals, and stop investing early in ideas that lack market fit. This structured yet customer\u2011focused lens reduces the financial and opportunity\u2011cost risk of R&D, while still preserving the flexibility needed for rapid experimentation.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/thinking-out-sandbox-using-product-management-de-risk-technical-innovation",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/thinking-out-sandbox-using-product-management-de-risk-technical-innovation_q2_medium",
+        "question": "What are the trade\u2011offs between maintaining a highly structured approach versus a flexible, experimental approach when managing R&D risk, and how does Miriam suggest balancing them to achieve meaningful outcomes?",
+        "answer": "A highly structured approach provides clear governance, measurable milestones, and easier alignment with business objectives, but can stifle creativity and slow the pace of innovation. Conversely, a flexible, experimental approach encourages rapid prototyping and learning, yet may lead to scope creep and difficulty in demonstrating ROI. Miriam recommends a hybrid model: establish lightweight guardrails (e.g., defined hypothesis, success metrics, and review checkpoints) that give teams the freedom to experiment while ensuring each effort is tied to a business outcome. This balance enables teams to iterate quickly without losing sight of risk exposure or strategic relevance.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/thinking-out-sandbox-using-product-management-de-risk-technical-innovation",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.92,
+        "human_validated": false
+    }
+]

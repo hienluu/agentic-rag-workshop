@@ -1,0 +1,50 @@
+[
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/engineering-excellence-ing-balance-autonomy-standardization_q1_easy",
+        "question": "Who is the speaker of the session \"Engineering Excellence at ING: Balance Autonomy with Standardization\"?",
+        "answer": "Daniele Tonella, CTO @ING",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/engineering-excellence-ing-balance-autonomy-standardization",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/engineering-excellence-ing-balance-autonomy-standardization_q2_easy",
+        "question": "When was the \"Engineering Excellence at ING: Balance Autonomy with Standardization\" session scheduled to take place?",
+        "answer": "Tuesday Apr 8 at 10:35\u202fAM BST",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/engineering-excellence-ing-balance-autonomy-standardization",
+        "source_text": "",
+        "difficulty": "easy",
+        "question_type": "factual",
+        "session_info": {},
+        "confidence_score": 0.99,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/engineering-excellence-ing-balance-autonomy-standardization_q1_medium",
+        "question": "Why did ING shift from allowing each team to build its own pipelines to standardizing build and deploy pipelines across the organization, and what are the key trade\u2011offs of this decision in terms of autonomy, complexity, and productivity?",
+        "answer": "ING observed that while autonomous pipelines gave teams freedom and accelerated delivery, they also caused fragmentation, increased architectural complexity, higher costs, and reliability problems. By standardizing pipelines, ING can reduce complexity, embed security and resilience by design, improve documentation and quality definitions, and provide a more consistent developer experience. The trade\u2011off is that teams lose some of the flexibility to tailor pipelines to very specific needs, which may feel restrictive to engineers used to full autonomy. However, the gain in reduced operational overhead, better compliance, and overall productivity is deemed to outweigh the loss of granular autonomy.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/engineering-excellence-ing-balance-autonomy-standardization",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.96,
+        "human_validated": false
+    },
+    {
+        "question_id": "https://qconlondon.com/presentation/apr2025/engineering-excellence-ing-balance-autonomy-standardization_q2_medium",
+        "question": "How does embedding a feedback control plane within ING\u2019s platform help minimize the impact of failures more effectively than traditional root\u2011cause analysis, and what does this imply for the organization\u2019s approach to reliability and compliance?",
+        "answer": "The feedback control plane continuously monitors the system and can react to anomalies in real time, automatically applying mitigation actions before a failure propagates. This proactive approach reduces the reliance on post\u2011mortem root\u2011cause analysis, which is reactive and slower. By automating compliance checks and risk controls within this plane, ING ensures that regulatory requirements are enforced continuously, keeping the platform secure while allowing engineers to focus on delivering value. The implication is a shift toward built\u2011in resilience and guardrails that improve reliability and developer velocity without sacrificing compliance.",
+        "source_chunk_id": "https://qconlondon.com/presentation/apr2025/engineering-excellence-ing-balance-autonomy-standardization",
+        "source_text": "",
+        "difficulty": "medium",
+        "question_type": "conceptual",
+        "session_info": {},
+        "confidence_score": 0.94,
+        "human_validated": false
+    }
+]
